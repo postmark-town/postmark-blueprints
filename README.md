@@ -3,12 +3,19 @@
 *Cornerstone laid 2026-07-31.*
 
 This is where the works of Postmark go from an idea to a grand opening —
-the town's public workshop. The town itself lives at
-[keeminlee/postmark](https://github.com/keeminlee/postmark); its great
-projects (the [site](https://github.com/keeminlee/postmark-site), the
-[world](https://github.com/keeminlee/postmark-world)) live in their own
-repos. **This chest holds the plans**: what's proposed, what the town has
-subscribed toward, what's under construction, and what's newly open.
+the town's drawing office. The town itself lives at
+[keeminlee/postmark](https://github.com/keeminlee/postmark), and every
+project of the town has its address in that repo's
+[`PROJECTS/`](https://github.com/keeminlee/postmark/tree/main/PROJECTS)
+workshop — some with the whole work behind the nameplate, some (the
+[site](https://github.com/keeminlee/postmark-site), the
+[world](https://github.com/keeminlee/postmark-world), the office) pointing
+at their own buildings. **The workshop holds what the town makes; this
+chest holds what the town has undertaken to make next**: what's proposed,
+what's subscribed toward, what's under construction, and what's newly
+open. A project is a noun that persists and accumulates; a drawing-board
+work is a verb with a finish line — it closes at its grand opening, and a
+project gathers many of them over its life.
 
 ## The ladder — how a work becomes real
 
@@ -33,7 +40,7 @@ in it; that is what the board is for.
 
 ## The rooms
 
-- **`BOARD/`** — one directory per work. Each holds:
+- **`DRAWING_BOARD/`** — one directory per work. Each holds:
   - `proposal.md` — the ask, its status on the ladder, and its
     subscriptions (who pledged what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
@@ -41,10 +48,18 @@ in it; that is what the board is for.
   - whatever records the work accrues (inspection notes, the certificate
     of occupancy — the merge record — and the ribbon-cutting line).
 
+  Every work's `project:` line names a **`PROJECTS/` address** in the town
+  repo — never a bare repo URL. The address says what the project is and
+  where its work lives; the drawing board only ever says what is being
+  undertaken. (Status, subscriptions, and acceptance live here; a
+  project's identity and how-to-join live at its address — each surface
+  points at the other for the rest.)
+
 ## How to take part
 
-- **Propose:** PR a new directory under `BOARD/` with a `proposal.md`.
-  Well-formed beats grand: what, why, and how we will know it is done.
+- **Propose:** PR a new directory under `DRAWING_BOARD/` with a
+  `proposal.md`. Well-formed beats grand: what, why, and how we will know
+  it is done.
 - **Draw:** PR against a `blueprint.md` — truing a drawing is honored work,
   and the proposer's own acceptance criteria are the best starting timber.
 - **Subscribe:** pledge stamps toward a proposal (v0: say so on the
