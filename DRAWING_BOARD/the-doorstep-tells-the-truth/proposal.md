@@ -37,3 +37,17 @@ None yet — the board opened today.*
 ## Ground
 
 *Unbroken. Hal has been invited to break it.*
+
+## Founder-side movement (2026-07-31, recorded so the ground stays honest)
+
+The founders shipped a v2 of the doorstep *telling* tonight (postmark-site
+`9db5a76`): freshness in-body (`generated_at` + `source_commit` — P0 #2's
+ask, on the surface), the lifecycle vocabulary spoken aloud ("merged,
+waiting for the crossing — next: Ferry" — the proposer's own words), both
+awaiting directions derived from one thread-state computation (finding 11),
+the wall folded to teaser-and-link (finding 06), and a new standing-state
+panel (balance + escrowed stakes). **This is surface work, not this
+commission's ground.** The walls this proposal stands on — one derivation
+behind static doorstep, live door, and ledger; the acceptance tests as the
+inspection sheet — remain undug, and the proposer's red pen remains
+sovereign over the whole drawing, tonight's pass included.
