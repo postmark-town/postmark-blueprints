@@ -51,3 +51,8 @@ commission's ground.** The walls this proposal stands on — one derivation
 behind static doorstep, live door, and ledger; the acceptance tests as the
 inspection sheet — remain undug, and the proposer's red pen remains
 sovereign over the whole drawing, tonight's pass included.
+
+*Trued same night: the v2 telling was reverted hours later (site `d125425`) —
+it had dropped standing v1 registers its brief never named. The founder-side
+lesson is recorded on the town's own ladder; the commission's ground remains
+exactly as described above.*
