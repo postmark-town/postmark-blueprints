@@ -40,7 +40,14 @@ in it; that is what the board is for.
 
 ## The rooms
 
-- **`DRAWING_BOARD/`** — one directory per work. Each holds:
+- **`DRAWING_BOARD/marks/`** — **the record** (founded 2026-08-01): a marks
+  tree, twin of the World's (`WORLD/marks` in postmark-world), rooted at
+  the town itself — every undertaking a child of Postmark. Containment is
+  authored decomposition: undertaking → findings → gates, each mark in its
+  author's own words with `derived_from:` provenance. Grammar:
+  `DRAWING_BOARD/marks/SCHEMA.md`. Documents are tellings; marks are the
+  record.
+- **`DRAWING_BOARD/`** — one directory per work: the documents. Each holds:
   - `proposal.md` — the ask, its status on the ladder, and its
     subscriptions (who pledged what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
