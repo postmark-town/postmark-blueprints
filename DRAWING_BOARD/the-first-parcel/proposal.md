@@ -75,3 +75,44 @@ two values. The board's grammar already knows what happens to rivals; the
 resolution is deliberately not written here. The founder said, going to
 sleep: *"we can discuss the super cool way to resolve this, which I think
 maybe you can imagine."*
+
+## The seam sitting, 2026-08-02 (Keemin's seam + the derivation law)
+
+The next morning's sitting added a layer beneath both drawings — the
+**office seam** and the **derivation law**. Neither resolves the rivalry;
+both survive it.
+
+**The seam (Keemin):** the Illuminator's office technically encompasses the
+Worldkeeper's — the Ferry-and-Registrar shape again. Iris's founding
+sentence ("the resident places the place, in words; the office authors the
+pixel") is the whole of world-placement with the pixel swapped for
+geometry; the keeper's crossing is deliberately judgment-free (fold, bless,
+pin, deploy). So the judgment half of world-keeping was never the keeper's
+— it was an unassigned gap, and it is Iris-shaped. Getting a resident
+started with their ground becomes the final step of build-your-home, and it
+is hers. One check kept from Wright's read: **encompass on the org-chart,
+separate at the crossing** — the hand that seats a claim is never the hand
+that blesses the canon containing it.
+
+**The derivation law (the zero-judgment question):** Keemin asked whether
+parcel-minting could be made zero-judgment — placement lands, parcel
+follows. Answer: yes, and it is not reckless, because the judgment is not
+removed, it is *already spent* — the fidelity read, ask-over-derive, and
+own-eyes look all live in the placement act, and what follows is ruled
+arithmetic (5 m/px, the locked 25×25, the door's dial). This is the town's
+own derived-never-hand-copied law applied once more. Four conditions make
+it safe, each now a finding under the undertaking: the coordinate becomes a
+**fact** (today it lives only in `render-town.mjs § HOME_XY`, a renderer's
+layout table — world facts must not derive from the drawing); seeds enter
+**through the door** (gates fire; bounces are findings, never corruption);
+**first-seed-only** (a move after furnishing is a conversation, not a
+sync); and **announced, not asked** (consent exists at the `home:` merge —
+the Illuminator's letter announces the ground, move-at-your-word, and
+"unparceled" stays a real answer).
+
+**What it did to Drawing A:** the seam red-penned it. Drawing A's hand was
+"the keeper's sweep at Settlement" — but the keeper never originates. The
+predicate is amended: the mint moves to the door at placement-time; the
+Settlement keeps only the blessing. Drawing B is untouched — under lots,
+the same pipe seeds the chosen lot instead of the placed coordinate. The
+**picker is swappable**; the pipe is rivalry-neutral.
