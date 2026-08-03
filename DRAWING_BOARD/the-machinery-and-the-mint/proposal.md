@@ -106,3 +106,92 @@ yield; every line recomputable from a clone.
 
 **First customer, named:** the correspondence desk, the-keeping-works. The town stakes
 behind it at adoption; from the first ruled epoch, the tool pays its builder.
+
+**Walk state (2026-08-03 evening — resume, don't re-derive):** the dials were sorted
+into three batches and the walk began before pivoting to the flow layer. **Batch A
+(cascades — dials 3, 4, 8, 9) was PRESENTED with proposed calls and is NOT YET RULED.**
+Batch B (launch surface — dials 2, 6, 7 + the new sub-question: does the-town count as
+a kernel household?) and Batch C (the money — dials 1, 5) are prepped. Two grounding
+facts pulled live for the walk: **the fold's `determined` array is EMPTY** (nothing
+contested — dial 2 must define yield-eligibility deliberately or the engine pays nobody;
+Wright's proposal: published-in-canon commons marks + a min-breadth floor of 3 unique
+non-creator households), and **the staking economy is tiny** (3 households staking, 4
+staked marks, top position 10 stamps, lifetime mint ≈3,651, mean holdings ≈44 — the q
+consequence table must respect this scale).
+
+---
+
+## Thread 5 — the flow layer: the bounty board is a query over conserved flows
+
+**Keemin's broad stroke (2026-08-03 evening):** can resident-submitted bounties be
+expressed with existing World machinery? Answer landed in conversation: **yes — the
+§9.2 parent-consent coupling, extended to yield with one added constraint.** Rylanie's
+staked idea-mark IS the bounty; Lillith's mechanic-child collecting the flow IS the
+completion. The retired §4 machinery maps completely: pot-sweetening → stake
+accumulation · reverse auction → visible unclaimed spill-rate · the Arbiter →
+the parent's `m` (idea-holder judges fit) + town stakes on the child (market judges
+worth) · appraisal window → continuous stream re-pricing · coordination engine → a
+derived query ("wanted, `m>0`, no mechanic children, sorted by spill, crossings
+waited"). **The quest board becomes a query, not a place.** Payment is a stream, not a
+lump — self-correcting where the pot-burn wasn't (bad realization → `m` drops or parent
+unstaked → stream dries).
+
+**The three laws (conversation-landed, awaiting formal walk):**
+
+1. **Determination lends free; yield lends conserved.** §9.2's coupling stays as
+   designed for existence/defense. For minterest, flow CONSERVES: basis sent down an
+   edge is basis the parent's stream forgoes. (Resolves §9.2's open concern #2 —
+   costless lending — where it becomes fatal: double-minting.) Fan-up = the royalty;
+   fan-down = the bounty; one edge, one `m`, no duplication.
+2. **The ghost rule: channels run over canon, not the directory.** A disbelieved mark's
+   knob is inert — lends nothing, vetoes nothing, taxes nothing; channels pass through
+   to the nearest believed ancestor. Found via the estate→vetoed-lot→lilypad-pond bug:
+   as written, a friendly ghost transmits its own suppression (`4 + 1·(−2) = 2`).
+   Channel topology is DERIVED at each crossing's snapshot — never stored, no re-homing.
+   Terminology fix owed §9.2: "does not exist" → "is a ghost / not believed" (deletion
+   is constitutionally impossible; the wording invites the conflation).
+3. **Edge seniority: authority follows seniority-or-consent, never the pen's
+   circumference.** Precedence ≠ parenthood (Keemin's realization). Encirclement —
+   drawing a bigger circle around a precedent mark — grants a junior-parent edge:
+   **gift-only and transparent** (no veto, no fan-up harvest, no interposition); the
+   elder child holds one CONSENT bit to upgrade the edge. Seniority = first canon
+   crossing (witnessed, unforgeable); a ghost keeps its original seniority (the record
+   is the notice — the door warns when siting inside dormant claims). Kills both
+   encirclement AND the elder-holds-`m` alternative's failure modes (precedence-
+   aristocracy vs §5, preemptive confetti, zoning death).
+
+**Meta-principle unifying 2+3 with dial 2:** *the economy reads canon (+ consent),
+never the directory.* Ghosts transparent by disbelief; juniors by non-consent.
+
+**Calibrations (Keemin, same sitting):** conflict-cases stay case-by-case while scale
+permits — do not pre-build conflict machinery. **The happy path is positive `m` on
+predicates (full-extent children), and it is the naturally-balanced case:** the channel
+asymmetries are geometric (down concentrates, up diffuses), and full-extent children
+have degenerate geometry — both directions run 1:1; seniority frictionless (predicates
+accede by construction). Only yield-conservation bites there, by design.
+
+**Honest seams, named:** non-World deliverables (hosting bills, referrals, outreach)
+don't stand as marks — a residual board or office-building shape survives for them;
+`m`-stickiness (rug-pull after the build — wants crossing-paced or downward-sticky
+change; now a bounty-law question, §9.2 concern #3); mutual-ring backing
+(Rylanie⇄Lillith) — Rei's monitored-experiment class; conservation means rings MOVE
+yield, never manufacture it.
+
+**Sequencing (firm):** the flow layer does NOT gate the nine dials. Base engine
+launches first (own-backing yield — hal's stream, the engine's real behavior observed);
+the flow layer is the quest-board redesign, its own sitting, with this thread as its
+charter.
+
+---
+
+## Thread 6 — OPERATIONAL PRIORITY: the Post Office (Ferry's boat) for Vermillion's party
+
+**Keemin, 2026-08-03 evening — this outranks the sitting work on the clock.** Vermillion's
+party is **August 8**. The Post Office — Ferry's boat — should be set up so partygoers
+can hop aboard, **departing the Town Centre crossing 12 hours before the party starts** —
+read as: departure **22:00 UTC Aug 8**, party ≈10:00 UTC Aug 9 — **⚑ CONFIRM with Keemin,
+the sentence parses two ways** (alt: party 22:00 UTC Aug 8, departure 10:00 UTC Aug 8).
+Announcement to partygoers rides once the boat stands (bulletin `kind: happening`;
+Ferry's lane involved — it is his boat). Design open: what the boat IS mechanically (a
+moving vessel walkers can board is new world machinery — likely a sitting-lette of its
+own, FIRST thing after wake).
