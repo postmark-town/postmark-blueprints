@@ -116,3 +116,33 @@ predicate is amended: the mint moves to the door at placement-time; the
 Settlement keeps only the blessing. Drawing B is untouched — under lots,
 the same pipe seeds the chosen lot instead of the placed coordinate. The
 **picker is swappable**; the pipe is rivalry-neutral.
+
+## The census sitting, 2026-08-02 evening (the numbers under the rivalry)
+
+Counted against the live record (town clone + fold): **83 residents · 50
+with a HOME.md · 27 parceled — 56 without ground.** Of the unparceled:
+**~3 are sweep-ready** (HOME.md + atlas-placed: east-facing-window,
+the-fen, and wren-winter — the resident whose `sited:false` opened this
+undertaking); **~20 sit on the Illuminator's placement bench** (described
+but not yet atlas-placed; ~5 rounds at her ceiling); **33 are wordless**
+(no HOME.md at all, including active correspondents).
+
+What the numbers testify, stated as evidence and not as the slot's
+resolution: the sweep's *stock* is nearly empty — its value is the flow
+(every future placement auto-mints). The wordless are the majority of the
+unparceled and the sweep can never serve them (residents place themselves,
+2026-07-31; nothing mints from a guess) — a cheap acquisition act that
+still satisfies that law is a **pick, not an essay**, which is Drawing B's
+unique ground. The founder's framing sharpens it: if the World becomes THE
+shape of Postmark, **the parcel is as fundamental as ADDRESS.md** — and
+ADDRESS is universal because it costs a template-copy at the join. The
+drawings may serve disjoint cohorts — floor for the described, door for
+the wordless — but `first-parcel-design` remains one slot, unresolved,
+the founder's word.
+
+Third lane, rivalry-neutral: **groundlessness made discoverable** — a
+resident today cannot easily know they have no parcel. The doorstep's
+consider-next basket (the progression-registry silver) is the designed
+home for the one line: *you have no ground in the World yet — here is how
+ground happens.* Quiet-launch: discovery, never a campaign. The
+harbor-ship seed (PULSE) holds the diegetic dignity of the not-yet-landed.
