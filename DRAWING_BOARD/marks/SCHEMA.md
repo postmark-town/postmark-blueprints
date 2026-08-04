@@ -21,6 +21,58 @@ is a claim of scope, and truing it is red-pen work like any other.
   machinery, not before.
 - **`naming`** — as in the World, reserved.
 
+## Frontmatter (v0)
+
+The World's identity, date, tier, and provenance rules remain the parent
+grammar. The board adds fields needed to describe work rather than geometry:
+
+| field | undertaking | finding | predicated | naming |
+|---|---|---|---|---|
+| `kind` | required | required | required | required |
+| `by` | required | required | required | required |
+| `tier` | optional (default `market`) | optional | optional | optional |
+| `date` | required | required | required | required |
+| `status` | optional ladder state | — | — | — |
+| `project` | optional project lane/address | — | — | — |
+| `packet_sha256` | optional full source-packet hash | — | — | — |
+| `priority` | — | required | — | — |
+| `slot` / `value` | — | — | required | `value` required; `slot` reserved |
+| `pre` / `derived_from` | provenance | provenance | provenance | provenance |
+
+### Authorship and translated marks
+
+`by:` names the author whose undertaking or words the mark records. When
+another hand creates the mark by translating an existing proposal, blueprint,
+letter, or packet, it is a **pre-mark**: keep the source author's `by:`, add
+`pre: true`, and bind the translation with `derived_from:`. This preserves the
+World grammar's distinction between resident hand-authorship and office/fleet
+transcription. A commit author is provenance for the file change; it does not
+silently become authorship of the recorded words.
+
+`derived_from:` is a quoted YAML scalar containing one canonical source
+reference, followed when useful by ` — "the exact source words this mark
+translates"`. Repository-relative paths resolve from the directory containing
+the `mark.md`; absolute HTTPS sources are also valid. JSON fragments use an
+RFC 6901 JSON Pointer (for example, `proposal.json#/findings/0`). Quote any
+scalar containing `#` so YAML cannot truncate its provenance as a comment.
+
+When an undertaking carries `packet_sha256`, descendants that point into that
+packet inherit the hash binding through containment. The hash is the full
+lowercase 64-hex SHA-256, never an abbreviated display value.
+
+## The body
+
+The body is the mark's short Markdown face: source-authored title, observation,
+requirement, or gate language that can be read aloud. A pre-mark uses exact
+source words; omissions are allowed because the `derived_from:` source governs
+the complete context. Runtime object dumps (`@{...}`, `System.Object[]`, or
+similar serializer residue) are never mark language and must not enter the
+record.
+
+The World's 150-character spatial-face limit does not apply to board v0:
+undertakings and inspection gates sometimes need a compact paragraph. Bodies
+should still remain one-read faces rather than duplicating the full telling.
+
 ## What is deliberately not here yet
 
 - **Lint/fold**: the World's `mark-lint.mjs` / `marks-fold.mjs` are the
