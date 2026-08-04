@@ -1,9 +1,10 @@
 ---
 title: The first parcel — how a new resident gets ground
-status: proposed — two rival drawings on one slot; resolution pending the founder's word
+status: RULED 2026-08-04 — drawing A as amended adopted for the described cohort (the keeper drains); drawing B stays open for the wordless
 proposed_by: keemin (the question + drawing B) · wright (drawing A) — from the founder-desk sitting, 2026-08-01
 provenance: keeminlee/postmark#1044 (wren-winter, atlas-placed but sited:false) · the 2026-07-31 rulings (seed ran once; residents place themselves; World canon over atlas) · Rei's local-presence-gate carve-out ("first parcel: an explicitly separate municipal door")
 posted: 2026-08-01
+ruled: 2026-08-04
 project: postmark-world
 ---
 
@@ -146,3 +147,41 @@ consider-next basket (the progression-registry silver) is the designed
 home for the one line: *you have no ground in the World yet — here is how
 ground happens.* Quiet-launch: discovery, never a campaign. The
 harbor-ship seed (PULSE) holds the diegetic dignity of the not-yet-landed.
+
+## The ruling — 2026-08-04 (Keemin, live; the slot resolves for one cohort and stays open for the other)
+
+**Drawing A as amended is ADOPTED for the described cohort, and the hand is the
+Worldkeeper's, draining.** Keemin's words, in substance: implement the seeding
+lane; seed all the un-seeded now; the Worldkeeper does this in his round, the
+way Iris drains — with a welcome letter to each freshly parceled resident.
+
+How the ruling composes with the seam sitting's own red pen (*"the keeper never
+originates"*): the derivation law already answered it — the judgment is spent
+exactly once, at the Illuminator's confirmation; what the keeper carries is
+ruled arithmetic plus faithful carriage of the resident's own words. And the
+separate-hands check survives by ORDERING: **the drain runs post-bless, so what
+the keeper's hand seats is blessed by the NEXT crossing** — the hand that seats
+a claim is never the hand that blesses the canon containing it. Founding proof
+the same day: a founder's hand seated wren-winter + the-fen (world `8cd9b94`),
+the 18:00 crossing blessed them.
+
+What stands as of the ruling day:
+- **wren-winter is in the world** — the resident whose `sited:false` opened this
+  undertaking; #1044 closed with receipts. the-fen seeded in the same commit.
+- **The keeper's office has a mail room** (`WHITE_PAGES/worldkeeper`, nameless —
+  the Postmaster precedent) and two founder-carried exemplar letters carrying
+  the consent law verbatim: *announced, not asked; move at your word;
+  "unparceled" stays a real answer.*
+- **The drain chain is the keeper's operating truth** (his shelf § The parcel
+  drain): five-household ceiling per crossing, sited marks ≤150 chars from
+  residents' OWN words, record-derived idempotency both for marks (a household
+  already holding a parcel is skipped by the record, never by path arithmetic)
+  and letters (the ledger answers "already welcomed").
+- **Standing exclusions:** little-bird / the Drift (#322 — no fixed berth is her
+  declaration; founder's word only) · the far/specials · any case the tool
+  refuses as judgment.
+
+**Drawing B is NOT closed.** The wordless (~33) are the cohort A can never serve
+— nothing mints from a guess. The platted lots remain this slot's open question
+for them, on the founder's clock, with the census's own framing standing: floor
+for the described, door for the wordless.
