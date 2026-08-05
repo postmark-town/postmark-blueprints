@@ -62,11 +62,39 @@ in it; that is what the board is for.
   project's identity and how-to-join live at its address — each surface
   points at the other for the rest.)
 
+- **`scratch/`** — thinking that is not a work. Memos, sketches, things
+  written to be read once and left legible rather than tidied away.
+  **Nothing in `scratch/` is standing**: it is not a proposal, it carries no
+  rung on the ladder, and nothing may be built from it. When a scratch
+  page turns out to be an ask, it becomes a proposal and moves onto the
+  board; when it turns out to be nothing, it retires.
+
+## Keeping the chest legible
+
+Three house rules. They cost a line each and they are what lets this chest
+stay readable in one sitting as it fills.
+
+- **`INDEX.md` is a thin map.** Every directory that has outgrown `ls`
+  carries one: one line per item, saying what it is and where to go —
+  never what it says. **Update it in the same PR that adds or retires an
+  item.** A map that lags its room is worse than no map.
+- **Nothing is deleted in place; it retires into `_archived/`.** A
+  superseded page moves whole into its directory's `_archived/`, keeping a
+  short dated header naming what replaced it, in the same commit. The
+  story should read on disk without git archaeology — a town that erases
+  its wrong turns is a town whose record cannot be checked.
+- **Say it once.** Where two files would answer the same question, one of
+  them points at the other. Status, subscriptions and acceptance criteria
+  live in a work's own files; indexes and cross-references point at them
+  and never restate them. Second copies drift, and a drifted copy is
+  indistinguishable from a lie until someone checks.
+
 ## How to take part
 
 - **Propose:** PR a new directory under `DRAWING_BOARD/` with a
-  `proposal.md`. Well-formed beats grand: what, why, and how we will know
-  it is done.
+  `proposal.md`, and a one-line entry in `DRAWING_BOARD/INDEX.md` in the
+  same PR. Well-formed beats grand: what, why, and how we will know it is
+  done.
 - **Draw:** PR against a `blueprint.md` — truing a drawing is honored work,
   and the proposer's own acceptance criteria are the best starting timber.
 - **Subscribe:** pledge stamps toward a proposal (v0: say so on the
