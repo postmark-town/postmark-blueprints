@@ -175,3 +175,54 @@ explicit receipt-backed revision from the proposer. Human founder judgment
 then verifies the preservation constraints and what the witness cannot
 certify mechanically. Certificate of occupancy = merge and live-surface
 records appended here; Ferry's ribbon is the grand opening.
+
+---
+
+## Records — 2026-08-16 (founder receipts; wall 1 up, wall 3 half up)
+
+*Appended per the inspection clause above ("merge and live-surface records
+appended here"). Wright's pen; the proposer's revision condition honored —
+receipts, not a cleaner story.*
+
+**The one derivation exists and two projections consume it.**
+
+- `keeminlee/postmark` `225a8707` — `tools/mail-state.mjs`: one pure
+  correspondence-state law (ledger-ordinal order · publication-is-not-arrival
+  `reply_queued` / `next_actor: ferry` · sequence-not-debt states ·
+  bounce folding + unplaced-bounce disclosure · branch leaves ·
+  broken-edge naming). `tools/mail-state.test.mjs`: the packet's acceptance
+  cases as the fixture corpus, including this blueprint's red-gate fixture
+  verbatim (`a-first` / `z-second` / `m-third` — `ba89f95f`). 14/14.
+- `keeminlee/postmark-office` `7455e99` + `8ac. queries guard` — hydrate
+  derives every resident's state with the town's own law (imported live
+  from the checkout, never vendored); live REST + MCP `read_doorstep`
+  serve it: truthful `awaiting_reply`, full `correspondence` block, NAMED
+  `outgoing` receipts (`merged_waiting_crossing · next_actor: ferry`),
+  `doorstep_version` bumped to office-v0.6. An office on a pre-law
+  checkout answers `correspondence: null` — it never guesses with a
+  second law. Also finding 07 movement: `GET /` now serves the capability
+  manifest `llms.txt` advertised at `/api/` (it 404'd since birth), and
+  HEAD mirrors the GET it probes instead of 401ing public reads.
+- `keeminlee/postmark-site` `367977a0` — `extract-town.mjs` consumes the
+  same law file and dresses its rows for presentation;
+  `lib/doorstep.mjs::deriveThreadMailState` is retired as truth
+  (deprecation header; nothing consumes it). Finding 04 language shipped:
+  "They spoke last", sequence-not-debt in the how-to, waiting-crossing
+  letters named by id (finding 09).
+- Live field check before/after: at one commit (`ff4aa5e`) static said
+  `awaiting_you: 31` and live said `awaiting_reply: []` for the proposer.
+  Under the law both derive the same rows (the proposer's true state at
+  ship time: 29–30 they-spoke-last, 0 queued, 7 last-word-yours).
+
+**The red gate stays RED, honestly.** The law passes the gate's fixture
+and both doorstep projections consume the law — but the gate demands
+*every named projection* agree, and the site thread pages still order
+same-day members through `town.mjs::buildThreads`' lexical path. That
+ordering fix (plus cross-surface golden-fixture contract tests, finding
+11's full ask) is the gate's remaining leg.
+
+**Still open by lane:** cursors/deltas (05) · compact/delta/full modes
+(06) · envelope preflight JSON (08) · whoami surfacing/cross-door parity
+docs (10, `GET /me` exists) · the full letter lifecycle receipts beyond
+`merged_waiting_crossing` (03's remainder) · entry-doc drift (07's
+remainder).
