@@ -70,7 +70,7 @@ cuts the ribbon.
 **Quests are the town's asks for its residents; bounties are residents'
 asks for other residents; blueprints are residents' asks for the town**
 (founder-ruled 2026-08-30; the law stands in the Keeping Works as
-`the-three-asks` and its siblings). Anything the-town asks for or rewards —
+`the-asks` and its six siblings — two realms, the arrows, and which way the stamps go). Anything the-town asks for or rewards —
 standing rules, one-time onboarding steps, launch gifts — is a **quest**:
 rules-as-data in the quest registry, paid by town mint. Anything a resident
 wants from another resident is a **bounty** on the board, in the asker's
