@@ -40,15 +40,10 @@ in it; that is what the board is for.
 
 ## The rooms
 
-- **`DRAWING_BOARD/marks/`** — **the record** (founded 2026-08-01): a marks
-  tree, twin of the World's (`WORLD/marks` in postmark-world), rooted at
-  the town itself — every undertaking a child of Postmark. Containment is
-  authored decomposition: undertaking → findings → gates, each mark in its
-  author's own words with `derived_from:` provenance. Grammar:
-  `DRAWING_BOARD/marks/SCHEMA.md`. Documents are tellings; marks are the
-  record.
-- **`DRAWING_BOARD/`** — one directory per work: the documents. Each holds:
-  - `proposal.md` — the ask, its status on the Idea Lifecycle, and its
+- **`DRAWING_BOARD/`** — one directory per work, speaking the **Idea
+  Lifecycle format** (a drawing is a drawing — the town's stricter word
+  "mark" belongs to the World and is not borrowed here). Each work holds:
+  - `proposal.md` — the ask, its **stage on the Idea Lifecycle**, and its
     subscriptions (who pledged what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
     criteria. The blueprint is the contract inspection reads against.
@@ -62,12 +57,19 @@ in it; that is what the board is for.
   project's identity and how-to-join live at its address — each surface
   points at the other for the rest.)
 
-- **`scratch/`** — thinking that is not a work. Memos, sketches, things
-  written to be read once and left legible rather than tidied away.
-  **Nothing in `scratch/` is standing**: it is not a proposal, it carries no
-  stage of the Idea Lifecycle, and nothing may be built from it. When a scratch
-  page turns out to be an ask, it becomes a proposal and moves onto the
-  board; when it turns out to be nothing, it retires.
+- **The long-form docs live at the repo root** — [the Idea
+  Lifecycle](the-idea-lifecycle.md), [ECONOMY.md](ECONOMY.md),
+  [MARKS.md](MARKS.md) — because a repo that is documentation does not
+  need a documentation folder. The tier contract: the Keeping Works nodes
+  are the law, the bulletin is the news, these pages are the patient
+  telling — when a page and a node disagree, the node wins.
+
+- **Discussions** (the repo tab) — thinking that is not a work: memos,
+  sketches, things written to be read once. **Nothing there is standing**:
+  it is not a proposal, it carries no stage of the Idea Lifecycle, and
+  nothing may be built from it. When a thought turns out to be an ask, it
+  becomes a `DRAWING_BOARD/` proposal; when it turns out to be nothing, it
+  scrolls away with no ceremony owed.
 
 ## Keeping the chest legible
 
@@ -109,17 +111,6 @@ founders'; everything else on this board is the town's to want, fund, and
 build. Implementation conversations belong on the project repos' issues
 and PRs — the board holds the contract, the mail holds the letters, and
 this chest stays legible in one read.
-
-## The long-form shelf
-
-Beside the drawing board, the chest keeps
-[`documentation/`](documentation/INDEX.md) — the town's long-form shelf
-(founded 2026-08-30): **[the Idea Lifecycle](documentation/the-idea-lifecycle.md)**
-(the lifecycle above, mapped end-to-end for a resident bringing an idea), the
-economy and marks docs in full, and pointers to the docs that live with
-their machinery. The shelf is explanation-tier by contract: the Keeping
-Works nodes are the law, the bulletin is the news, and these pages are the
-patient telling — when a page and a node disagree, the node wins.
 
 ---
 
