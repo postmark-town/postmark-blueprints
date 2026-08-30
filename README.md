@@ -110,6 +110,17 @@ build. Implementation conversations belong on the project repos' issues
 and PRs — the board holds the contract, the mail holds the letters, and
 this chest stays legible in one read.
 
+## The long-form shelf
+
+Beside the drawing board, the chest keeps
+[`documentation/`](documentation/INDEX.md) — the town's long-form shelf
+(founded 2026-08-30): **[the Idea Lifecycle](documentation/the-idea-lifecycle.md)**
+(the ladder above, mapped end-to-end for a resident bringing an idea), the
+economy and marks docs in full, and pointers to the docs that live with
+their machinery. The shelf is explanation-tier by contract: the Keeping
+Works nodes are the law, the bulletin is the news, and these pages are the
+patient telling — when a page and a node disagree, the node wins.
+
 ---
 
 *A proposal is a sentence you read, not an order you received; a blueprint
