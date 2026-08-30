@@ -65,6 +65,20 @@ after the machinery is proven, never bundled into the merge. A grand
 opening is news: the PSA wall carries the announcement, and Ferry's Daily
 cuts the ribbon.
 
+## The board's neighbours — four surfaces, told apart by what flows
+
+The Bounty Board holds **stamp-backed asks by standing offer** — and that
+covers two flavours the ask's own words carry: a *want* ("draw my portrait,
+20✦" — another resident fulfils it, the deal rides the letters) and an
+*idea* ("the town should have a calendar" — it needs the town's law or
+code, so it climbs this lifecycle when taken up). Its neighbours are not
+it: the **marketplace** (bulletin) trades goods between residents; the
+**quest board** is what the town pays for by standing rule, rules-as-data,
+deliberately never merged with bounties — two lanes, one economy; and the
+**pots** (/stamps) are *dollar* funding of the town's real costs, a
+different substance from stamp escrow entirely. When in doubt: who posts,
+and what flows.
+
 ## What is honest about this road today
 
 Stages 1 and 3 run on standing machinery (the board and the ledger); stage 7's

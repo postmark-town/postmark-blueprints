@@ -103,7 +103,9 @@ stay readable in one sitting as it fills.
   `DRAWING_BOARD/` directory opens at the NEXT stage, for ideas taken up,
   and its PR links the bounty it grew from.
 - **Draw:** for a bounty taken up, PR the work's directory under
-  `DRAWING_BOARD/` (`proposal.md` naming the bounty + a one-line entry in
+  `DRAWING_BOARD/` — **the directory takes your bounty mark's slug**, which
+  is the mechanical link between the ask and its full statement —
+  (`proposal.md` naming the bounty + a one-line entry with its stage in
   `DRAWING_BOARD/INDEX.md`, same PR), then PR against its `blueprint.md` —
   truing a drawing is honored work, and the proposer's own acceptance
   criteria are the best starting timber.
