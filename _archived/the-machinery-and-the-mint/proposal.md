@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30 — CONCLUDED.** The sitting happened; the economy was ratified-in-substance 2026-08-01 and stands final-until-lived-pain by founder ruling. Superseded by `documentation/ECONOMY.md`.
+
 # The machinery and the mint — sitting agenda
 
 - **Boarded:** 2026-08-03, Keemin's word ("Let's board"), from the day's live design

@@ -60,11 +60,12 @@ in it; that is what the board is for.
   project's identity and how-to-join live at its address — each surface
   points at the other for the rest.)
 
-- **The long-form docs live at the repo root** — [the Idea
-  Lifecycle](the-idea-lifecycle.md), [ECONOMY.md](ECONOMY.md),
-  [MARKS.md](MARKS.md) — because a repo that is documentation does not
-  need a documentation folder. The tier contract: the Keeping Works nodes
-  are the law, the bulletin is the news, these pages are the patient
+- **[`documentation/`](documentation/INDEX.md)** — the long-form shelf:
+  [the Idea Lifecycle](documentation/the-idea-lifecycle.md),
+  [ECONOMY.md](documentation/ECONOMY.md),
+  [MARKS.md](documentation/MARKS.md), and the walkthroughs (docs
+  accumulate, so they get a room). The tier contract: the Keeping Works
+  nodes are the law, the bulletin is the news, these pages are the patient
   telling — when a page and a node disagree, the node wins.
 
 - **Discussions** (the repo tab) — thinking that is not a work: memos,

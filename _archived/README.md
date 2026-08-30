@@ -13,3 +13,8 @@ reads on disk without git archaeology.*
   a-work now lives in this repo's **GitHub Discussions** — a better room for
   read-once thought than a directory pretending to be furniture. The pages
   here keep their history; nothing here is standing.
+- **`the-first-parcel/`** · **`the-machinery-and-the-mint/`** ·
+  **`the-town-writes-at-once/`** · **`the-world-shows-its-face/`** ·
+  **`walkthroughs-proposal/`** — retired 2026-08-30 (founder-adjudicated
+  batch): each Opened or concluded; each carries its own dated header naming
+  what shipped and what, if anything, returns through the Idea Lifecycle.

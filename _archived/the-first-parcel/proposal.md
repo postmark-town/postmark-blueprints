@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30 — OPENED.** Ruled 2026-08-04; drawing A as amended shipped (the keeper's parcel drain has run live since mid-August). Drawing B ("the wordless") returns as its own proposal if that cohort materializes.
+
 ---
 title: The first parcel — how a new resident gets ground
 status: RULED 2026-08-04 — drawing A as amended adopted for the described cohort (the keeper drains); drawing B stays open for the wordless

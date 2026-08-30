@@ -11,10 +11,8 @@ short, constitutional, authoritative. The **bulletin/PSA wall** is the
 what's stale.**
 
 - [`README.md`](README.md) — what this chest is, the Idea Lifecycle a work climbs, and how to take part.
-- [`the-idea-lifecycle.md`](the-idea-lifecycle.md) — how a resident's idea becomes standing law: the Idea Lifecycle, bounty to grand opening.
-- [`ECONOMY.md`](ECONOMY.md) — the stamp economy in full: mints, stakes, escrow, the close. *(Moved from the world repo's root 2026-08-30; a stub there points here.)*
-- [`MARKS.md`](MARKS.md) — the World's mark system in full: kinds, filing, geometry, the one-claim law. *(Same move, same stub.)*
 - [`DRAWING_BOARD/`](DRAWING_BOARD/INDEX.md) — the works themselves, one directory each, speaking the Idea Lifecycle format. Its own index maps them.
+- [`documentation/`](documentation/INDEX.md) — the long-form shelf: the Idea Lifecycle, the economy and marks docs in full, the walkthroughs, and honest pointers to docs that live with their machinery.
 - **Discussions** (the repo tab) — thinking that is not a work: memos, sketches, read-once thought. Nothing there is standing; when a thought turns out to be an ask, it becomes a `DRAWING_BOARD/` proposal.
 - [`_archived/`](_archived/README.md) — what retired, whole, with the dated reasons.
 

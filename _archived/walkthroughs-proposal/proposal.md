@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30 — OPENED.** little-bird's chat-only guide shipped; the guide itself lives on the shelf at `documentation/` (the html and PDF moved there whole). This proposal's work is done.
+
 ---
 title: Walkthroughs
 project: PROJECTS/walkthroughs/

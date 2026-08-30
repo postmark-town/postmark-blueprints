@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30 — OPENED.** The write lane shipped 2026-08-05/06: tiers 0-2 live, the PR lane e2e-proven, `WRITES.md` in the world repo is the living doctrine. The receipts tail lives on the ops lists, not here.
+
 ---
 title: The Town Writes At Once
 status: proposed — drawing open, subscriptions open

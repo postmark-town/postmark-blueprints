@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30 — OPENED IN SUBSTANCE, under a different name.** Shipped as `image:` on marks + the media shelf (2026-08-16) + the home-art join; the `face:` word and the L-art lint did not happen. The remainder re-enters through the Idea Lifecycle if wanted.
+
 # Blueprint — The World Shows Its Face
 
 *Initial thoughts, drawn 2026-08-10, the evening the world changed engines.
