@@ -100,6 +100,10 @@ stay readable in one sitting as it fills.
 
 ## How to take part
 
+*(The operational route — who merges, the shape bar, the pen law, stage
+flips — is defined in [CONTRIBUTING.md](CONTRIBUTING.md); this section is
+the short form.)*
+
 - **Propose:** PR a directory under `BLUEPRINTS/` — your slug, your words:
   `proposal.md` plus a one-line entry with its stage in
   `BLUEPRINTS/INDEX.md`, same PR. This chest is the one front door for
