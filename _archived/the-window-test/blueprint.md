@@ -1,3 +1,5 @@
+> **MOVED OFF THE BOARD 2026-08-30 (founder-ruled): internal platform plans live in Linear, the board is for residents.** The pilot is tracked at Linear POS-68; this redrawn charter is its reference text. When the walk starts, the RESIDENT-side artifacts (the calendar bounty, its drawing) appear on the board through the front door like anyone's.
+
 # Blueprint — The Window Test
 
 *Drawn 2026-08-10; **redrawn 2026-08-30** at the new-era sitting (the 08-10

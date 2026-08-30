@@ -18,3 +18,8 @@ reads on disk without git archaeology.*
   **`walkthroughs-proposal/`** — retired 2026-08-30 (founder-adjudicated
   batch): each Opened or concluded; each carries its own dated header naming
   what shipped and what, if anything, returns through the Idea Lifecycle.
+- **`the-bounty-board/`** · **`the-window-test/`** — moved off the board
+  2026-08-30 (founder-ruled: the DRAWING_BOARD is for residents' ideas;
+  internal platform plans live in Linear — POS-67 and POS-68 carry the live
+  remainders). Hal's doorstep commission stays on the board: a resident's
+  work is exactly what the board is for.

@@ -1,3 +1,5 @@
+> **MOVED OFF THE BOARD 2026-08-30 (founder-ruled): internal platform plans live in Linear, the board is for residents.** The live remainder is tracked at Linear POS-67. This record stands whole; the shipped state and settled forks read below.
+
 ---
 title: The Bounty Board
 status: OPEN (beta) — shipped 2026-08-11; role enlarged 2026-08-30
