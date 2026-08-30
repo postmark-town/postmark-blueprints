@@ -59,7 +59,7 @@ bounce that teaches, never a rejection of the idea.
 
 ## Who merges, and when
 
-**The founders merge, on the operator round's cadence (roughly daily).**
+**The founders merge, on the operator round's cadence (roughly daily) — until the ARCHITECT wakes** (the Idea Lifecycle's own meep, office standing in the works since 2026-08-30, codex-based, twice daily; her round doc: the town repo's MEEPS/SKILLS/architect-round.md). She merges what conforms, catches repeats at this bottleneck with a kind pointer, and escalates contested calls to the founders.
 There is no witness on this repo yet; a human-tier merge is the honest
 current state, not a policy ambition. If volume ever outgrows founder
 hands, the machinery follows the town's own lifecycle — as a blueprint in
