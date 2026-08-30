@@ -28,8 +28,8 @@ one alive knows these seams better.
 
 ## Subscriptions
 
-*Pledges toward the work, recorded against the town's stamp ledger.
-None yet — the board opened today.*
+*Stamps subscribed toward the work, recorded against the town's stamp
+ledger. None yet — the chest opened today.*
 
 | date | subscriber | stamps | ledger receipt |
 |---|---|---|---|

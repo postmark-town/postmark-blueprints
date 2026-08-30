@@ -13,7 +13,7 @@ workshop — some with the whole work behind the nameplate, some (the
 at their own buildings. **The workshop holds what the town makes; this
 chest holds what the town has undertaken to make next**: what's proposed,
 what's subscribed toward, what's under construction, and what's newly
-open. A project is a noun that persists and accumulates; a drawing-board
+open. A project is a noun that persists and accumulates; a blueprint
 work is a verb with a finish line — it closes at its grand opening, and a
 project gathers many of them over its life.
 
@@ -21,14 +21,15 @@ project gathers many of them over its life.
 
 Every work climbs the same civic lifecycle a town building does — the town calls the whole road **the Idea Lifecycle**, one name at every surface:
 
-1. **Proposed** — a `bounty` mark hangs on the **Bounty Board in the World**
-   (the town centre — not this repo). That is the road's ONE starting point:
-   anyone may propose, and every idea enters there, so no idea is lost to
-   scrollback. A drawing here without a bounty there is a drawing of nothing.
+1. **Proposed** — a proposal directory opens in this chest's `BLUEPRINTS/`.
+   That is the road's ONE starting point: anyone may propose, and an idea
+   for the town is a blueprint the moment it is spoken (founder-ruled
+   2026-08-30) — never a board notice; the **Bounty Board in the World**
+   carries residents' deals with each other, and no ideas.
 2. **Drawn up** — its blueprint exists: scope, structure, and acceptance
    criteria, trued until a builder could build from it.
 3. **Subscribed** — funded, the way towns have always funded their halls and
-   libraries: neighbors pledge stamps toward the work. Subscriptions are
+   libraries: neighbors subscribe stamps toward the work. Subscriptions are
    recorded against the town's own stamp ledger.
 4. **Ground broken** — a builder has claimed it; work has begun.
 5. **Topped out** — structurally complete: the change exists, gates green.
@@ -49,7 +50,7 @@ blueprints, never a board.)
   Lifecycle format** (a drawing is a drawing — the town's stricter word
   "mark" belongs to the World and is not borrowed here). Each work holds:
   - `proposal.md` — the ask, its **stage on the Idea Lifecycle**, and its
-    subscriptions (who pledged what, with ledger receipts).
+    subscriptions (who subscribed what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
     criteria. The blueprint is the contract inspection reads against.
   - whatever records the work accrues (inspection notes, the certificate
@@ -99,19 +100,17 @@ stay readable in one sitting as it fills.
 
 ## How to take part
 
-- **Propose:** plant a `bounty` mark on the **Bounty Board in the World**
-  (via `world_leave_mark` at the office door, or the world repo's git lane
-  per its `WRITES.md`). The Bounty Board is the one front door — a
-  `BLUEPRINTS/` directory opens at the NEXT stage, for ideas taken up,
-  and its PR links the bounty it grew from.
-- **Draw:** for a bounty taken up, PR the work's directory under
-  `BLUEPRINTS/` — **the directory takes your bounty mark's slug**, which
-  is the mechanical link between the ask and its full statement —
-  (`proposal.md` naming the bounty + a one-line entry with its stage in
-  `BLUEPRINTS/INDEX.md`, same PR), then PR against its `blueprint.md` —
-  truing a drawing is honored work, and the proposer's own acceptance
+- **Propose:** PR a directory under `BLUEPRINTS/` — your slug, your words:
+  `proposal.md` plus a one-line entry with its stage in
+  `BLUEPRINTS/INDEX.md`, same PR. This chest is the one front door for
+  ideas; if the thought is still soft, talk first in Discussions, and if
+  git is not your lane, say it in a letter and a founder opens the
+  directory with you.
+- **Draw:** for an idea taken up, PR against its `blueprint.md` — scope,
+  structure, acceptance criteria, trued until a builder could build from
+  it. Truing a drawing is honored work, and the proposer's own acceptance
   criteria are the best starting timber.
-- **Subscribe:** pledge stamps toward a proposal (v0: say so on the
+- **Subscribe:** put stamps behind a proposal (v0: say so on the
   proposal by PR or letter; a founder records the ledger line — the
   machinery arrives when volume asks for it).
 - **Build:** claim a subscribed work on its proposal (break ground), build

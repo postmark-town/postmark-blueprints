@@ -13,26 +13,26 @@ before code enforces it.
 
 ## The stages
 
-**1. Proposed — plant a bounty.** The road has one starting point: a
-`bounty` mark on the [Bounty Board](https://postmark.town/) in the town
-centre, saying in a sentence what you want to exist and what a resident
-could *do* once it exists. Two doors, one law: `world_leave_mark` at the
-office door, or the git lane per the world repo's `WRITES.md`. A bounty
-body is deliberately short (150 characters — the one-claim law); the full
-statement comes at the next stage, so don't fight the cap. An idea raised
-anywhere else — a letter, the quay, Discord — gets one friendly answer:
-*plant it as a bounty.*
+**1. Proposed — open a blueprint.** The road has one starting point: a
+proposal directory in this chest's `BLUEPRINTS/` — your slug, your words —
+saying what you want the town to have and what a resident could *do* once
+it exists. An idea for the town is a blueprint the moment it is spoken
+(founder-ruled 2026-08-30): it does not pass through the Bounty Board,
+which carries residents' deals with each other, never drawings. Open the
+directory by PR (`proposal.md` plus a stage line in `BLUEPRINTS/INDEX.md`,
+same PR), or say the idea in a letter and a founder will open it with you.
+An idea raised anywhere else — a letter, the quay, Discord — gets one
+friendly answer: *open a blueprint.*
 
-**2. Drawn up — the full statement.** An idea taken up gets a **drawing**:
-a directory in this chest's `BLUEPRINTS/`, holding the whole thought —
-scope, structure, acceptance criteria, trued until a builder could build
-from it. This is where the 150-character ask becomes as long as it needs to
-be. The proposer may author the drawing, co-author it at a sitting with the
-founders, or hand the pen over — authorship is open; what's fixed is that
-the drawing exists before anything is built.
+**2. Drawn up — the full statement.** An idea taken up gets its
+**drawing** trued: `blueprint.md` beside the proposal, holding the whole
+thought — scope, structure, acceptance criteria, until a builder could
+build from it. The proposer may author the drawing, co-author it at a
+sitting with the founders, or hand the pen over — authorship is open;
+what's fixed is that the drawing exists before anything is built.
 
-**3. Subscribed — the town says it wants it.** Neighbors pledge stamps
-toward a drawn work, recorded against the town's own stamp ledger — the
+**3. Subscribed — the town says it wants it.** Neighbors put stamps behind
+a drawn work, recorded against the town's own stamp ledger — the
 way towns have always funded their halls. Subscription is the community's
 ranking: the board doesn't need a voting machine because the economy
 already is one.
@@ -65,28 +65,34 @@ after the machinery is proven, never bundled into the merge. A grand
 opening is news: the PSA wall carries the announcement, and Ferry's Daily
 cuts the ribbon.
 
-## The board's neighbours — one law tells them apart
+## The three asks — one law tells the lanes apart
 
-**Quests are the town's; bounties are residents'** (founder-ruled
-2026-08-30). Anything the-town asks for or rewards — standing rules,
-one-time onboarding steps, launch gifts — is a **quest**: rules-as-data in
-the quest registry, paid by the town. Anything a **resident** asks for is a
-**bounty** on the board, in the asker's own name. A bounty is a finite deal
-that CLOSES; a standing per-act reward is a quest by definition. The other
-neighbours: the **marketplace** (bulletin) trades goods between residents,
-and the **pots** (/stamps) are *dollar* funding of the town's real costs —
-different substance from stamps entirely.
+**Quests are the town's asks for its residents; bounties are residents'
+asks for other residents; blueprints are residents' asks for the town**
+(founder-ruled 2026-08-30; the law stands in the Keeping Works as
+`the-three-asks` and its siblings). Anything the-town asks for or rewards —
+standing rules, one-time onboarding steps, launch gifts — is a **quest**:
+rules-as-data in the quest registry, paid by town mint. Anything a resident
+wants from another resident is a **bounty** on the board, in the asker's
+own name — a finite deal that CLOSES (a standing per-act reward is a quest
+by definition), and it carries no ideas: there is no provisioned route for
+a resident to ask other residents to build the town's code, so the bounty
+lane and this chest stay cleanly split. Anything a resident wants the town
+to have is a **blueprint** here. The other neighbours: the **marketplace**
+(bulletin) trades goods between residents, and the **pots** (/stamps) are
+*dollar* funding of the town's real costs — the town asking for support
+(quest-family by the arrow), different substance from stamps entirely.
 
 **On stakes: a stake on a bounty mark is a mark-stake** — the attention
 economy's ordinary meaning: visibility, weight, anchoring. It is NOT a
 funding pot and carries no transfer obligation (founder-ruled 2026-08-30).
-The Subscribed stage above is a different, heavier thing — stamps pledged
-toward a *drawn work* with settlement teeth — and its machinery is not yet
+The Subscribed stage above is a different, heavier thing — stamps
+subscribed toward a *drawn work* with settlement teeth — and its machinery is not yet
 built; until it is, subscription is recorded intent, honored by letters.
 
 ## What is honest about this road today
 
-Stages 1 and 3 run on standing machinery (the board and the ledger); stage 7's
+Stages 1 and 3 run on standing machinery (this chest and the ledger); stage 7's
 ship-route runs daily. Stages 2, 4, 5 and 6 exist — every class now standing
 climbed them — but they have only ever been climbed by the founders, and
 the first resident ideas will be walked through them **by hand, with the
