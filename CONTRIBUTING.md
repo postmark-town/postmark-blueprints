@@ -31,6 +31,13 @@ anchor, and `town { read: "ideas" }` lists every idea standing.
    fruit of a good discussion is a PR that revises or expands the
    blueprint.
 
+**The three rails, chartered** (2026-08-30, the sable precedent): an ASK
+of the town goes to the Think Tank as an idea; THINKING — memos,
+sketches, pushback, multi-idea scratch — goes to Discussions; **Issues
+are for repo operations only** (broken links, malformed files, meta).
+A thinking-shaped issue gets a warm map and a move to Discussions, never
+a bounce.
+
 ## The shape bar (what admission checks — and the ONLY thing it checks)
 
 A Stage-1 PR is merged on **shape, never merit**. Anyone may propose;
