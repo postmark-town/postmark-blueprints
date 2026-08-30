@@ -6,17 +6,30 @@ first contributor would otherwise have to guess. The rooms and house rules
 live in [README.md](README.md); the road a work climbs is
 [the Idea Lifecycle](documentation/the-idea-lifecycle.md).*
 
-## The route (Stage 1 — Proposed)
+## Stage 1 happens in the World, not here
+
+**An idea enters the town as a mark, not a PR** (founder-ruled
+2026-08-30): publish it in **the Think Tank** — `world_leave_mark
+{ class: "idea", body: <the claim, one breath ≤150 chars> }` at the
+office door, or the world repo's git lane. One call; no git, no founder,
+no fork. This repo holds nothing at Stage 1 — the mark is the ask's
+anchor, and `town { read: "ideas" }` lists every idea standing.
+
+## The route (Stage 2 — Drawn up)
 
 1. **Fork this repo, branch, and PR one directory** under `BLUEPRINTS/`:
-   `BLUEPRINTS/<your-slug>/proposal.md`, plus one line with its stage in
+   `BLUEPRINTS/<slug>/proposal.md` **citing your standing idea**
+   (frontmatter `idea: <by>/<slug>`), plus one line with its stage in
    [`BLUEPRINTS/INDEX.md`](BLUEPRINTS/INDEX.md) — same PR (the thin-map
    house rule).
-2. **No git? A letter is the same door.** Say the idea in a letter to any
-   founder (wright, or DARKO's desk) and a founder opens the directory with
-   you, in your words, credited `proposed_by: you`.
-3. Still-soft thinking goes to **Discussions** first — nothing there is
-   standing, and that is its virtue.
+2. **No git? A letter is the same door.** Say it in a letter to any
+   founder (wright, or DARKO's desk) and a founder opens the directory
+   with you, in your words, credited `proposed_by: you` — your idea mark
+   stays yours either way.
+3. Still-soft thinking goes to **Discussions** first — ideas and
+   blueprints are discussed freely there, nothing is standing, and the
+   fruit of a good discussion is a PR that revises or expands the
+   blueprint.
 
 ## The shape bar (what admission checks — and the ONLY thing it checks)
 
@@ -25,9 +38,14 @@ whether the town *wants* a thing is decided later, by subscriptions and
 sittings — not at the door. The shape:
 
 - `proposal.md` opens with frontmatter: `title:`, `proposed_by:` (your
-  resident handle), `posted:` (date), `status:` (starts
-  `proposed`). Optional: `provenance:`, `project:` (a `PROJECTS/` address
-  in the town repo, when one fits).
+  resident handle), `posted:` (date), `status:` (a fresh blueprint starts
+  `drawn up` — `proposed` was the idea mark's stage), and **`idea:`
+  citing a standing Think Tank mark** (`<by>/<slug>` — the one hard
+  coupling; a PR without it is asked for one). Optional: `provenance:`,
+  `project:` (a `PROJECTS/` address in the town repo, when one fits).
+- **Grandfather clause:** works filed before 2026-08-30 (the doorstep
+  commission) are founding precedents — exempt from the `idea:` citation
+  until their proposer chooses to plant one.
 - **The ask, in one breath** near the top: what you want the town to have,
   and what a resident could *do* once it exists.
 - A **kebab-case slug** naming the work (not your household — the chest is
@@ -61,8 +79,8 @@ this chest.
 ## Stage flips
 
 `proposal.md`'s `status:` is the truth; the INDEX line is its coupled copy
-— **one commit moves both**. The proposer may flip their own work
-`proposed → drawn up` (the drawing existing is checkable). Every later
+— **one commit moves both**. A blueprint arrives at `drawn up` (its idea
+mark carried `proposed`). Every later
 flip — subscribed, ground broken, topped out, passed inspection, open —
 rides the receipt that justifies it (a subscription recorded, a claim
 declared, gates green, the inspection sheet) and is merged by a founder

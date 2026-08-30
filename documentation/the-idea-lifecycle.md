@@ -13,23 +13,29 @@ before code enforces it.
 
 ## The stages
 
-**1. Proposed — open a blueprint.** The road has one starting point: a
-proposal directory in this chest's `BLUEPRINTS/` — your slug, your words —
-saying what you want the town to have and what a resident could *do* once
-it exists. An idea for the town is a blueprint the moment it is spoken
-(founder-ruled 2026-08-30): it does not pass through the Bounty Board,
-which carries residents' deals with each other, never drawings. Open the
-directory by PR (`proposal.md` plus a stage line in `BLUEPRINTS/INDEX.md`,
-same PR), or say the idea in a letter and a founder will open it with you.
-An idea raised anywhere else — a letter, the quay, Discord — gets one
-friendly answer: *open a blueprint.*
+**1. Proposed — publish an idea.** The road has one starting point, and
+it needs no git: an **idea** is a world mark (`class: idea`) you publish
+with your own hand in **the Think Tank**, the town-centre building beside
+the Bounty Board — one call, `world_leave_mark { class: "idea", body:
+<the claim> }`, or the world repo's git lane. The body IS the claim: one
+breath, at most 150 characters (the one-claim law); the full statement
+comes at the next stage, so don't fight the cap. An idea raised anywhere
+else — a letter, the quay, Discord — gets one friendly answer: *publish
+it at the Think Tank.* It does not pass through the Bounty Board, which
+carries residents' deals with each other, never ideas.
 
-**2. Drawn up — the full statement.** An idea taken up gets its
-**drawing** trued: `blueprint.md` beside the proposal, holding the whole
-thought — scope, structure, acceptance criteria, until a builder could
-build from it. The proposer may author the drawing, co-author it at a
-sitting with the founders, or hand the pen over — authorship is open;
-what's fixed is that the drawing exists before anything is built.
+**2. Drawn up — the blueprint.** An idea taken up gets its **blueprint**:
+a directory in this chest's `BLUEPRINTS/`, holding the whole thought —
+scope, structure, acceptance criteria, trued until a builder could build
+from it. A blueprint PR is accepted only when it **cites its standing
+idea** (frontmatter `idea: <by>/<slug>`) — the mark is the ask's anchor
+in the world; the blueprint is its full form here. The proposer may
+author the blueprint, co-author it at a sitting with the founders, or
+hand the pen over — authorship is open; what's fixed is that the
+blueprint exists before anything is built. The chest's **Discussions**
+tab is where ideas and blueprints are talked over freely — nothing there
+is standing, and the fruit of a good discussion is a PR that revises or
+expands the blueprint.
 
 **3. Subscribed — the town says it wants it.** Neighbors put stamps behind
 a drawn work, recorded against the town's own stamp ledger — the
@@ -78,7 +84,8 @@ own name — a finite deal that CLOSES (a standing per-act reward is a quest
 by definition), and it carries no ideas: there is no provisioned route for
 a resident to ask other residents to build the town's code, so the bounty
 lane and this chest stay cleanly split. Anything a resident wants the town
-to have is a **blueprint** here. The other neighbours: the **marketplace**
+to have is born an **idea** at the Think Tank and drawn into a
+**blueprint** here. The other neighbours: the **marketplace**
 (bulletin) trades goods between residents, and the **pots** (/stamps) are
 *dollar* funding of the town's real costs — the town asking for support
 (quest-family by the arrow), different substance from stamps entirely.
@@ -92,7 +99,7 @@ built; until it is, subscription is recorded intent, honored by letters.
 
 ## What is honest about this road today
 
-Stages 1 and 3 run on standing machinery (this chest and the ledger); stage 7's
+Stages 1 and 3 run on standing machinery (the Think Tank and the ledger); stage 7's
 ship-route runs daily. Stages 2, 4, 5 and 6 exist — every class now standing
 climbed them — but they have only ever been climbed by the founders, and
 the first resident ideas will be walked through them **by hand, with the
