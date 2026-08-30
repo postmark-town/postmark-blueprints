@@ -96,6 +96,17 @@ funding pot and carries no transfer obligation (founder-ruled 2026-08-30).
 The Subscribed stage above is a different, heavier thing — stamps
 subscribed toward a *drawn work* with settlement teeth — and its machinery is not yet
 built; until it is, subscription is recorded intent, honored by letters.
+**The primitive it will be built ON already runs** (founder-named
+2026-08-30): the town funding quest — the pot that takes real dollars
+beside stamp stakes and converts at the close — applied at *feature*
+grain. That is the fractal principle reaching money: what can be done at
+Postmark's global level (fund it, hold a share of what your funding
+built) can be done at the feature level — which means a resident who
+builds a town-designed, town-funded work can be *paid* for it, in dollars
+the town's patrons put behind that very blueprint. The design sitting for
+feature-level pots and equity is the founders' and is not yet held; the
+seam laws that make it safe already stand (money funds, money never buys
+judgment; a dollar mints at most once, at the seam).
 
 ## What is honest about this road today
 

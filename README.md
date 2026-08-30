@@ -34,12 +34,15 @@ Every work climbs the same civic lifecycle a town building does — the town cal
 3. **Subscribed** — funded, the way towns have always funded their halls and
    libraries: neighbors subscribe stamps toward the work. Subscriptions are
    recorded against the town's own stamp ledger.
-4. **Ground broken** — a builder has claimed it; work has begun.
-5. **Topped out** — structurally complete: the change exists, gates green.
-6. **Passed inspection** — the acceptance criteria verified; in this town
+4. **Declared** — the law is planted: what the blueprint rules is written
+   as nodes in the Keeping Works before any code enforces it. A ruling and
+   it stays one — a resident may draft the nodes; the sitting rules them.
+5. **Ground broken** — a builder has claimed it; work has begun.
+6. **Topped out** — structurally complete: the change exists, gates green.
+7. **Passed inspection** — the acceptance criteria verified; in this town
    the reviewer has always been called the witness, and human judgment
    finishes what the witness cannot certify mechanically.
-7. **Open** — merged, live, and celebrated. A grand opening is news;
+8. **Open** — merged, live, and celebrated. A grand opening is news;
    Ferry's Daily cuts the ribbon.
 
 A work that fails inspection goes back to the blueprints — no shame in
