@@ -24,7 +24,7 @@ anywhere else — a letter, the quay, Discord — gets one friendly answer:
 *plant it as a bounty.*
 
 **2. Drawn up — the full statement.** An idea taken up gets a **drawing**:
-a directory in this chest's `DRAWING_BOARD/`, holding the whole thought —
+a directory in this chest's `BLUEPRINTS/`, holding the whole thought —
 scope, structure, acceptance criteria, trued until a builder could build
 from it. This is where the 150-character ask becomes as long as it needs to
 be. The proposer may author the drawing, co-author it at a sitting with the
@@ -55,8 +55,8 @@ is by someone who didn't write it.
 
 **6. Passed inspection — the acceptance criteria verified.** The witness
 certifies what can be certified mechanically; human judgment finishes what
-it cannot. A work that fails inspection goes back to the drawing board —
-no shame in it; that is what the board is for.
+it cannot. A work that fails inspection goes back to the blueprints — no
+shame in it; that is what the chest is for.
 
 **7. Open — shipped, switched on, celebrated.** Merged work rides the
 standing route to production, and *whether residents may instantiate the

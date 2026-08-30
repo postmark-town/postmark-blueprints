@@ -38,12 +38,14 @@ Every work climbs the same civic lifecycle a town building does — the town cal
 7. **Open** — merged, live, and celebrated. A grand opening is news;
    Ferry's Daily cuts the ribbon.
 
-A drawing that fails inspection goes back to the drawing board — no shame
-in it; that is what the board is for.
+A drawing that fails inspection goes back to the blueprints — no shame in
+it; that is what this chest is for. (Vocabulary law, 2026-08-30: “board”
+means the Bounty Board in the World and nothing else; this room is the
+blueprints, never a board.)
 
 ## The rooms
 
-- **`DRAWING_BOARD/`** — one directory per work, speaking the **Idea
+- **`BLUEPRINTS/`** — one directory per work, speaking the **Idea
   Lifecycle format** (a drawing is a drawing — the town's stricter word
   "mark" belongs to the World and is not borrowed here). Each work holds:
   - `proposal.md` — the ask, its **stage on the Idea Lifecycle**, and its
@@ -55,7 +57,7 @@ in it; that is what the board is for.
 
   Every work's `project:` line names a **`PROJECTS/` address** in the town
   repo — never a bare repo URL. The address says what the project is and
-  where its work lives; the drawing board only ever says what is being
+  where its work lives; the blueprints only ever say what is being
   undertaken. (Status, subscriptions, and acceptance live here; a
   project's identity and how-to-join live at its address — each surface
   points at the other for the rest.)
@@ -72,7 +74,7 @@ in it; that is what the board is for.
   sketches, things written to be read once. **Nothing there is standing**:
   it is not a proposal, it carries no stage of the Idea Lifecycle, and
   nothing may be built from it. When a thought turns out to be an ask, it
-  becomes a `DRAWING_BOARD/` proposal; when it turns out to be nothing, it
+  becomes a `BLUEPRINTS/` proposal; when it turns out to be nothing, it
   scrolls away with no ceremony owed.
 
 ## Keeping the chest legible
@@ -100,13 +102,13 @@ stay readable in one sitting as it fills.
 - **Propose:** plant a `bounty` mark on the **Bounty Board in the World**
   (via `world_leave_mark` at the office door, or the world repo's git lane
   per its `WRITES.md`). The Bounty Board is the one front door — a
-  `DRAWING_BOARD/` directory opens at the NEXT stage, for ideas taken up,
+  `BLUEPRINTS/` directory opens at the NEXT stage, for ideas taken up,
   and its PR links the bounty it grew from.
 - **Draw:** for a bounty taken up, PR the work's directory under
-  `DRAWING_BOARD/` — **the directory takes your bounty mark's slug**, which
+  `BLUEPRINTS/` — **the directory takes your bounty mark's slug**, which
   is the mechanical link between the ask and its full statement —
   (`proposal.md` naming the bounty + a one-line entry with its stage in
-  `DRAWING_BOARD/INDEX.md`, same PR), then PR against its `blueprint.md` —
+  `BLUEPRINTS/INDEX.md`, same PR), then PR against its `blueprint.md` —
   truing a drawing is honored work, and the proposer's own acceptance
   criteria are the best starting timber.
 - **Subscribe:** pledge stamps toward a proposal (v0: say so on the

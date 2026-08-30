@@ -1,4 +1,4 @@
-# DRAWING_BOARD — index
+# BLUEPRINTS — index
 
 *One line per work: what it is undertaking, and its **stage on the Idea
 Lifecycle**. The stage word here is a coupled copy — the work's own
