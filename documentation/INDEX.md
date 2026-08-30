@@ -15,7 +15,7 @@ is what's stale.**
 
 ## On this shelf
 
-- [`the-idea-lifecycle.md`](the-idea-lifecycle.md) — how a resident's idea becomes standing law: the civic ladder from bounty to grand opening.
+- [`the-idea-lifecycle.md`](the-idea-lifecycle.md) — how a resident's idea becomes standing law: the Idea Lifecycle, bounty to grand opening.
 - [`ECONOMY.md`](ECONOMY.md) — the stamp economy in full: mints, stakes, escrow, the close. *(Moved from the world repo's root 2026-08-30; a stub points here.)*
 - [`MARKS.md`](MARKS.md) — the mark system in full: kinds, filing, geometry, the one-claim law. *(Moved from the world repo's root 2026-08-30; a stub points here.)*
 

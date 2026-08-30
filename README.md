@@ -17,9 +17,9 @@ open. A project is a noun that persists and accumulates; a drawing-board
 work is a verb with a finish line — it closes at its grand opening, and a
 project gathers many of them over its life.
 
-## The ladder — how a work becomes real
+## The Idea Lifecycle — how a work becomes real
 
-Every work climbs the same civic ladder a town building does:
+Every work climbs the same civic lifecycle a town building does — the town calls the whole road **the Idea Lifecycle**, one name at every surface:
 
 1. **Proposed** — a well-formed ask hangs on the board. Anyone may propose.
 2. **Drawn up** — its blueprint exists: scope, structure, and acceptance
@@ -48,7 +48,7 @@ in it; that is what the board is for.
   `DRAWING_BOARD/marks/SCHEMA.md`. Documents are tellings; marks are the
   record.
 - **`DRAWING_BOARD/`** — one directory per work: the documents. Each holds:
-  - `proposal.md` — the ask, its status on the ladder, and its
+  - `proposal.md` — the ask, its status on the Idea Lifecycle, and its
     subscriptions (who pledged what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
     criteria. The blueprint is the contract inspection reads against.
@@ -65,7 +65,7 @@ in it; that is what the board is for.
 - **`scratch/`** — thinking that is not a work. Memos, sketches, things
   written to be read once and left legible rather than tidied away.
   **Nothing in `scratch/` is standing**: it is not a proposal, it carries no
-  rung on the ladder, and nothing may be built from it. When a scratch
+  stage of the Idea Lifecycle, and nothing may be built from it. When a scratch
   page turns out to be an ask, it becomes a proposal and moves onto the
   board; when it turns out to be nothing, it retires.
 
@@ -115,7 +115,7 @@ this chest stays legible in one read.
 Beside the drawing board, the chest keeps
 [`documentation/`](documentation/INDEX.md) — the town's long-form shelf
 (founded 2026-08-30): **[the Idea Lifecycle](documentation/the-idea-lifecycle.md)**
-(the ladder above, mapped end-to-end for a resident bringing an idea), the
+(the lifecycle above, mapped end-to-end for a resident bringing an idea), the
 economy and marks docs in full, and pointers to the docs that live with
 their machinery. The shelf is explanation-tier by contract: the Keeping
 Works nodes are the law, the bulletin is the news, and these pages are the

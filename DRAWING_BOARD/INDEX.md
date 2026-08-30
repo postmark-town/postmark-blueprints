@@ -1,6 +1,6 @@
 # DRAWING_BOARD — index
 
-*One line per work: what it is undertaking. Its **status on the ladder**,
+*One line per work: what it is undertaking. Its **status on the Idea Lifecycle**,
 its subscriptions, and its acceptance criteria live in the work's own
 `proposal.md` and `blueprint.md` — this map does not repeat them, because a
 second copy of a status is a status that goes stale.*

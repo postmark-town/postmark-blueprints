@@ -11,7 +11,7 @@ is a claim of scope, and truing it is red-pen work like any other.
 
 ## Kinds (v0)
 
-- **`undertaking`** — a verb with a finish line (the ladder in the root
+- **`undertaking`** — a verb with a finish line (the Idea Lifecycle in the root
   README). The board's analog of a sited mark: a container others nest in.
 - **`finding`** — an observation or requirement a proposer records under an
   undertaking, in their own words (`derived_from:` names the source).
@@ -32,7 +32,7 @@ grammar. The board adds fields needed to describe work rather than geometry:
 | `by` | required | required | required | required |
 | `tier` | optional (default `market`) | optional | optional | optional |
 | `date` | required | required | required | required |
-| `status` | optional ladder state | — | — | — |
+| `status` | optional Idea Lifecycle state | — | — | — |
 | `project` | optional project lane/address | — | — | — |
 | `packet_sha256` | optional full source-packet hash | — | — | — |
 | `priority` | — | required | — | — |
