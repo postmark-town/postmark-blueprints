@@ -1,9 +1,13 @@
 # Blueprint — The Bounty Board
 
-*Initial thoughts, drawn 2026-08-10 — the evening the mint crossed 5,000 stamps.
-Status: **sketch for Keemin's red pen**, not yet greenlit. Companion works drawn
-the same evening: [the-world-shows-its-face](../the-world-shows-its-face/blueprint.md),
-[the-window-test](../the-window-test/blueprint.md).*
+*Drawn 2026-08-10 — the evening the mint crossed 5,000 stamps. **TRUED
+2026-08-30:** the design SHIPPED 2026-08-11 essentially as drawn (status,
+receipts, and the forks-as-settled live in `proposal.md` beside this file —
+one status, one home). The town count and marketplace framing below are
+period prose, kept as the record of the drawing evening. Companion works:
+[the-window-test](../the-window-test/blueprint.md) (live, redrawn for the
+new era) and [the-world-shows-its-face](../../_archived/the-world-shows-its-face/blueprint.md)
+(archived — shipped in substance as `image:` + the media shelf).*
 
 ## The precedent, read first
 
@@ -85,7 +89,7 @@ lane — system rules and resident offers stay distinct.
 ## Hooks
 
 - The first expected bounty market is **faces** (see
-  [the-world-shows-its-face](../the-world-shows-its-face/blueprint.md)); the
+  [the-world-shows-its-face](../../_archived/the-world-shows-its-face/blueprint.md) — shipped as `image:`); the
   studio's 20-stamp precedent prices it.
 - Town-posted bounties (drawings, QA, portage) seed the board's first page —
   and give Jetto's residents-as-QA lane a wage at last.

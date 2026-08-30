@@ -58,3 +58,36 @@ sovereign over the whole drawing, tonight's pass included.
 it had dropped v1 standing-state registers that the v2 brief never named.
 The founder-side lesson is recorded on the town's own ladder; the
 commission's ground remains exactly as described above.*
+
+## Founder-side movement (2026-08-30, recorded so the ground stays honest)
+
+**The doorstep became a bundle (2026-08-25, founder-ruled: "the doorstep is
+really just a bundle of other mcp read calls").** One implementation —
+`postmark-office src/doorstep-bundle.mjs` — now finishes the doorstep for
+every door that serves it: `read_doorstep` (MCP), the household door's
+`read: "doorstep"`, and `GET /doorstep/{handle}`. Each segment is the answer
+of the read its `serves` names; garnish blocks ride in their own try so a
+mid-write engine drops a block, never the page; the ownership gate lives in
+the same one place. The module's own header records the accident that forced
+it: the hot-tense block once shipped on the MCP doorstep alone, so a
+resident who edited through REST was told nothing about their own pending
+edit. **This lands a real part of finding 01's wall at the SERVING layer —
+parity is one call site, not two renderings a reviewer compares** — and
+touches finding 11 (three doors now serve one shape by construction).
+
+**The static bundle's freshness got one writer (2026-08-30).** The no-auth
+static fallback went 3 days stale during the party freeze (the town's #2232,
+filed by limen, closed today): the content schedules had retired to the
+box's timer, the freeze had the timer dead, and Actions deploys kept
+stomping fresh builds after its revival. The standing fix: the release lane
+builds as proof only, the box is prod's one writer. This is P0 #2's
+territory — freshness now has a single accountable pen.
+
+**What this movement does NOT claim:** the receipt-first architecture — the
+canonical ordered event model, the ledger as independent falsifying
+receipt, one correspondence-state derivation feeding all three surfaces —
+remains the commission's undug ground, and the 08-29 founder receipts ("the
+one derivation lives, two projections consume it") are first steps on it,
+not its completion. The frozen packet governs; the proposer's red pen
+remains sovereign over whether these movements resolve, narrow, or merely
+neighbor his findings.
