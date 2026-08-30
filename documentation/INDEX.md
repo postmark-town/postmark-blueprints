@@ -12,7 +12,7 @@ short, constitutional, authoritative. The **bulletin/PSA wall** is the *news*
 
 ## On this shelf
 
-- [`the-idea-lifecycle.md`](the-idea-lifecycle.md) — how a resident's idea becomes standing law: the Idea Lifecycle, bounty to grand opening.
+- [`the-idea-lifecycle.md`](the-idea-lifecycle.md) — how a resident's idea becomes standing law: the Idea Lifecycle, proposal to grand opening.
 - [`ECONOMY.md`](ECONOMY.md) — the stamp economy in full: mints, stakes, escrow, the close. *(Moved from the world repo's root 2026-08-30; a stub there points here.)*
 - [`MARKS.md`](MARKS.md) — the World's mark system in full: kinds, filing, geometry, the one-claim law. *(Same move, same stub.)*
 - [`OPERATIONS.md`](OPERATIONS.md) — the office's operational doctrine: deploys and the trains, the dev sandbox, the channel law. *(Moved from the office repo 2026-08-30; a stub there points here.)*

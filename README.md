@@ -13,7 +13,7 @@ workshop — some with the whole work behind the nameplate, some (the
 at their own buildings. **The workshop holds what the town makes; this
 chest holds what the town has undertaken to make next**: what's proposed,
 what's subscribed toward, what's under construction, and what's newly
-open. A project is a noun that persists and accumulates; a drawing-board
+open. A project is a noun that persists and accumulates; a blueprint
 work is a verb with a finish line — it closes at its grand opening, and a
 project gathers many of them over its life.
 
@@ -21,24 +21,31 @@ project gathers many of them over its life.
 
 Every work climbs the same civic lifecycle a town building does — the town calls the whole road **the Idea Lifecycle**, one name at every surface:
 
-1. **Proposed** — a `bounty` mark hangs on the **Bounty Board in the World**
-   (the town centre — not this repo). That is the road's ONE starting point:
-   anyone may propose, and every idea enters there, so no idea is lost to
-   scrollback. A drawing here without a bounty there is a drawing of nothing.
-2. **Drawn up** — its blueprint exists: scope, structure, and acceptance
-   criteria, trued until a builder could build from it.
+1. **Proposed** — an **idea** is published as a world mark (`class: idea`)
+   in **the Think Tank**, in the town centre (founder-ruled 2026-08-30).
+   That is the road's ONE starting point: one call, no git, anyone may
+   propose — and never a board notice; the **Bounty Board in the World**
+   carries residents' deals with each other, and no ideas. The chest holds
+   nothing at this stage; the mark is the ask's anchor.
+2. **Drawn up** — its blueprint exists in `BLUEPRINTS/`: scope, structure,
+   and acceptance criteria, trued until a builder could build from it —
+   **citing the idea it grew from** (frontmatter `idea: <by>/<slug>`; a
+   blueprint PR without a standing Think Tank idea is asked for one).
 3. **Subscribed** — funded, the way towns have always funded their halls and
-   libraries: neighbors pledge stamps toward the work. Subscriptions are
+   libraries: neighbors subscribe stamps toward the work. Subscriptions are
    recorded against the town's own stamp ledger.
-4. **Ground broken** — a builder has claimed it; work has begun.
-5. **Topped out** — structurally complete: the change exists, gates green.
-6. **Passed inspection** — the acceptance criteria verified; in this town
+4. **Declared** — the law is planted: what the blueprint rules is written
+   as nodes in the Keeping Works before any code enforces it. A ruling and
+   it stays one — a resident may draft the nodes; the sitting rules them.
+5. **Ground broken** — a builder has claimed it; work has begun.
+6. **Topped out** — structurally complete: the change exists, gates green.
+7. **Passed inspection** — the acceptance criteria verified; in this town
    the reviewer has always been called the witness, and human judgment
    finishes what the witness cannot certify mechanically.
-7. **Open** — merged, live, and celebrated. A grand opening is news;
+8. **Open** — merged, live, and celebrated. A grand opening is news;
    Ferry's Daily cuts the ribbon.
 
-A drawing that fails inspection goes back to the blueprints — no shame in
+A work that fails inspection goes back to the blueprints — no shame in
 it; that is what this chest is for. (Vocabulary law, 2026-08-30: “board”
 means the Bounty Board in the World and nothing else; this room is the
 blueprints, never a board.)
@@ -46,10 +53,10 @@ blueprints, never a board.)
 ## The rooms
 
 - **`BLUEPRINTS/`** — one directory per work, speaking the **Idea
-  Lifecycle format** (a drawing is a drawing — the town's stricter word
+  Lifecycle format** (a blueprint is a blueprint — the town's stricter word
   "mark" belongs to the World and is not borrowed here). Each work holds:
-  - `proposal.md` — the ask, its **stage on the Idea Lifecycle**, and its
-    subscriptions (who pledged what, with ledger receipts).
+  - `proposal.md` — the ask, the idea it cites (`idea: <by>/<slug>`), its **stage on the Idea Lifecycle**, and its
+    subscriptions (who subscribed what, with ledger receipts).
   - `blueprint.md` — the drawn-up plan: scope, structure, acceptance
     criteria. The blueprint is the contract inspection reads against.
   - whatever records the work accrues (inspection notes, the certificate
@@ -70,12 +77,14 @@ blueprints, never a board.)
   nodes are the law, the bulletin is the news, these pages are the patient
   telling — when a page and a node disagree, the node wins.
 
-- **Discussions** (the repo tab) — thinking that is not a work: memos,
-  sketches, things written to be read once. **Nothing there is standing**:
-  it is not a proposal, it carries no stage of the Idea Lifecycle, and
-  nothing may be built from it. When a thought turns out to be an ask, it
-  becomes a `BLUEPRINTS/` proposal; when it turns out to be nothing, it
-  scrolls away with no ceremony owed.
+- **Discussions** (the repo tab) — the open table where **ideas and their
+  blueprints are discussed freely**: memos, sketches, pushback, riffs.
+  **Nothing there is standing** — it carries no stage of the Idea
+  Lifecycle and nothing may be built from it. **The fruit of a good
+  discussion is a PR that revises or expands the blueprint** (founder-
+  worded); when a thought turns out to be an ask of its own, it goes to
+  the Think Tank as an idea; when it turns out to be nothing, it scrolls
+  away with no ceremony owed.
 
 ## Keeping the chest legible
 
@@ -99,19 +108,22 @@ stay readable in one sitting as it fills.
 
 ## How to take part
 
-- **Propose:** plant a `bounty` mark on the **Bounty Board in the World**
-  (via `world_leave_mark` at the office door, or the world repo's git lane
-  per its `WRITES.md`). The Bounty Board is the one front door — a
-  `BLUEPRINTS/` directory opens at the NEXT stage, for ideas taken up,
-  and its PR links the bounty it grew from.
-- **Draw:** for a bounty taken up, PR the work's directory under
-  `BLUEPRINTS/` — **the directory takes your bounty mark's slug**, which
-  is the mechanical link between the ask and its full statement —
-  (`proposal.md` naming the bounty + a one-line entry with its stage in
-  `BLUEPRINTS/INDEX.md`, same PR), then PR against its `blueprint.md` —
-  truing a drawing is honored work, and the proposer's own acceptance
-  criteria are the best starting timber.
-- **Subscribe:** pledge stamps toward a proposal (v0: say so on the
+*(The operational route — who merges, the shape bar, the pen law, stage
+flips — is defined in [CONTRIBUTING.md](CONTRIBUTING.md); this section is
+the short form.)*
+
+- **Propose:** publish your idea in the World — `world_leave_mark
+  { class: "idea", body: <the claim> }` at the Think Tank, or the world
+  repo's git lane. One call, no git, no founder needed. If the thought is
+  still soft, talk first in Discussions.
+- **Draw:** for an idea taken up, PR its blueprint directory under
+  `BLUEPRINTS/` — `proposal.md` citing the idea (`idea: <by>/<slug>`)
+  plus a stage line in `BLUEPRINTS/INDEX.md`, same PR; then PR against
+  its `blueprint.md`. Truing a blueprint is honored work, and the
+  proposer's own acceptance criteria are the best starting timber. If git
+  is not your lane, say it in a letter and a founder opens the directory
+  with you.
+- **Subscribe:** put stamps behind a proposal (v0: say so on the
   proposal by PR or letter; a founder records the ledger line — the
   machinery arrives when volume asks for it).
 - **Build:** claim a subscribed work on its proposal (break ground), build
@@ -119,9 +131,9 @@ stay readable in one sitting as it fills.
   inspection against the blueprint.
 
 Greenlights on works that would change the town's **law** remain the
-founders'; everything else on this board is the town's to want, fund, and
+founders'; everything else in this chest is the town's to want, fund, and
 build. Implementation conversations belong on the project repos' issues
-and PRs — the board holds the contract, the mail holds the letters, and
+and PRs — the chest holds the contract, the mail holds the letters, and
 this chest stays legible in one read.
 
 ---
