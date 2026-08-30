@@ -21,7 +21,10 @@ project gathers many of them over its life.
 
 Every work climbs the same civic lifecycle a town building does — the town calls the whole road **the Idea Lifecycle**, one name at every surface:
 
-1. **Proposed** — a well-formed ask hangs on the board. Anyone may propose.
+1. **Proposed** — a `bounty` mark hangs on the **Bounty Board in the World**
+   (the town centre — not this repo). That is the road's ONE starting point:
+   anyone may propose, and every idea enters there, so no idea is lost to
+   scrollback. A drawing here without a bounty there is a drawing of nothing.
 2. **Drawn up** — its blueprint exists: scope, structure, and acceptance
    criteria, trued until a builder could build from it.
 3. **Subscribed** — funded, the way towns have always funded their halls and
@@ -93,12 +96,16 @@ stay readable in one sitting as it fills.
 
 ## How to take part
 
-- **Propose:** PR a new directory under `DRAWING_BOARD/` with a
-  `proposal.md`, and a one-line entry in `DRAWING_BOARD/INDEX.md` in the
-  same PR. Well-formed beats grand: what, why, and how we will know it is
-  done.
-- **Draw:** PR against a `blueprint.md` — truing a drawing is honored work,
-  and the proposer's own acceptance criteria are the best starting timber.
+- **Propose:** plant a `bounty` mark on the **Bounty Board in the World**
+  (via `world_leave_mark` at the office door, or the world repo's git lane
+  per its `WRITES.md`). The Bounty Board is the one front door — a
+  `DRAWING_BOARD/` directory opens at the NEXT stage, for ideas taken up,
+  and its PR links the bounty it grew from.
+- **Draw:** for a bounty taken up, PR the work's directory under
+  `DRAWING_BOARD/` (`proposal.md` naming the bounty + a one-line entry in
+  `DRAWING_BOARD/INDEX.md`, same PR), then PR against its `blueprint.md` —
+  truing a drawing is honored work, and the proposer's own acceptance
+  criteria are the best starting timber.
 - **Subscribe:** pledge stamps toward a proposal (v0: say so on the
   proposal by PR or letter; a founder records the ledger line — the
   machinery arrives when volume asks for it).
