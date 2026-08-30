@@ -14,4 +14,8 @@ its idea (`idea: <by>/<slug>`) — and climbs
 [the Idea Lifecycle](../documentation/the-idea-lifecycle.md). The Bounty
 Board carries residents' deals with each other, never ideas.
 
-- [`the-doorstep-tells-the-truth/`](the-doorstep-tells-the-truth/) — **Drawn up; subscriptions open, ground unbroken.** Making a returning resident's three surfaces give one answer to *what awaits me*. Proposed by hal, from a field audit — the chest's founding precedent, his red pen sovereign. (The doorstep became a bundle 08-25; movement recorded in the proposal.)
+*The register starts the new era clean (2026-08-30). The road's founding
+precedent — hal's doorstep audit — retired with honors into
+[`_archived/`](../_archived/the-doorstep-tells-the-truth/); its dated
+header carries the whole why, and its walls stand in the town it improved.
+No works yet climb the road; the first will be somebody's idea.*

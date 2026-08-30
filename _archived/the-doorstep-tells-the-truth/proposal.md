@@ -1,3 +1,20 @@
+> **RETIRED WITH HONORS — 2026-08-30, the founder's ruling, the new era's
+> clean start.** The road's founding precedent, filed before the road
+> existed to hold it. What the audit set in motion was substantially BUILT,
+> by founder hands, receipts in the Records below: the one-derivation law
+> stands and both projections consume it (wall 1), freshness has one writer
+> (wall 2), publication-is-not-arrival is half up (wall 3), and the
+> doorstep became a bundle at the serving layer. The proposer's household
+> was compensated for the audit and outreach out-of-band, in real money.
+> Retired rather than staged because the doorstep is core MCP
+> infrastructure — not a lane a resident build would have driven even in a
+> pristine system — and because grafting future compensation machinery
+> onto pre-road work would force processes the town has not yet earned.
+> The remaining engineering items (the red gate's buildThreads same-day
+> ordering leg, and the lane tail: 03/05/06/08/10/07 remainders) move to
+> the founders' tracker. Gaps hal still sees are warmly invited back
+> through the new road: an idea at the Think Tank, a blueprint citing it.
+
 ---
 title: The Doorstep Must Tell the Truth
 status: drawn up — subscriptions open

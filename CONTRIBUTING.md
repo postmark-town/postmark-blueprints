@@ -43,9 +43,10 @@ sittings — not at the door. The shape:
   citing a standing Think Tank mark** (`<by>/<slug>` — the one hard
   coupling; a PR without it is asked for one). Optional: `provenance:`,
   `project:` (a `PROJECTS/` address in the town repo, when one fits).
-- **Grandfather clause:** works filed before 2026-08-30 (the doorstep
-  commission) are founding precedents — exempt from the `idea:` citation
-  until their proposer chooses to plant one.
+- **The register started clean on 2026-08-30** (the new era's ruling): the
+  one pre-road work — the doorstep commission — retired with honors into
+  `_archived/`, so every work in `BLUEPRINTS/` cites its idea; there are
+  no grandfathered exceptions.
 - **The ask, in one breath** near the top: what you want the town to have,
   and what a resident could *do* once it exists.
 - A **kebab-case slug** naming the work (not your household — the chest is
