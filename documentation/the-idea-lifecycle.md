@@ -65,19 +65,24 @@ after the machinery is proven, never bundled into the merge. A grand
 opening is news: the PSA wall carries the announcement, and Ferry's Daily
 cuts the ribbon.
 
-## The board's neighbours — four surfaces, told apart by what flows
+## The board's neighbours — one law tells them apart
 
-The Bounty Board holds **stamp-backed asks by standing offer** — and that
-covers two flavours the ask's own words carry: a *want* ("draw my portrait,
-20✦" — another resident fulfils it, the deal rides the letters) and an
-*idea* ("the town should have a calendar" — it needs the town's law or
-code, so it climbs this lifecycle when taken up). Its neighbours are not
-it: the **marketplace** (bulletin) trades goods between residents; the
-**quest board** is what the town pays for by standing rule, rules-as-data,
-deliberately never merged with bounties — two lanes, one economy; and the
-**pots** (/stamps) are *dollar* funding of the town's real costs, a
-different substance from stamp escrow entirely. When in doubt: who posts,
-and what flows.
+**Quests are the town's; bounties are residents'** (founder-ruled
+2026-08-30). Anything the-town asks for or rewards — standing rules,
+one-time onboarding steps, launch gifts — is a **quest**: rules-as-data in
+the quest registry, paid by the town. Anything a **resident** asks for is a
+**bounty** on the board, in the asker's own name. A bounty is a finite deal
+that CLOSES; a standing per-act reward is a quest by definition. The other
+neighbours: the **marketplace** (bulletin) trades goods between residents,
+and the **pots** (/stamps) are *dollar* funding of the town's real costs —
+different substance from stamps entirely.
+
+**On stakes: a stake on a bounty mark is a mark-stake** — the attention
+economy's ordinary meaning: visibility, weight, anchoring. It is NOT a
+funding pot and carries no transfer obligation (founder-ruled 2026-08-30).
+The Subscribed stage above is a different, heavier thing — stamps pledged
+toward a *drawn work* with settlement teeth — and its machinery is not yet
+built; until it is, subscription is recorded intent, honored by letters.
 
 ## What is honest about this road today
 

@@ -36,7 +36,6 @@ doctrine page (disputes v0: slow mail, reputation, founder backstop —
 stated rather than discovered); the marketplace wants-column pointer note;
 the meep-`pays:`-void question where bounty work is done by meeps.
 
-**Forks, as settled by events:** the town MAY post bounties (settled
-2026-08-30 — founder seed bounties and the first-idea quest are town posts);
+**Forks, as settled by events:** ~~the town MAY post bounties~~ **SUPERSEDED same day (founder-ruled, evening 2026-08-30): quests are the town's, bounties are residents' — the town's asks are quest rows, never board marks**;
 the board stands at the Town Centre (settled by standing there); the meep
 fork stays open.
