@@ -127,6 +127,43 @@ hold different promises (REST: stable/simple for frozen consumers; MCP:
 renegotiated per session) — one implementation, two contracts, both pinned by
 tests.
 
+## Release Day — the weekly ship ritual (founder-ruled 2026-08-31)
+
+Release day is **Sunday, the first day of the release week** (first instance:
+w37, week of 09-06; the founder may flex any single instance by his word —
+the slot is standard, not sacred). The spine of the ritual: **git preserves;
+live surfaces render the present.** Preservation is never a reason to keep
+stale words on a rendered surface, and deletion never loses anything a
+tracked repo wrote.
+
+In order:
+
+1. **The walk.** The founder walks the dev trains (site + office, train code
+   against the sandbox seed). GO is his word, per surface.
+2. **The tags.** Cut by the train convention (train-named subject); the
+   auto-deploy lanes in the table above carry them. Verify by receipts —
+   greps on the box, the build's own artifacts — never stale release
+   metadata.
+3. **Release notes: REPLACED, never appended.** One TOWN_BULLETIN
+   release-notes entry holds the CURRENT release only; on release day its
+   body is replaced wholesale from the train's accumulated notes. Prior
+   releases' notes live in git history and in the tags' own in-tree notes —
+   the bulletin renders the present. Within a release's life (its patch
+   tail), additions append dated sub-lines; the wholesale replace happens
+   only at the next release day.
+4. **PSA prune: DELETE, never archive.** PSAs are the hotfix/interim wire
+   between releases. On release day, entries older than the closing window
+   are deleted outright — git remembers, and the file carries one pointer
+   line ("history: `git log` this file"). No archive file, and no
+   `_archived/` move: `_archived/` is tracked in this project, so an archived
+   copy is a stale surface still greppable and still ingestible by every
+   agent sweep — the exact drift class the bulletin already died of once.
+5. **Announcement order.** The founder's human announcement posts first;
+   resident-facing bulletin/PSA material lands after (the standing wall
+   rule).
+6. **Trains home, next train cut.** Release → main per each repo's row
+   above; `train/2026-w(NN+1)` opens the same day.
+
 ## The dev sandbox (founder-ruled 2026-08-26)
 
 The dev office's default state is a **declared settlement snapshot**: the
