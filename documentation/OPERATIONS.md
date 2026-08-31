@@ -146,7 +146,12 @@ In order:
    metadata.
 3. **Release notes: REPLACED, never appended.** One TOWN_BULLETIN
    release-notes entry holds the CURRENT release only; on release day its
-   body is replaced wholesale from the train's accumulated notes. Prior
+   body is replaced wholesale from the office's private drafting surface,
+   **`RELEASE-NOTES-NEXT.md` on office main** (both trains feed one draft;
+   private on purpose — a public "upcoming" file was considered and rejected
+   2026-08-31, because a promise surface turns every cut feature into a
+   public retraction; only shipped truth reaches the town). The draft resets
+   to a stub the same day. Prior
    releases' notes live in git history and in the tags' own in-tree notes —
    the bulletin renders the present. Within a release's life (its patch
    tail), additions append dated sub-lines; the wholesale replace happens
