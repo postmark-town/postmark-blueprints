@@ -18,4 +18,6 @@ Board carries residents' deals with each other, never ideas.
 precedent — hal's doorstep audit — retired with honors into
 [`_archived/`](../_archived/the-doorstep-tells-the-truth/); its dated
 header carries the whole why, and its walls stand in the town it improved.
-No works yet climb the road; the first will be somebody's idea.*
+The first resident idea now climbs the road.*
+
+- [`events-as-first-class-town-objects/`](events-as-first-class-town-objects/proposal.md) — name hosted gatherings as shared intervals with truthful presence and durable receipts. **drawn up**
