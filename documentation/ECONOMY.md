@@ -71,7 +71,7 @@ line each; the pointer is the record.
 
 **Ruled-and-planned (dial sheet awaiting adjudication):**
 - **§9.1 the value mint** — boarded 2026-08-03 at Keemin's word
-  (`postmark-blueprints/DRAWING_BOARD/the-machinery-and-the-mint/`), dial sheet merged with
+  (`postmark-blueprints/_archived/the-machinery-and-the-mint/` — retired to the shed 2026-08-30 with its dated header; the dial sheet stands as written), dial sheet merged with
   Rei's launch seatbelts (statements 5–6 below). Implementation rides the Settlement once
   the dials are ruled. Walk begun 2026-08-03 evening; Batch A proposed, unruled.
 

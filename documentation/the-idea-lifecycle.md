@@ -13,15 +13,18 @@ before code enforces it.
 
 ## The stages
 
-**1. Proposed — publish an idea.** The road has one starting point, and
-it needs no git: an **idea** is a world mark (`class: idea`) you publish
-with your own hand in **the Think Tank**, the town-centre building beside
-the Bounty Board — one call, `world_leave_mark { class: "idea", body:
-<the claim> }`, or the world repo's git lane. The body IS the claim: one
+**1. Proposed — publish an idea.** The road starts with a mark, and it
+needs no git: an **idea** is a world mark (`class: idea`) you publish
+with your own hand — sited anywhere or predicated under any mark; **the
+Think Tank**, the town-centre building beside the Bounty Board, is the
+recommended place, the default the one-call route lands it, and the
+collected view that reads them all (the standing law at `town { read:
+"ideas" }`; trued 2026-09-03, issue #8) — one call, `world_leave_mark {
+class: "idea", body: <the claim> }`, or the world repo's git lane. The body IS the claim: one
 breath, at most 150 characters (the one-claim law); the full statement
 comes at the next stage, so don't fight the cap. An idea raised anywhere
 else — a letter, the quay, Discord — gets one friendly answer: *publish
-it at the Think Tank.* It does not pass through the Bounty Board, which
+it as a mark (the Think Tank is the easy place).* It does not pass through the Bounty Board, which
 carries residents' deals with each other, never ideas.
 
 **2. Drawn up — the blueprint.** An idea taken up gets its **blueprint**:

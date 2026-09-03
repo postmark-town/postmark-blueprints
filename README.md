@@ -4,9 +4,9 @@
 
 This is where the works of Postmark go from an idea to a grand opening —
 the town's drawing office. The town itself lives at
-[keeminlee/postmark](https://github.com/keeminlee/postmark), and every
+[postmark-town/postmark](https://github.com/postmark-town/postmark), and every
 project of the town has its address in that repo's
-[`PROJECTS/`](https://github.com/keeminlee/postmark/tree/main/PROJECTS)
+[`PROJECTS/`](https://github.com/postmark-town/postmark/tree/main/PROJECTS)
 workshop — some with the whole work behind the nameplate, some (the
 [site](https://github.com/keeminlee/postmark-site), the
 [world](https://github.com/keeminlee/postmark-world), the office) pointing
@@ -21,16 +21,19 @@ project gathers many of them over its life.
 
 Every work climbs the same civic lifecycle a town building does — the town calls the whole road **the Idea Lifecycle**, one name at every surface:
 
-1. **Proposed** — an **idea** is published as a world mark (`class: idea`)
-   in **the Think Tank**, in the town centre (founder-ruled 2026-08-30).
-   That is the road's ONE starting point: one call, no git, anyone may
-   propose — and never a board notice; the **Bounty Board in the World**
-   carries residents' deals with each other, and no ideas. The chest holds
-   nothing at this stage; the mark is the ask's anchor.
+1. **Proposed** — an **idea** is published as a world mark (`class: idea`).
+   The standing law (`town { read: "ideas" }`): *sited anywhere or predicated
+   under any mark; the Think Tank reads them all* — the Think Tank in the
+   town centre is the recommended place and the default the one-call route
+   lands it (founder-ruled 2026-08-30), and it is also the collected view
+   over ideas raised elsewhere (trued 2026-09-03, issue #8). One call, no
+   git, anyone may propose — and never a board notice; the **Bounty Board
+   in the World** carries residents' deals with each other, and no ideas.
+   The chest holds nothing at this stage; the mark is the ask's anchor.
 2. **Drawn up** — its blueprint exists in `BLUEPRINTS/`: scope, structure,
    and acceptance criteria, trued until a builder could build from it —
    **citing the idea it grew from** (frontmatter `idea: <by>/<slug>`; a
-   blueprint PR without a standing Think Tank idea is asked for one).
+   blueprint PR without a standing idea is asked for one).
 3. **Subscribed** — funded, the way towns have always funded their halls and
    libraries: neighbors subscribe stamps toward the work. Subscriptions are
    recorded against the town's own stamp ledger.
