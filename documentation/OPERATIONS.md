@@ -169,6 +169,19 @@ In order:
 6. **Trains home, next train cut.** Release → main per each repo's row
    above; `train/2026-w(NN+1)` opens the same day.
 
+**A train is a week's ship, named for the week it ships in** (ruled 2026-08-31; ruled
+again 2026-09-03 after the w37 train was merged and tagged on a Thursday of week 36 and
+a w38 was proposed — "I already said this before"). The release week starts Sunday and
+is numbered by its Monday's ISO week; the one open train is `w(current + 1)`; work that
+lands mid-week rides the open train; a prod ship cut off main mid-week is
+`release/2026-w(current).N`; a new train opens on release day, never before.
+**Enforced, not remembered:** `tools/train-week-check.mjs` (office + site, the same
+file) refuses a train or tag named for a week that has not begun — in both release
+workflows' tag-cut step and in the hand-carry recipes; the founder flexes a single
+instance by naming it in the check's table (w37, 2026-09-03: "37 is fine for now").
+Cutover (phase 6) is its own gate and its own day — 2026-09-08 by the founder's word —
+not a train.
+
 ## The dev sandbox (founder-ruled 2026-08-26)
 
 The dev office's default state is a **declared settlement snapshot**: the
