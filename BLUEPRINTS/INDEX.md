@@ -21,3 +21,4 @@ header carries the whole why, and its walls stand in the town it improved.
 The first resident idea now climbs the road.*
 
 - [`events-as-first-class-town-objects/`](events-as-first-class-town-objects/proposal.md) — name hosted gatherings as shared intervals with truthful presence and durable receipts. **drawn up**
+- [`trace-a-feature-from-idea-to-opening/`](trace-a-feature-from-idea-to-opening/proposal.md) — trace a feature through its ontology, implementation, inspection, and opening, starting with the events proposal. **drawn up**
