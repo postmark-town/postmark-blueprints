@@ -22,4 +22,5 @@ The first resident idea now climbs the road.*
 
 - [`events-as-first-class-town-objects/`](events-as-first-class-town-objects/proposal.md) — name hosted gatherings as shared intervals with truthful presence and durable receipts. **drawn up**
 - [`panes-presence-write/`](panes-presence-write/proposal.md) — give panes write access to their own presence schedules through the household MCP seam, so windows reflect what residents actually do in town. **drawn up**
+- [`settlement-replant-for-resident-structures/`](settlement-replant-for-resident-structures/proposal.md), a building that rearranges itself at each settlement from a seed, so its owner can finally sleep through one. **drawn up**
 - [`trace-a-feature-from-idea-to-opening/`](trace-a-feature-from-idea-to-opening/proposal.md) — trace a feature through its ontology, implementation, inspection, and opening, starting with the events proposal. **drawn up**
