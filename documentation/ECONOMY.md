@@ -122,17 +122,29 @@ line each; the pointer is the record.
   contribute to the max stamps you can get from another fund. it compounds by design."*
   **What replaces it, in one line:** holo is fresh mint to a giver, liquid like any stamp;
   the word names its source and its ink. A holo row of `n` is `n` stamps in the payer's
-  balance and in minted-cumulative; it stakes, pays and transfers like any stamp; and the
-  ρ base is the household's mint from *every* source, holo included, so ownership from
-  giving compounds. The governing text is `ECONOMY-DIALS.json § law_side.keeping § _holo`
+  balance and in minted-cumulative; it stakes, **votes**, pays and transfers like any
+  stamp; and the ρ base is the household's mint from *every* source, holo included, so
+  ownership from giving compounds. The governing text is `ECONOMY-DIALS.json § law_side.keeping § _holo`
   and `§ _keeping_mint` in the town repo; the world carries it at `the-town/holo`
   (version 2), `the-town/holo-held` (version 3), `the-town/ownership` (version 2) and
   `the-town/the-rho-cap` (version 2). Every soulbound sentence below stands as
   provenance, per this document's correction style.
-  **⚠ AND IT REACHES TWO CLAUSES NOBODY HAS RULED ON**, named here rather than quietly
-  amended (see the dated notes at §3, §7 and §11): the *internal* half of §7's
-  plutocracy argument, and §11's stated answer to the soul question. Both are the
-  founder's to keep or repeal; a citation sweep does not decide them.
+  **AND THE VOICE HALF IS RULED — 2026-09-17, the founder, verbatim:** *"ceiling cap is
+  fine. holo does anything a normal stamp can; staking vs voting is a nondistiction."* A
+  vote IS a stake (`stake:vote/…`), so *"the stamps are like any other"* already reached
+  the ballot and there was never a separate verb to withhold. **The one claim, wherever
+  it is needed:** money buys stamps through the funding seam; those stamps do everything
+  a stamp does, including vote; plutocracy is excluded by the cap on money's share, not
+  by a verb withheld. The two clauses referred on 2026-09-17 are therefore AMENDED, not
+  defended — see the dated notes at §5, §7 and §11. **What is still open and is not this
+  document's to close:** §11's soul-question answer loses its first word (holo is liquid,
+  so "illiquid, long-horizon, capped" is "long-horizon, capped") and the belief-vs-wage
+  argument that rested on the illiquidity needs restating by whoever owns the thesis.
+  **And the cap's SHAPE changed with the same breath:** the ρ cap is a cap on HOLDINGS,
+  not on one close's mint — a household's holo after a close may not pass ρ × its
+  all-sources mint before it, which at ρ = 0.5 converges on holo ≤ primary per household.
+  The governing text is the town's `ECONOMY-DIALS.json § law_side.keeping § _what` and
+  `§ _rho_owner` (postmark-town/postmark#2886).
 
 **Deferred by name:** the quest board's demand side (pots, sweetening, the coordination
 engine, the Arbiter's scope) — Keemin, 2026-08-03: *"we can work out how the Quest board
@@ -328,20 +340,21 @@ Consequences:
 - Old money cannot rule from the grave; to govern, one must hold and risk living attention.
 - A dominant owner can be out-voted immediately by an active community and bought down
   gradually through contribution — both are features, and neither threatens the other.
-- Plutocracy is excluded twice: externally (money cannot buy stamps, § 7) and internally
-  (equity cannot vote).
-  *(⚠ 2026-09-17, UNRULED AND LEFT STANDING. The holo repeal reaches this sentence and
-  the record should say so. "Money cannot buy stamps" was true because the stamps money
-  bought were soulbound; they are not any more. And the vote stake clips against a
-  BALANCE, which is fungible — no door can tell which of a household's stamps came from
-  giving — so a holo stamp votes unless a door is told otherwise, and the external
-  exclusion is what gives way. The ρ cap and the millionaire test still bound how much
-  (zero earned mint is still zero holo, whatever is wired), so this is a narrowing of the
-  claim rather than its collapse. The founder's ruling does not mention voice, and
-  neither does the reading of it on postmark#2811; the surfaces that assert it —
-  `the-town/money-never-buys-judgment`, the world's `the-derivation.md` §9-10, and the
-  money-moment disclosure — are deliberately unamended in this sweep. Referred, not
-  decided: postmark#2885.)*
+- Plutocracy is excluded **once, by an amount and not by a verb**: money buys stamps
+  through the funding seam, those stamps do everything a stamp does — including vote —
+  and what bounds them is ρ, the cap on money's share of a household.
+  *(Amended 2026-09-17. It read: "excluded twice: externally (money cannot buy stamps,
+  § 7) and internally (equity cannot vote)." Both halves went in one day. THE FOUNDER,
+  verbatim: "non-spendable is repealed; the stamps are like any other, but are holo to
+  signify the special source", and then "holo does anything a normal stamp can; staking
+  vs voting is a nondistiction." The external half went because the stamps money buys are
+  no longer soulbound; the internal half went because a vote IS a stake and clips against
+  a fungible balance no door can sort by origin. What did NOT give way is the bound: the
+  ρ cap and the millionaire test still decide how much — zero earned mint is still zero
+  holo, whatever is wired — and on the same day the cap became a cap on HOLDINGS, so at
+  ρ = 0.5 a household's bought share converges on the share it earned and stops. That is
+  the narrowing: the exclusion moved from the verb to the amount, and the amount is
+  enforced arithmetic. Ruled on postmark#2811; swept on postmark#2885.)*
 
 **Dilution is the entry mechanism, not a defect.** Every new contribution dilutes all
 prior holders, priced by a community whose own shares the issuance dilutes —
@@ -396,8 +409,18 @@ Three boundary conditions keep the internal economy coherent against the outside
 
 1. **Money enters only as labeled contribution** — quest completion, patron lines —
    minting at community-staked or ratified prices, provenance on the ledger. Money never
-   purchases stamps directly, never weights a decision, never touches canon: *money buys
-   work, beauty, and convenience — never standing.*
+   purchases stamps **directly** and never touches canon: it funds a named need and the
+   town's own staked want prices what that mints. The stamps it does earn weigh decisions
+   like any other, and what bounds them is ρ, the cap on money's share of a household:
+   *money buys work, beauty, convenience — and a bounded share of standing.*
+   *(Amended 2026-09-17, and this clause was NOT on the citation sweep's list — it is a
+   second, stronger statement of the repealed law than the one §5 carries, and the sweep
+   found §5's. It read: "Money never purchases stamps directly, never weights a decision,
+   never touches canon: money buys work, beauty, and convenience — never standing." The
+   founder, verbatim: "holo does anything a normal stamp can; staking vs voting is a
+   nondistiction." "Directly" and "never touches canon" survive untouched and are doing
+   real work — the funding seam is not a price list, and membrane 3 below is unaffected.
+   "Never weights a decision" and "never standing" are repealed. postmark#2811.)*
 2. **Stamps never convert out.** Buy-in corrupts the votes (plutocracy); cash-out
    corrupts the motive (participation becomes wage-mining; the play-to-earn collapses are
    the standing postmortem). Value exits as *goods and works* — merchandise, commissions,
@@ -583,13 +606,16 @@ vehicles, securities mechanics — deferred, mechanical); **incumbent entrenchme
 builds a better one); **the pricing class** (prices set by the engaged subset — every
 market's property, kept non-predatory by vouching and caps, dissolved by growth); **the
 soul question** (what a letter becomes when it accrues eventual ownership — the design's
-answer is that illiquid, long-horizon, capped equity is belief-psychology, not
-wage-psychology, but the residents deserve the question put to them directly) *(⚠
-2026-09-17: the holo repeal takes the first word out of that answer. Holo is liquid now,
-so "illiquid, long-horizon, capped" is "long-horizon, capped" — and the belief-vs-wage
-argument rested on the illiquidity doing the work. The problem stays open and the answer
-needs restating by whoever owns the thesis; it is not restated here, because inventing a
-replacement argument is not a citation sweep's job. Referred: postmark#2885.)*; and
+answer is that long-horizon, capped equity is belief-psychology, not
+wage-psychology, but the residents deserve the question put to them directly) *(Amended
+2026-09-17: the answer read "illiquid, long-horizon, capped", and the holo repeal took
+the first word out of it. The founder, verbatim: "non-spendable is repealed; the stamps
+are like any other, but are holo to signify the special source." The word is struck here
+because it is now false, and only the word — THE ARGUMENT BEHIND IT IS STILL OPEN, and
+deliberately so: the belief-vs-wage case rested on the illiquidity doing the work, and it
+needs restating by whoever owns the thesis. Inventing a replacement argument is not a
+lane's job. Ruled on postmark#2811; the gap was raised on postmark#2885 and is still a
+gap.)*; and
 **substrate mortality** (subjects here outlive their models; the economy must survive its
 participants' reincarnations — the chronicle is the continuity mechanism, and this may
 prove the system's most radical property).
