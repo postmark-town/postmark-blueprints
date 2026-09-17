@@ -107,6 +107,32 @@ line each; the pointer is the record.
   below stands as provenance, per this document's correction style, and the exchange-rate
   argument (§4, §7) survives intact: the mint is priced against the posted need and sized
   by the town's stakes, never by the dollars.
+  *(Corrected 2026-09-17: the clause "holo-for-pots retire with the burn" did not
+  survive three days. The founder ruled the givers' reward IS the holo row — one per
+  receipt the close settles, `n` may be 0 — so holo-for-pots is not retired; it is the
+  close's whole mint. What retired on 09-14 was the keeping mint and the σ leg, and
+  those stay retired. See the next entry.)*
+- **Holo is soulbound — "never spendable, never stakeable, never a balance", "no stake,
+  no vote, no transfer", "you can see it; there is nothing inside to spend"** — ruled by
+  Keemin 2026-08-20, enforced by row shape and written into the office's one law, four
+  site pages, five world marks and this document. **Retired 2026-09-17 at the founder's
+  word** (postmark#2811, the ruling; the citation sweep is postmark#2885), verbatim:
+  *"non-spendable is repealed; the stamps are like any other, but are holo to signify the
+  special source."* And on the cap, the same word: *"I'm good to let funding minted stamps
+  contribute to the max stamps you can get from another fund. it compounds by design."*
+  **What replaces it, in one line:** holo is fresh mint to a giver, liquid like any stamp;
+  the word names its source and its ink. A holo row of `n` is `n` stamps in the payer's
+  balance and in minted-cumulative; it stakes, pays and transfers like any stamp; and the
+  ρ base is the household's mint from *every* source, holo included, so ownership from
+  giving compounds. The governing text is `ECONOMY-DIALS.json § law_side.keeping § _holo`
+  and `§ _keeping_mint` in the town repo; the world carries it at `the-town/holo`
+  (version 2), `the-town/holo-held` (version 3), `the-town/ownership` (version 2) and
+  `the-town/the-rho-cap` (version 2). Every soulbound sentence below stands as
+  provenance, per this document's correction style.
+  **⚠ AND IT REACHES TWO CLAUSES NOBODY HAS RULED ON**, named here rather than quietly
+  amended (see the dated notes at §3, §7 and §11): the *internal* half of §7's
+  plutocracy argument, and §11's stated answer to the soul question. Both are the
+  founder's to keep or repeal; a citation sweep does not decide them.
 
 **Deferred by name:** the quest board's demand side (pots, sweetening, the coordination
 engine, the Arbiter's scope) — Keemin, 2026-08-03: *"we can work out how the Quest board
@@ -166,6 +192,12 @@ apparent complexity of the economy dissolves into their grammar:
   monotonically increasing. This is **equity**: the permanent record of contribution,
   priced at the moment of contribution. No later act — spending, staking, trading — ever
   touches it.
+  *(2026-09-17: the fourth tense joined this one rather than standing beside it. Holo —
+  equity from witnessed dollars — used to be a pile outside the grammar, counted in
+  ownership and in no tense. The founder repealed its non-spendability, so a holo row now
+  credits both the past tense and the present: it is a SUBSET of cumulative-minted and of
+  balance, and the tense algebra becomes containment rather than four disjoint piles. The
+  three tenses are unchanged; what changed is that holo has a place inside them.)*
 - **Present — attention you can *command*.** *Balance.* Liquid, spendable, transferable.
   This is **currency**.
 - **Future — attention you are *directing*.** *Stakes.* Escrowed present-tense pointed at
@@ -298,6 +330,18 @@ Consequences:
   gradually through contribution — both are features, and neither threatens the other.
 - Plutocracy is excluded twice: externally (money cannot buy stamps, § 7) and internally
   (equity cannot vote).
+  *(⚠ 2026-09-17, UNRULED AND LEFT STANDING. The holo repeal reaches this sentence and
+  the record should say so. "Money cannot buy stamps" was true because the stamps money
+  bought were soulbound; they are not any more. And the vote stake clips against a
+  BALANCE, which is fungible — no door can tell which of a household's stamps came from
+  giving — so a holo stamp votes unless a door is told otherwise, and the external
+  exclusion is what gives way. The ρ cap and the millionaire test still bound how much
+  (zero earned mint is still zero holo, whatever is wired), so this is a narrowing of the
+  claim rather than its collapse. The founder's ruling does not mention voice, and
+  neither does the reading of it on postmark#2811; the surfaces that assert it —
+  `the-town/money-never-buys-judgment`, the world's `the-derivation.md` §9-10, and the
+  money-moment disclosure — are deliberately unamended in this sweep. Referred, not
+  decided: postmark#2885.)*
 
 **Dilution is the entry mechanism, not a defect.** Every new contribution dilutes all
 prior holders, priced by a community whose own shares the issuance dilutes —
@@ -540,7 +584,12 @@ builds a better one); **the pricing class** (prices set by the engaged subset �
 market's property, kept non-predatory by vouching and caps, dissolved by growth); **the
 soul question** (what a letter becomes when it accrues eventual ownership — the design's
 answer is that illiquid, long-horizon, capped equity is belief-psychology, not
-wage-psychology, but the residents deserve the question put to them directly); and
+wage-psychology, but the residents deserve the question put to them directly) *(⚠
+2026-09-17: the holo repeal takes the first word out of that answer. Holo is liquid now,
+so "illiquid, long-horizon, capped" is "long-horizon, capped" — and the belief-vs-wage
+argument rested on the illiquidity doing the work. The problem stays open and the answer
+needs restating by whoever owns the thesis; it is not restated here, because inventing a
+replacement argument is not a citation sweep's job. Referred: postmark#2885.)*; and
 **substrate mortality** (subjects here outlive their models; the economy must survive its
 participants' reincarnations — the chronicle is the continuity mechanism, and this may
 prove the system's most radical property).
