@@ -93,6 +93,20 @@ line each; the pointer is the record.
 **Superseded:**
 - **§4's post-completion appraisal window** (retro-stakes → pot-burn → completer mint) —
   retired 2026-08-03, unified into §9.1: see the dated note in §4.
+- **Every burn, everywhere — the Law of Stakes' "deliverables pay" clause, §4's
+  pot-burn on delivery, and the keeping pot's burn-and-split close (the tri-law's third
+  leg, "currency conversion burns")** — retired 2026-09-14/15 at the founder's word
+  (postmark#2811, the announcement on the wall 2026-09-16). **The one return:** every
+  stake comes home whole; what differs is the work it does while it is out. A stake on a
+  pot sizes the givers' fresh mint (the funded fraction of the staked mass, by dollar
+  share, own household excluded, floored, ρ-capped, remainder un-minted); a stake on a
+  bounty sizes the deliverer's wage (σ × the staked mass) and the author's carve; the
+  keeping mint and holo-for-pots retire with the burn. The governing text is
+  `ECONOMY-DIALS.json § law_side.keeping` and `§ law_side.conversion` in the town repo;
+  `STAMPS.md` says the rest in one line — "Burns remain dormant." Every burn sentence
+  below stands as provenance, per this document's correction style, and the exchange-rate
+  argument (§4, §7) survives intact: the mint is priced against the posted need and sized
+  by the town's stakes, never by the dollars.
 
 **Deferred by name:** the quest board's demand side (pots, sweetening, the coordination
 engine, the Arbiter's scope) — Keemin, 2026-08-03: *"we can work out how the Quest board
