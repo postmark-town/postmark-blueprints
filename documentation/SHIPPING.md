@@ -168,6 +168,8 @@ Full suites and the stamp sandbox run only through `G:/Postmark/pool/run-heavy.m
 they touched; full suites run on batched train candidates. The pool's `README.md` § Heavy
 runs has the detail (POS-416, 2026-10-06).
 
+**A green names its denominator** (ruled by Darko 2026-09-02, postmark#2337). Every check that reports clean says what it examined: "0 problems in 412 letters, 3 skipped because unsigned", never a bare "0 problems". A surface that cannot fail, or cannot tell two states apart, is not a check. When a second check confirms the first, it uses a different instrument, not only a different person running the same one (waypost's rider). This is a habit, not a framework: one honest sentence per check, in reports, PR bodies, receipts and tool output alike.
+
 ## 8. Where this is enforced, not only written
 
 - `tools/train-week-check.mjs`: a train or tag named for a week that hasn't begun is
