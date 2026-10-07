@@ -173,9 +173,11 @@ runs has the detail (POS-416, 2026-10-06).
 - `tools/train-week-check.mjs`: a train or tag named for a week that hasn't begun is
   refused.
 - The site's `main` ruleset: a PR into site main needs Darko's review.
-- **Coming (2026-10-06, lane plumb-ship-guards):**
-  - the base guard: a PR into `main` must come from `train/*` or `hotfix/*`;
-  - "the train contains main": the ship PR fails if main has commits the train doesn't.
+- **`tools/ship-guard.mjs` + `.github/workflows/ship-guard.yml`** (office #398 on the w42 train; site #233; 2026-10-06), run on every pull request:
+  - **the base guard:** a PR into `main` fails unless it comes from `train/*` or `hotfix/*`;
+  - **the train contains main:** a train PR into `main` fails while main has commits the train doesn't.
+
+  A pull request's workflow runs from its merge ref, so the guard judges PRs into main once it is on main, which happens at the w42 ship. **It blocks nothing until it's a required check:** on each repo's `main` ruleset, Darko adds `ship-guard` as required, with "branches must be up to date". The office's `main` has no ruleset yet. Until then it's a red X to read, not a gate.
 
 *History: the deploy model was first written in `OPERATIONS.md § Deploys` (2026-08-26) and
 `§ Release Day` (2026-08-31); those sections now point here. Before this page, the same
