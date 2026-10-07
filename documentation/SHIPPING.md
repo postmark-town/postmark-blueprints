@@ -104,9 +104,9 @@ every refresh (`/srv/postmark-office/deploy/site-refresh.sh`, every 30 minutes a
   **A PR touching these paths is live within 30 minutes of merging to main.** That's
   another reason site PRs go to the train: there they reach dev, not prod.
 - **The world pin** (`postmark-world` in `package.json`) is a floor: the refresh installs
-  the keeper's newest `settlement/*` tag above it (`WORLD-PIN.md`). To hold the World
-  page at a settlement, change `HOLD_AT_SETTLEMENT` in `tools/lib/world-pin.mjs` in the PR
-  that needs it, never by a rebuild (2026-09-10: three release tags "rolled back" a World
+  the keeper's newest `settlement/*` tag above it (`WORLD-PIN.md`). There is no hold:
+  the `HOLD_AT_SETTLEMENT` cap was removed on 2026-09-10 (`WORLD-PIN.md`), so what the
+  World page shows changes only with the keeper's next blessing, never with a rebuild (2026-09-10: three release tags "rolled back" a World
   page, and none of them changed what prod showed, because the box follows the keeper's
   tags). A release tag alone doesn't change what the world shows; the
   receipt is `postmark.town/build.json` (`code_ref`, `world_sha`, `town_data_sha`) and
