@@ -102,22 +102,11 @@ Two furniture rules, boring on purpose (founders set; anyone maintains under the
 
 ## Deploys — the four-repo standing rules (founder-ruled 2026-08-26)
 
-One two-axis rule under all four repos: **code moves on trains; the record is
-never promoted — it is either alive (prod) or certified-frozen (dev).** Prod
-runs blessed code against the living record; dev runs train code against the
-sandbox seed.
-
-| Repo | How code reaches prod | Dev / rehearsal | Notes |
-|---|---|---|---|
-| **site** | feature → `train/2026-wNN` → dev.postmark.town (auto) → founder walk → train→main squash (subject names the train) → auto-tag (the release build is the proof) → the box publishes at its next :10/:40 tick, ≤30 min (one writer owns prod, 2026-08-30) | dev channel, auto on train push | the complete pipeline; the model |
-| **office** | feature → train → main (train-named subject) → `release-train.yml` cuts the tag **and deploys it** (rsync the tag's tree → restart → poll `GET /release` until it names that tag) | the dev office runs train code against the sandbox seed; `workflow_dispatch` → `target: dev` rehearses a tag there | auto-deploy landed POS-60 (`deploy/DEPLOY.md § The auto-deploy`); the record/machinery paths manifest is still open |
-| **town** | not deployed — it IS the data axis. Main is live by nature (witness/pen); "deploy" = the ferry's own crossings | its dev form is the `sandbox/seed` tag | machinery in `tools/` reaches rehearsal via the sandbox |
-| **world** | settlements ARE the pipeline (keeper blesses; suite-red publishes nothing); the site's world pin rides site releases | its dev form is the `sandbox/seed` tag | engine changes rehearse via the machinery overlay below |
-
-**The hotfix rule (the one sanctioned bypass):** hotfix = site-down,
-money-wrong, or actively-misleading surface. Discipline: suite green before
-deploy → deploy → same-hour backport to repo main → receipted commit → PSA
-when town-visible. Everything else rides the lane above.
+**Moved to [`SHIPPING.md`](SHIPPING.md) (2026-10-06)**, the one page for how code
+reaches prod: each repo's PR base, its route to live and its dev surface, who merges,
+hotfixes, and keeping the trains clean. The two-axis rule this section opened with still
+stands: **code moves on trains; the record is never promoted — it is either alive (prod)
+or certified-frozen (dev).**
 
 **Breaking-change rules (the window-panes lesson, 2026-08-26):** a public
 HTTP response **shape** is a contract (panes in the wild freeze it in carved
@@ -140,10 +129,9 @@ In order:
 
 1. **The walk.** The founder walks the dev trains (site + office, train code
    against the sandbox seed). GO is his word, per surface.
-2. **The tags.** Cut by the train convention (train-named subject); the
-   auto-deploy lanes in the table above carry them. Verify by receipts —
-   greps on the box, the build's own artifacts — never stale release
-   metadata.
+2. **The tags.** Cut and carried as [`SHIPPING.md`](SHIPPING.md) § 2–4 says.
+   Verify by receipts (greps on the box, the build's own artifacts), never stale
+   release metadata.
 3. **Release notes: REPLACED, never appended.** One TOWN_BULLETIN
    release-notes entry holds the CURRENT release only; on release day its
    body is replaced wholesale from the office's private drafting surface,
@@ -166,19 +154,11 @@ In order:
 5. **Announcement order.** The founder's human announcement posts first;
    resident-facing bulletin/PSA material lands after (the standing wall
    rule).
-6. **Trains home, next train cut.** Release → main per each repo's row
-   above; `train/2026-w(NN+1)` opens the same day.
+6. **Trains home, next train cut.** As [`SHIPPING.md`](SHIPPING.md) § 2 says
+   (office and site; the world and the town have no train).
 
-**A train is a week's ship, named for the week it ships in** (ruled 2026-08-31; ruled
-again 2026-09-03 after the w37 train was merged and tagged on a Thursday of week 36 and
-a w38 was proposed — "I already said this before"). The release week starts Sunday and
-is numbered by its Monday's ISO week; the one open train is `w(current + 1)`; work that
-lands mid-week rides the open train; a prod ship cut off main mid-week is
-`release/2026-w(current).N`; a new train opens on release day, never before.
-**Enforced, not remembered:** `tools/train-week-check.mjs` (office + site, the same
-file) refuses a train or tag named for a week that has not begun — in both release
-workflows' tag-cut step and in the hand-carry recipes; the founder flexes a single
-instance by naming it in the check's table (w37, 2026-09-03: "37 is fine for now").
+**A train is a week's ship, named for the week it ships in**: the rule, its rulings and
+its enforcement (`tools/train-week-check.mjs`) are in [`SHIPPING.md`](SHIPPING.md) § 2.
 Cutover (phase 6) is its own gate and its own day — 2026-09-08 by the founder's word —
 not a train.
 
