@@ -30,6 +30,10 @@ main for world and town. A PR into `main` on office or site is a hotfix and need
 go. *(The miss that wrote this line, 2026-10-06: five site PRs were opened against main
 after the w42 rollover because no brief named the base. Two merged and skipped dev.)*
 
+**A bad change on the train is reverted on the train, never routed around** (the 2026-08-25 order above: the trinity-rail era abandoned a poisoned train, features shortcut to main with hand-cut tags, and the staging truth died). Hand-cut tags and direct pushes to main are the named anti-pattern, except for a hotfix (§ 5).
+
+**How Wright merges:** pinned to the reviewed head (`gh pr merge --merge --match-head-commit <full sha>`), with CI green first. A standing red that fails the same way on PRs already merged is read and explained before merging past it, never merged over blind.
+
 **Merge, never squash, for trains and meeps.** The ship PR is a merge commit whose subject
 names the train ("Merge pull request #N from postmark-town/train/2026-wNN"). The release
 workflows read the train's name from that subject, and the merge keeps the train's
@@ -39,6 +43,7 @@ commits as ancestors of main, which is what lets the next week's merges stay cle
 
 - **Release day is Sunday, the first day of the release week** (ruled 2026-08-31). The
   week is numbered by its Monday's ISO week.
+- **A mid-week ship is named for the current week** (2026-09-08): shipping the open train mid-week is a "w37 continuation", tagged `release/2026-w37.N`, never "ship w38". The ship is named by the tag it cuts, not by the branch it came from.
 - **A train is named for the week it ships in.** The one open train is
   `w(current + 1)`. Work that lands mid-week rides the open train. A prod ship cut off
   main mid-week is `release/2026-w(current).N`. A new train opens on release day, never
@@ -68,8 +73,10 @@ commits as ancestors of main, which is what lets the next week's merges stay cle
   - `git archive <sha>`, stage it with a `release.json`;
   - `deploy/remote-deploy.sh preflight`, then
     `apply /srv/postmark-office-dev postmark-office-dev 4381 train/2026-wNN <sha>`.
-  - Dev's `GET /release` names the carried sha. Until a carry, dev's stamp may name an
-    older tag.
+  - Dev's `GET /release` (`ssh meepo-ec2 curl -s http://127.0.0.1:4381/release`) names
+    the carried sha. Until a carry, believe nothing on it: it can name an old tag with a
+    newer `started_at` when someone rsynced code by hand without a stamp.
+  - Dev's data is the sandbox's, not the train's (`OPERATIONS.md § The dev sandbox`).
 - **What the tag deploy doesn't do,** carried by hand from the tag's tree at the ship:
   - new or changed systemd units and their drop-ins;
   - the World ops scripts (`/srv/world2-lab/ops/`);
@@ -96,8 +103,12 @@ every refresh (`/srv/postmark-office/deploy/site-refresh.sh`, every 30 minutes a
 
   **A PR touching these paths is live within 30 minutes of merging to main.** That's
   another reason site PRs go to the train: there they reach dev, not prod.
-- **The world pin** (`postmark-world` in `package.json`) follows the keeper's newest
-  `settlement/*` tag. A release tag alone doesn't change what the world shows; the
+- **The world pin** (`postmark-world` in `package.json`) is a floor: the refresh installs
+  the keeper's newest `settlement/*` tag above it (`WORLD-PIN.md`). To hold the World
+  page at a settlement, change `HOLD_AT_SETTLEMENT` in `tools/lib/world-pin.mjs` in the PR
+  that needs it, never by a rebuild (2026-09-10: three release tags "rolled back" a World
+  page, and none of them changed what prod showed, because the box follows the keeper's
+  tags). A release tag alone doesn't change what the world shows; the
   receipt is `postmark.town/build.json` (`code_ref`, `world_sha`, `town_data_sha`) and
   `/srv/postmark-harbor/site-refresh.json`.
 
