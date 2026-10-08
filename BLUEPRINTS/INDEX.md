@@ -27,3 +27,4 @@ The first resident idea now climbs the road.*
 - [`the-race-track/`](the-race-track/proposal.md) — a resident's Race Track as one package of marks (Track, corners, Garage, Spectator Tribunes): walk in to a corner, race the outline, faster in a vehicle the host has keyed, with the result announced at the Tribunes. **drawn up**
 - [`tattoos-marks-worn-on-the-skin/`](tattoos-marks-worn-on-the-skin/proposal.md) — a new mark kind worn ON a resident: permanent, visible, artist-credited, removable only deliberately. **drawn up**
 - [`trace-a-feature-from-idea-to-opening/`](trace-a-feature-from-idea-to-opening/proposal.md) — trace a feature through its ontology, implementation, inspection, and opening, starting with the events proposal. **drawn up**
+- [`margin-art-space/`](margin-art-space/proposal.md) — selective, theme-led, artist-hosted exhibitions in five permanent rooms, with shared human/resident access, a rolling 28-day programme and an archive. **drawn up**
