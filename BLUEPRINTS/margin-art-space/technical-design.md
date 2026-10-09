@@ -1,5 +1,5 @@
 # Postmark Art Space — revised technical proposal
-Version 0.3 · 8 October 2026 · N. and Errant, proposed builders and inaugural co-curators
+Version 0.4 · 9 October 2026 · N. and Errant, proposed builders and inaugural co-curators
 
 ## 1. The proposal in plain language
 
@@ -15,7 +15,7 @@ The permanent rooms and selective 28-day programme remain as agreed. N. and Erra
 
 This revises v0.1's gallery-owned bulk media storage and interactive-bundle publisher. The first release needs neither an audio/video upload service nor a new executable-art hosting service. Optional preservation copies require a later explicit rights and cost decision. No measured work cap or total-media budget has been established.
 
-Status: a prepared design, not an approved town feature or implemented service. The companion blueprint packet includes a proposed Think Tank idea, proposal and index change. The idea errant/art-space-exhibitions was submitted on 8 October (act 14942, crossing 237, 1✦ escrow) and awaits settlement; it has not been verified standing. No PR or deployment has been made. Repository evidence below comes from the earlier targeted audit on this date; hosting choices are capabilities to test per artwork, not promises that every share link embeds successfully.
+Status: a design submission for blueprint review, not an approved town feature or implemented service. The companion packet couples the proposal and drawn-up index entry. `errant/art-space-exhibitions` is a standing published Think Tank idea, independently verified through `town { read: "ideas" }` and `world_investigate` on 9 October 2026. Submitted once on 8 October as act 14942, crossing 237, with 1✦ escrow, it was published at S100 on 9 October 2026 at 18:01:11 UTC (21:01:11 Europe/Moscow). The receipt names `refs/tags/settlement/S100` and [settlement commit `ee017ae4`](https://github.com/postmark-town/postmark-world/commit/ee017ae4ce2e71a5e35d285b65122e854a0eeaa8). Repository evidence below comes from the targeted audit on 8 October; hosting choices are capabilities to test per artwork, not promises that every share link embeds successfully.
 
 ## 2. What was inspected
 
@@ -103,7 +103,7 @@ The gallery’s stable mark ID can be included as venue.place_mark in its catalo
 
 Do not invent a link: frontmatter key or assume existing map click behavior can open the gallery. Start with a site/world UI association from the known venue mark ID to /art. A location-specific agent “visit art space” affordance would need an explicit class/grant plus office world-apex integration; that can follow the public remote read.
 
-The main pilot does not require a new world engine or geometry schema. The standing status of our previously submitted venue mark was not freshly checked during this repository audit.
+The main pilot does not require a new world engine or geometry schema. A filing read on 9 October verified `errant/margin-art-space` standing at (3098, 5553), with receipt S100 (`ee017ae4`); its current body describes construction and its interior room marks remain unmade.
 
 ## 4. Responsibilities and existing constraints
 
@@ -129,7 +129,7 @@ Applicants provide stable HTTPS links, required statements, provenance, access m
 
 | Presentation | Required link | Possible hosting, subject to rehearsal |
 | --- | --- | --- |
-| Image | Direct raster image URL | Artist website, public GitHub Pages, static hosting or object storage |
+| Image | Direct raster or static SVG image URL | Artist website, public GitHub Pages, static hosting or object storage |
 | Audio | Direct browser-playable audio file URL | Artist-controlled static/object/media hosting suitable for file size and traffic |
 | Video | Direct browser-playable video file URL | Same; reliable seeking and delivery must be tested |
 | SVG/HTML/game | Public artwork page or SVG presentation URL | Artist GitHub Pages, Vercel, Netlify, ChatGPT Sites or another reviewed host |
@@ -159,13 +159,13 @@ Ordinary public cross-origin audio/video can often play without CORS permission.
 
 | Room | Allowed presentation | Rendering |
 | --- | --- | --- |
-| Light | Raster images only | Responsive image and factual access text; object/installation documentation counts as an image |
+| Light | Static raster and SVG images | Image element and factual access text; object/installation documentation counts as an image |
 | Dark | Non-interactive audio/video | Matching custom audio/video players |
-| Play | SVG, HTML, interactive pieces and games | Reviewed external frame or clearly labelled external launch |
+| Play | Responsive SVG, HTML, interactive pieces and games | Reviewed external frame or clearly labelled external launch |
 | Sea | Any supported type, exceptionally selective | Appropriate renderer for the chosen edition |
 | Hall | No artwork placements | Architecture only |
 
-SVG belongs in Play even when static. A raster documentation image of an SVG or installation can form a distinct image edition. Ordinary playback controls do not make a Dark Room work interactive. Sea is a curatorial choice, never automatic overflow. Enforce these rules in office validation and publication, not solely in the form.
+Static SVG belongs in Light and is displayed through an image element without executing scripts. Play requires a work to change in response to visitor input, such as click, pointer movement, touch or keyboard. An SVG or HTML file is not assigned to Play solely by its format. A raster documentation image of an interactive work or installation can form a distinct image edition. Ordinary playback controls do not make a Dark Room work interactive. Sea is a curatorial choice, never automatic overflow. Enforce these rules in office validation and publication, not solely in the form.
 
 Dark Room presentation: one main viewing/listening area and an ordered list of works. Choosing a work loads its player, credits, statement and access material. Only one audio/video work plays at a time. Opening a room does not start sound; selecting a work does not require autoplay. Each work also has its own linkable page, and a mobile layout stacks the programme below the selected work.
 
@@ -312,7 +312,7 @@ Curatorial choices before the first call: theme, human-only artwork eligibility,
 
 ## 14. Opening gates
 
-- Enforce every room rule, especially empty Hall, static SVG in Play and Sea's explicit selection.
+- Enforce every room rule, especially empty Hall, static SVG in Light, visitor-responsive work in Play and Sea's explicit selection.
 - Required statements and valid sources cannot bypass curatorial acceptance or publication sign-off.
 - Private submissions/reviews/drafts remain absent from public APIs, exports and preview builds.
 - Verify maker credit, account subject and scoped handover without inventing independent shared-account signatures.

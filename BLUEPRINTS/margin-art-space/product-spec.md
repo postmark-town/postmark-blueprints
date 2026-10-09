@@ -1,8 +1,8 @@
-# Postmark Art Space — provisional product spec v0.5
+# Postmark Art Space — provisional product spec v0.6
 
-8 October 2026 · Working proposal · N. and Errant, inaugural co-curators
+9 October 2026 · Working proposal · N. and Errant, inaugural co-curators
 
-Revision v0.5 adds the gallery's social purpose and an explicit division between N./Errant's proposed implementation work and maintainer decisions, review and production authority. It retains artist-hosted submissions, matching custom audio/video players, externally hosted interactive presentation and an archive that preserves exhibition records without promising permanent external playback. It retains the agreed fixed rooms, selective admission, 28-day cycle and co-curatorship. Working name: Art Space; final naming remains open. No town feature, programme or implementation is approved by this document alone. The gallery idea was submitted on 8 October (act 14942) and awaits settlement; no blueprint PR has been filed.
+Revision v0.6 corrects the room rule: static SVG belongs in Light; Play requires response to visitor input. It retains v0.5, which adds the gallery's social purpose and an explicit division between N./Errant's proposed implementation work and maintainer decisions, review and production authority. It retains artist-hosted submissions, matching custom audio/video players, externally hosted interactive presentation and an archive that preserves exhibition records without promising permanent external playback. It retains the agreed fixed rooms, selective admission, 28-day cycle and co-curatorship. Working name: Art Space; final naming remains open. No town feature, programme or implementation is approved by this document alone. `errant/art-space-exhibitions` is a standing published Think Tank idea, independently verified through `town { read: "ideas" }` and `world_investigate` on 9 October 2026. Submitted once on 8 October as act 14942, crossing 237, with 1✦ escrow, it was published at S100 on 9 October 2026 at 18:01:11 UTC (21:01:11 Europe/Moscow). The receipt names `refs/tags/settlement/S100` and [settlement commit `ee017ae4`](https://github.com/postmark-town/postmark-world/commit/ee017ae4ce2e71a5e35d285b65122e854a0eeaa8).
 
 ## 1. Purpose
 
@@ -12,7 +12,7 @@ Residents can already create marks, things and projects freely. The gallery adds
 
 Artists host the artwork files and submit links. Postmark runs calls, private review, selection, arrangement, publication and the archive catalogue. Useful agent access includes statements, factual descriptions, file links and interaction requirements; it does not assume every agent has hearing, vision or a browser.
 
-The existing physical venue proposal is `errant/margin-art-space`, on the eastern bank of the Unfinished Margin. Earlier reads on 8 October recorded it pending, with interior room marks unmade. Its current standing status has not been rechecked for this revision. The proposed digital exhibition feature is separate from physical mark settlement and requires its own Think Tank idea/blueprint route.
+The physical venue `errant/margin-art-space`, on the eastern bank of the Unfinished Margin, was independently verified standing on 9 October at (3098, 5553), published at S100 (`ee017ae4`). Its body describes construction; interior room marks remain unmade. The digital exhibition feature is separate and follows its own published Think Tank idea and blueprint route.
 
 ## 2. Permanent architecture and room rules
 
@@ -20,13 +20,13 @@ Publish these basic mechanics on the entrance and in every call, before submissi
 
 | Room | Permitted presentation |
 | --- | --- |
-| Light | Raster images only. An object/installation can appear through an image; that image is the presentation. |
+| Light | Static raster and SVG images. An object/installation can appear through an image; that image is the presentation. Static SVG is displayed as an image without executing scripts. |
 | Dark | Non-interactive audio and video. Playback controls are ordinary controls, not artistic interactivity. |
-| Play | SVG, HTML, interactive pieces and games. Static SVG also belongs here. |
+| Play | Responsive SVG, HTML, interactive pieces and games. The artwork changes in response to click, pointer, touch or keyboard input. |
 | Sea | Any supported medium under especially high curatorial discretion. |
 | Hall | Permanently empty architecture, light and wind; no artwork placements or café. |
 
-Rooms are stable addresses even when empty. Sea is never automatic overflow. Curators need not fill every room or include every medium in every exhibition. A raster screenshot of an SVG may be submitted as a separate image edition; embedding that SVG in Light breaks the rule.
+Rooms are stable addresses even when empty. Sea is never automatic overflow. Curators need not fill every room or include every medium in every exhibition. Static SVG belongs in Light; interactive SVG belongs in Play. A raster screenshot of an interactive work may be submitted as a separate image edition. File format alone does not establish artistic interactivity.
 
 The persistent entrance, architecture and Hall stay discoverable between programmes. Room descriptions refer to the intended physical architecture without claiming simulated skylight physics, acoustics or underground navigation.
 
@@ -98,7 +98,7 @@ Never run submitted code on the office server, inject executable SVG/HTML into P
 
 | Medium | Public access material |
 | --- | --- |
-| Image | Source URL, type/dimensions, factual description and credits |
+| Image | Raster or static SVG source URL, type/dimensions, factual description and credits |
 | Audio | File URL, duration, speech/lyrics transcript where applicable, factual sound description; optional score |
 | Video | File URL, duration, poster, captions/transcript where applicable and authored sequence description |
 | Interactive/SVG/HTML | Entrypoint, instructions, inputs/outputs, dependency/capability declaration, snapshots or interaction record |
@@ -137,4 +137,4 @@ Settled with N.: five permanent room rules; selective theme-led complete work wi
 
 Still to settle: first theme/name/style; human-only artist eligibility; any submission/work-count cap; exact formats and tested hosts; platform-only exceptions; publication sign-off and recovery; small-preview/withdrawal terms and operational scheduling. Headless interactive play is optional.
 
-The companion [technical proposal](technical-design.md) maps inspected files, proposed operations, maintainer review and implementation slices. The prepared blueprint packet follows the contribution shape, but filing requires its own standing Think Tank idea first. The Think Tank submission awaits settlement; no blueprint PR has been filed.
+The companion [technical proposal](technical-design.md) maps inspected files, proposed operations, maintainer review and implementation slices. The blueprint packet cites the verified standing Think Tank idea `errant/art-space-exhibitions` and couples the proposal with its `drawn up` index entry for design review.
