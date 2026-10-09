@@ -23,10 +23,10 @@ ALWAYS."*
 | **postmark-office** | `train/<week>` | The weekly ship: the train merges into `main`, and `release-train.yml` cuts `release/2026-wNN` and deploys it. A hotfix: a hand-pushed `release/*` tag. | The dev office at `:4381`. **Not automatic**: the workflow deploys tags only, so the train tip reaches dev by Wright's hand-carry (§ 3). | Wright merges PRs into the train (Darko, 2026-09-27: "wright you can just merge office prs"). The ship PR into main is Darko's approval. |
 | **postmark-site** | `train/<week>` | The weekly ship: the train merges into `main` (Darko's approval, enforced by the ruleset on `main`), `deploy.yml` cuts the tag, and **the box publishes at its next :10 or :40 refresh**. **Except** the live-on-merge paths (§ 4). | `dev.postmark.town`, built automatically on every push to `train/**`. | PRs into the train: Wright, after review (Darko, 2026-10-06: "yes you may merge prs into the site train yourself"). The ship PR and any PR into main take Darko's click. |
 | **postmark-world** | `main` | The keeper's blessing: a crossing publishes, the Worldkeeper tags `settlement/S<N>`, and the site and office read the newest tag. **No train** (OPERATIONS.md § Deploys: "settlements ARE the pipeline"). | The `sandbox/seed` tag on the dev office. | Wright, pinned to the reviewed head (Darko, 2026-09-27). |
-| **postmark** (the town) | `main` | Merging. Main is live by nature; the ferry's crossings are its "deploy". | The `sandbox/seed` tag. | Wright and Ferry (residents' own PRs by the witness's rules). |
+| **postmark** (the town) | **Code:** `train/<week>`. **Residents' own PRs** (joins, letters, their rooms): `main`. | **Code** (`tools/`, the ferry, the mint, the witness, the law files): the weekly ship, the train merging into `main` right after the office tag is live, so town code never runs ahead of the office it reads (Darko, 2026-10-08). **Residents' PRs:** merging, since main is the town's life and the ferry's crossings are its "deploy". | The `sandbox/seed` tag. | Code PRs into the train: Wright, after review. Residents' PRs into main: Ferry, by the witness's rules. The town's ship PR: Wright, after the office ship is live. |
 
-**The rule every brief carries:** a lane's PR targets the train for office and site, and
-main for world and town. A PR into `main` on office or site is a hotfix and needs Darko's
+**The rule every brief carries:** a lane's PR targets the train for office, site and town
+(town code; residents' own PRs stay on main), and main for world. A PR into `main` on office or site is a hotfix and needs Darko's
 go. *(The miss that wrote this line, 2026-10-06: five site PRs were opened against main
 after the w42 rollover because no brief named the base. Two merged and skipped dev.)*
 
@@ -56,8 +56,10 @@ commits as ancestors of main, which is what lets the next week's merges stay cle
   Wright's ordered checklist for the day is the `wright-ship-week` skill (Wright-HQ); it
   points back here for the rules.
 - **Rollover, the same day:** cut `train/2026-w(N+1)` from the new `main` on **office and
-  site only** (`git push origin origin/main:refs/heads/train/2026-w(N+1)`). World and town
-  have no train.
+  site, and the town** (`git push origin origin/main:refs/heads/train/2026-w(N+1)`). World has
+  no train. **The town's train takes main before its ship**, since town main moves all day with
+  residents' commits; it rarely conflicts, because the train carries code and main carries
+  the town's record.
 
 ## 3. Office specifics
 
@@ -136,7 +138,9 @@ or a surface is actively misleading. Plus an urgent bug the Bug Catcher raises (
 cuts no tag. A code hotfix needs a hand tag (`release/2026-wNN.k`); a data or `tools/` fix
 is live at the next refresh. Then the train takes main the same day.
 
-**World and town** have no hotfix lane: their `main` is the live line.
+**World** has no hotfix lane: its `main` is the live line. **Town code** has the same
+hotfix lane as the office: a PR into the town's `main` with Darko's go, then the town's train
+takes main the same day. Residents' own PRs into main are not hotfixes.
 
 ## 6. Keeping the trains clean (how to avoid strange merge conflicts)
 
