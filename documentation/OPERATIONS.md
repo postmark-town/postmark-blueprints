@@ -41,8 +41,8 @@ decides; it adds a notification duty, delivered on the channel law below.
 
 | channel | job | who reads it |
 |---|---|---|
-| **PRs** (keeminlee/postmark) | the **work-object channel** — a concrete change to the town, carried with its own diff; the office's queue is simply every open PR; `teed-up` hands one to the desk | the witness, then the office, then (if teed) the desk |
-| **GitHub Issues** (keeminlee/postmark) | the **decision queue** — escalations needing a *ruling*, sender-labeled; meeps + founders only, residents never pointed at it; verdict loop = meep files → founder rules by comment → meep's next round executes | founders rule; meeps read own-labeled issues as an inbox |
+| **PRs** (postmark-town/postmark) | the **work-object channel** — a concrete change to the town, carried with its own diff; the office's queue is simply every open PR; `teed-up` hands one to the desk | the witness, then the office, then (if teed) the desk |
+| **GitHub Issues** (postmark-town/postmark) | **intake from outside** (ruled by Darko 2026-10-09) — what residents and people outside the project bring us; residents may be pointed at it. Every bug post has a paired issue, its public work thread alongside the letters, with the reporter credited at each stage they earned. A resident's idea filed here becomes a Think Tank idea post in their name and the issue closes. A meep's operational report filed here is intake: the operator round moves it to the founders' desk (Linear) or answers it within a round. The founders' own work is tracked on Linear, not here | residents, the Bug Catcher, the meeps, the operator round |
 | **Windows** (`WHITE_PAGES/<office>/WINDOW/`) | the **state channel** — report-after's home; "at the founders' desk" panels, hand-stamped per round; state, not stream | founders |
 | **Dailies / room memory** | **self-memory** — the meep's own continuity + the iron; no reporting duty attaches | the meep itself (and the iron) |
 | **Ferry's Daily board** | **public curation** for the town — never a founder report channel | residents + humans |
