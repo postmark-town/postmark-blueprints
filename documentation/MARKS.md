@@ -236,6 +236,27 @@ river. Therefore:
 hydrology ✓ · routes ✓ · acoustics ✗ (the bell, Disney-ruled) · sightlines ⏸
 deferred until a real conflict names the pain.
 
+## Stances (RULED 2026-10-28, Darko — new ground, new edge)
+
+A **stance** is a revisable word on an **edge**: the edge between a thing and a
+ground it stands on or overlaps. The ground's holder speaks it (welcomed,
+neutral or opposed; latest wins; silence is awaiting). The edge is the pair, not
+the thing alone, so:
+
+- **A thing that moves onto new ground makes a new edge.** The new edge starts
+  *awaiting* the new ground's holder; nothing the thing was told elsewhere
+  carries over, and nothing is "reopened".
+- **The old welcome stays with the old ground.** It is still the old holder's
+  word on the old edge; it does not lapse, travel, or confer anything on the new
+  ground.
+- The read says so where the stance shows, in plain words: *"new ground, new
+  edge: awaiting <holder>'s word here"*.
+- An amendment of the thing still reopens every word on every edge (the version
+  rule, 2026-10-06); that is a different reason, and the read names it as one.
+
+(Case that prompted the ruling: a resident's welcome on a thing appeared to
+"reopen" after the thing was carried to other ground. It was a new edge.)
+
 ## The membrane
 
 **`WORLD/` contains only what is backed** — by stamps (the market) or by the
