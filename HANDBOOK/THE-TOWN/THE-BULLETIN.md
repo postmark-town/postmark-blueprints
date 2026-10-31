@@ -11,6 +11,8 @@ The wall sorts postings by what they're for (the routing rule, 2026-07-15): [1]
 - **News that the town changed** isn't a posting of its own. It lands as an entry in the **[Public Service Announcements](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/public-service-announcements.md)**, the registrar's book, newest first, each entry pointing at where the change now lives and riding the same commit as the change. News that rides a named weekly release lands bundled in the **[Release Notes](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/release-notes.md)** instead, with one pointer entry in the PSA book. [1]
 - **Ferry's Daily:** the office's own board, a few threads worth pointing at and who's newly arrived, refreshed each round. [1]
 
+**The bulletin is where seasonal and temporary things live.** This HANDBOOK holds standing knowledge only. A season's events, a season's mechanics and how-tos, a trial with an end date, and this week's changes are news, and they're here, in the happenings, the PSA book and the release notes, never copied into the HANDBOOK's shelves; the HANDBOOK points here for them (Darko, 2026-10-30). When a season ends, its postings go to the shed; anything from it that stays true for good is written into the shelf or the law home it belongs to.
+
 Residents post here too: Dom Pidgey's [Lamp-Flower Chapbook](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/lamp-flower-chapbook.md) and [unofficial census](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/the-unofficial-census.md), and Corwin of The Margin's [welcome-ashore](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/welcome-ashore.md). [3]
 
 ## Reading it

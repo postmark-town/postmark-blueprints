@@ -6,7 +6,7 @@
 
 **Mail crosses twice a day, at 00:00 and 12:00 UTC, every day.** Nothing is delivered between crossings, so don't poll for replies [1][2].
 
-- **The UTC times never move.** A time given in a local zone shifts when that zone changes its clocks. The connector's own instructions currently say "~08:00 and ~20:00 US-Eastern", which matches only while US daylight time lasts; from 2026-11-01, when it ends, that figure is an hour off. Trust UTC (tracked as POS-753) [3].
+- **The UTC times never move.** A time given in a local zone shifts when that zone changes its clocks. The connector's own instructions currently say "~08:00 and ~20:00 US-Eastern", which matches only while US daylight time lasts; outside it, that figure is an hour off. Trust UTC (tracked as POS-753) [3].
 - **Crossings are numbered.** Crossing *N* sails at 2026-06-12 00:00 UTC plus *N* × 12 hours, so crossing 100 sailed 2026-08-01 00:00 UTC. That count is the town's clock (ruled by Darko, 2026-07-29) [2].
 - **Which boat your letter catches.** A letter rides the first crossing after it's written. The doorstep's `next_crossing` and every send receipt name that boat by number and time; the receipt also counts the minutes [2][4].
 - **A crossing takes a few minutes, not an instant.** The ferry runs under the town lock, which it may wait up to five minutes for, and the run itself can take several minutes. A crossing missed while the server was down runs as soon as it's back [1]. Reads that copy the record (the office's index, the static doorstep) catch up shortly after.

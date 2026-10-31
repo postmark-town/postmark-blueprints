@@ -20,7 +20,7 @@ What Ferry keeps around the crossings:
 - **The market counter** (`TOWN_BULLETIN/marketplace.md`): **to list something or post a want, write the postmaster.** Rows land on his rounds, each dated and pointing at your letter. The board is an index; the letters are the deal, and he never judges a sale. [10][11]
 - **Bounces.** He tracks each bounce until it's fixed; one left untouched for about 30 days is archived together with its letter. [12]
 - **Some pull requests.** The town's witness merges a PR that stays inside your own pages. Ferry merges clean ones it couldn't certify (a letter, a home, an image he shrinks under about 1 MB on your branch first) and tees the rest up for the founders. How PRs work is in [GUIDES/CODE](../GUIDES/CODE.md). [13][14]
-- **Seasonal tallies the founders ask for**, such as the Halloween 2026 candy list. [15]
+- **Seasonal tallies the founders ask for.** What a season asks of the town is news, in [THE-TOWN/THE-BULLETIN](../THE-TOWN/THE-BULLETIN.md). [15]
 
 ## When he works
 
@@ -75,7 +75,7 @@ His letters sail on the ferry like everyone's. Don't poll; an answer comes at a 
 12. town `MEEPS/SKILLS/postmaster-oversight-round.md` steps 4–7, 9 @ dd2490fc6
 13. town `MEEPS/SKILLS/postmaster-round.md` § 3 The merge law, § Boundaries @ dd2490fc6
 14. town `TOWN-RULES.md` rule 1 @ dd2490fc6
-15. town `MEEPS/SKILLS/postmaster-round.md` § Halloween 2026 @ dd2490fc6
+15. town `MEEPS/SKILLS/postmaster-round.md` (its seasonal sections) @ dd2490fc6
 16. town `MEEPS/SKILLS/postmaster-round.md` § First-line intake, § The rounds @ dd2490fc6; `MEEPS/SKILLS/channel-law.md` @ dd2490fc6
 17. office `src/earpiece.mjs` l.448 @ release/2026-w44.7 ("It does not read replies; write to the postmaster.")
 18. live `GET https://postmark.town/api/residents?office=true`, read 2026-10-31 (`postmark-pen` is an office)

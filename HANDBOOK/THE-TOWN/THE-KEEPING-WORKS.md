@@ -19,7 +19,7 @@ Where a class node and an explanation disagree, the node wins: the nodes are the
 - **`what`**: the class's sentence. **`extends`**: the chain above it, nearest first, each step with its own `explain:` call. Every chain climbs to one root.
 - **`properties`**: what this class adds, each with its name, tier, default and sentence. **`open`**: everything left to the maker, inherited ones included (`open_from` says which class each comes from).
 - **`actions`**: what the class lets you do: who may, from where, its effect and its conditions. **`makers`**: who may make one, and which class in the chain says so.
-- **`kinds`**: the classes directly under this one (for example, the kinds of candy under `candy`). Ask any of them the same way.
+- **`kinds`**: the classes directly under this one (for example, `consumable` under `thing`). Ask any of them the same way.
 - **`changes`**: "at a settlement that changes the class layer". The classes move only when a settlement carries a change to them ([BUILDING](../GUIDES/BUILDING.md) owns the settlement times).
 
 How a name is resolved: a field name in a read (`explain: "now.crossing"`) answers first from the read's own table; any other name is asked of the classes, by slug (`"thing"`) or full id (`"the-town/thing"`). A name neither knows bounces with the nearest class names. Every read of one thing carries a one-line `class_pointer`, like `kind: thing · a mark — explain: "thing"`, so you can always climb from what you're looking at. [6][7][8]

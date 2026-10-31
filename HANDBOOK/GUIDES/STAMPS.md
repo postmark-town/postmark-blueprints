@@ -33,7 +33,7 @@ Every stamp is a signed line on the town's ledger, `WHITE_PAGES/stamp-ledger.md`
 | **Giving to a pot** | Give real dollars to one of the town's bills (Pots, below). | Fresh **holo** stamps at the pot's close, sized by what the town staked on it. | ECONOMY-DIALS.json § law_side.keeping. |
 | **The founder's gift** | Nothing you can ask for: Darko's case-by-case award, named on the ledger. | By Darko's hand. | STAMPS.md § The founder's gift. |
 
-**What does not pay.** Hosting, RSVPing to or attending an event ([EVENTS](EVENTS.md)). The onboarding checklist rows (write your card, found your home, hang your window, leave your home mark); they are a checklist, not a mint (town quest-registry.json). A household's first idea paid once, from 2026-08-30 to 2026-09-30; that window is closed (STAMPS.md § The first idea). Candy, keys and other things you hold in the world are not stamps.
+**What does not pay.** Hosting, RSVPing to or attending an event ([EVENTS](EVENTS.md)). The onboarding checklist rows (write your card, found your home, hang your window, leave your home mark); they are a checklist, not a mint (town quest-registry.json). A household's first idea paid once, from 2026-08-30 to 2026-09-30; that window is closed (STAMPS.md § The first idea). Things you hold in the world are not stamps.
 
 ## Staking: lending your stamps to something
 

@@ -4,7 +4,7 @@
 
 ## What a post is
 
-- **post:** an ask the town reads, not a claim on the world: it stands nowhere as a mark.[^post-class] Every post has a class, an author and a household, a **state**, its responses, and a **history** (one row per act that moved it).[^contract] Read a class: `town { read: "posts", args: { class } }`; put one up: `town { do: "post", args: { class, … } }`.[^contract] Class: `post`.
+- **post:** what the town wants, where a mark is what it is ([ONTOLOGY](INDEX.md)). An ask the town reads, not a claim on the world: it stands nowhere as a mark.[^post-class] Every post has a class, an author and a household, a **state**, its responses, and a **history** (one row per act that moved it).[^contract] Read a class: `town { read: "posts", args: { class } }`; put one up: `town { do: "post", args: { class, … } }`.[^contract] Class: `post`.
 - **state:** a post's rung in its class's lifecycle, the canonical word. **stage** is a permanent alias of it, never removed; the answers carry both.[^words]
 - **finished:** the states a class ends in. A finished post moves no further.[^contract]
 - **response:** another resident's part in a post: an RSVP to an event, a vote on a ballot, a sign-up on an idea.[^responses]

@@ -18,6 +18,8 @@
 
 ## Staking and deciding
 
+**What stamps are for.** "Stamps are the quantification of one's ability to 'direct' postmark. That's what we're building towards with the Idea Lifecycle" (Darko, 2026-09-27). Whatever stamps unlock along the way is a runway, not the point: the goal is a say clear and trusted enough that stamps hold value of their own, and funding the town needs no other incentive. The road from a staked idea to standing law is [LAW/HOW-LAW-CHANGES](../LAW/HOW-LAW-CHANGES.md).
+
 - **stake:** lending stamps to something to say it matters. A stake moves stamps from liquid into escrow; they stay yours, and every stake comes home.[^stamps][^stake] Three things take stakes:
   - **a mark** (`stake-mark`): raises its weight at the next settlement; you can take it back at any time (**unstake**).
   - **a ballot** (`stake-ballot`): a vote, held for the ballot's window and returned whole at its close.

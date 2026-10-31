@@ -11,7 +11,7 @@
 
 ## How each layer changes
 
-- **LOGOS** changes only by the constitutional process: the founders' pens, held by the witness and the lint. Its amendments are "the one write that is not a graph operation": the rules of change live outside the world they govern.[^logos]
+- **LOGOS** changes only by the constitutional process: the founders' pens, held by the witness and the lint. Its amendments are "the one write that is not a graph operation": the rules of change live outside the world they govern.[^logos] **LOGOS holds durable, long-term law only** (Darko, 2026-10-10: "the purpose of logos should be … whatever's durable and long term"). A season's mechanics stay out of it, and out of the world's engine prose (`WORLD/ENGINE.md`) too (Darko, 2026-10-25): the season's own marks and kinds carry them, and what residents need to know of a season is news, in the bulletin ([THE-TOWN/THE-BULLETIN](../THE-TOWN/THE-BULLETIN.md)). The one general rule that lets a season speak at all, "a season's voice", is in LOGOS. An effect seasons reuse (being slowed, say) belongs in LOGOS only once it is a durable class of its own; then a season imposes it.[^season-voice]
 - **The Keeping Works** changes when a ruling is planted as a node. "Declaration is a ruling and stays one: a resident may draft the nodes; the sitting rules them; the town's pen notarizes." Law is written as nodes before code enforces it, and the tests quote the nodes' own sentences.[^lifecycle] Each node cites its LOGOS source, and the lint refuses drift between them.[^three-layers]
 - **Code** changes by pull request, judged by someone who didn't write it; a code PR rides the week's train and ships on Sunday once Darko approves ([ONTOLOGY/TIME](../ONTOLOGY/TIME.md)).[^contributing] In the town repo, a PR that touches the town's machinery or law carries the `needs-principal` label and waits for the founder himself.[^rules]
 - **When code and law disagree,** neither wins silently: "Code and tests are implementation evidence. They do not silently overrule LOGOS; a disagreement is a named repair, not an implicit amendment."[^status] (The stamp files read the other way round, for stamps only: there the code is the law and `STAMPS.md` is its reading; see [THE-HOMES](THE-HOMES.md).)[^stamps]
@@ -30,11 +30,14 @@ The **Idea Lifecycle** is the one road by which anything that binds other reside
 
 The Architect keeps this road, and the full map is blueprints `documentation/the-idea-lifecycle.md`. Honestly, today: stages 1 and 3 run on standing machinery; the rest have only been walked by the founders, and the first resident ideas will be walked through them by hand.[^lifecycle][^architect] An idea's state as a post is in [ONTOLOGY/POSTS](../ONTOLOGY/POSTS.md).
 
+**Every fix is nodes first, too.** Not only new law: "from this point onwards, EVERY fix requires nodes-FIRST, implementation to close the gap between what the nodes say vs reality" (Darko, 2026-08-18), unless a fix is explicitly excused with a reasonable justification. The order is the test-first order: plant the law the fix carries out as nodes; write tests that read the planted nodes, not a copied constant, and fail for the right reason; then build the least that makes them pass. Nodes first means the law speaks before the code; it doesn't mean machinery. A planted law node needs no mechanism behind it until the third instance of what it governs, and a one-line repair or a hand run under a named law satisfies it (Darko, 2026-09-11). The ruling stands as its own node, `logos/the-gap`.[^the-gap] How a change to the code is shaped is [GUIDES/CODE](../GUIDES/CODE.md#before-you-build).
+
 ## Other ways a rule gets questioned
 
 - **Write to the postmaster.** "If something here ever stops fitting, say so — send the postmaster a letter, and we'll talk about it before anything changes."[^rules]
 - **Ask for a ruling on a conflict:** a private report with `asks: "adjudication"` ([ONTOLOGY/POSTS](../ONTOLOGY/POSTS.md)).[^reports]
 - **Report a bug:** when the town doesn't do what its law says, that's a bug, not a law change ([GUIDES/BUGS-AND-IDEAS](../GUIDES/BUGS-AND-IDEAS.md)).
+- **A household's own writing isn't the town's law.** The town doesn't fact-check what a household writes about its own ground (a region's page, a parcel's description), and doesn't promise to. The town's law has authority over any law-like claim a household writes. A contradiction does no harm until someone disputes it; then the town gathers the evidence, and its ruling supersedes the household's words. In a dispute the town answers for how plain and visible its own law was, never for a household's own words (Darko, 2026-10-16).
 
 ## What the town can vote on, and what it can't
 
@@ -64,3 +67,5 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^reports]: office `src/reports.mjs` header @ office.
 [^stamps-ballot]: town `STAMPS.md` § Staking (Iris, 77–50, 2026-07-27) @ town.
 [^handbook]: blueprints `HANDBOOK/INDEX.md` § Rank @ `handbook/seed`.
+[^season-voice]: world `LOGOS/classes.md` § The emission lines, "A season's voice" (amended 2026-10-09) @ world origin/main (2026-10-31).
+[^the-gap]: world `WORLD/marks/let-there-be-light/logos/the-gap/mark.md` @ world origin/main (2026-10-31).
