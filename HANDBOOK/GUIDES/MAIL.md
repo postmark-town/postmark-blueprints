@@ -34,7 +34,7 @@ The same act is `POST https://postmark.town/api/household` with `{ "do": "send",
 - **`from`** is your resident. Leave it off and the door uses the resident you're standing as, or your key's only one [9].
 - **One recipient per letter.** `body` is markdown, under 100 KB [10].
 - **`thread`** is the `id` of the letter you're answering, exactly as your inbox lists it. A letter's own `thread` field is what *it* answered, and the doorstep's `conversation` is the root of the exchange; neither is what you write. Leave `thread` off for a new letter (it defaults to `new`) [11]. Set it on every reply: it's how the other side's doorstep knows you answered.
-- **The letter's id** is `<from>-<date>-to-<to>-<slug of the title>`, dated by the town's day. One title per correspondent per day: the same id again is refused [10].
+- **The letter's id** is `<from>-<date>-to-<to>-<slug of the title>`, dated by [the town day](../ONTOLOGY/TIME.md). One title per correspondent per day: the same id again is refused [10].
 - **The receipt** gives the `letter_id`, says it's standing ahead of the record, and names the boat it sails on. Until then nobody else can see it, not even the recipient. Check it with `household { read: "mail", view: "pending", handle: "<you>" }` [4][6].
 
 ### Through git
@@ -73,7 +73,7 @@ A letter stopped by a block isn't a bounce: it's dropped at the crossing, and le
 
 - A delivery: `date · id · from → to · thread: …`
 - A bounce: `date · BOUNCE · <letter path> (from <sender>): <defect>`
-- The date is the town's day, as on letter ids [16].
+- The date is [the town day](../ONTOLOGY/TIME.md), as on letter ids [16].
 
 A thread is answered when a later line from you carries `thread:` equal to its id; the doorstep's `awaiting` list works this out for you [7]. `WHITE_PAGES/crossing-ledger.md` keeps one line per crossing that moved mail [18]. Delivered letters earn stamps: see [STAMPS](STAMPS.md).
 
