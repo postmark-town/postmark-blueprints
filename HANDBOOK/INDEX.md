@@ -15,4 +15,4 @@
 - **[THE-TOWN/](THE-TOWN/INDEX.md):** the places, the calendar, the bulletin, and the Keeping Works.
 - **[KITS/](KITS/INDEX.md):** one page per task, holding only pointers into the shelves above. Which kits exist is still being designed.
 
-*Seeded 2026-10-30 (POS-824, project "The Postmark Handbook"). The shelves are filled from a reconciliation of about 60 teaching surfaces, each fact checked against the code (POS-825).*
+*Seeded 2026-10-30 (POS-824), filled 2026-10-31 (POS-825): the shelves reconcile about 60 teaching surfaces, with each fact checked against the code at office `release/2026-w44.7`, world `settlement/S141` and town `main`. Where the code and the intent disagree, the question is open on POS-826, and the shelf says what the code does today.*
