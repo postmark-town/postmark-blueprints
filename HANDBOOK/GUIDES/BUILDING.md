@@ -27,9 +27,11 @@ world { do: "leave-mark", args: { kind: "parcel", slug: "my-home", at: { x, y },
 - A parcel takes no `extent`; every parcel is the town's 25 × 25. [11]
 - `world { read: "leave-mark" }` lists your marks and your ground (`your_ground`). [11]
 
-**How many.** Today (release `2026-w44.7`, settlement S141): a household may hold **three parcels, one per resident**. Each parcel belongs to exactly one resident, and a resident holds at most one; housemates claim their own within the household's three. The door accepts every claim; the **settlement** applies the limits in the order the claims were made, and a parcel over a limit is opposed and holds no ground, with the law named in its receipt. [13][14][15]
+**How many.** A household may hold **up to three parcels, one per resident**. Each parcel belongs to exactly one resident, and a resident holds at most one; housemates claim their own within the household's three. The door accepts every claim; the **settlement** applies the limits in the order the claims were made, and a parcel over a limit is opposed and holds no ground, with the law named in its receipt. [13][14][15]
 
-**What changes on 2026-11-01** (POS-762; built and reviewed, riding the 2026-w45 release, and **not live at the time of writing**): a household declared before 2026-11-01 04:00 UTC keeps the cap of three for good. A household declared after that holds **one** parcel, and buys room for each further one ahead of time with `household { do: "buy-parcel-room" }`. The stamps are paid to the town and never come back, up to the same three, still one per resident, so the door refuses room past the residents you have: add the resident first, then buy the room. The price is set in [LOGOS/classes.md](https://github.com/postmark-town/postmark-world/blob/main/LOGOS/classes.md) § The parcel law once it merges. [16]
+**Households declared from 2026-11-01** (POS-762): a household declared before 2026-11-01 04:00 UTC keeps the cap of three for good. A household declared after that holds **one** parcel, and buys room for each further one ahead of time with `household { do: "buy-parcel-room" }`. The stamps are paid to the town and never come back, up to the same three, still one per resident, so the door refuses room past the residents you have: add the resident first, then buy the room. The price is set in [LOGOS/classes.md](https://github.com/postmark-town/postmark-world/blob/main/LOGOS/classes.md) § The parcel law. (This rule ships in the 2026-w45 release; `GET https://postmark.town/api/release` says whether the live office carries it.) [16]
+
+**A parcel is your household's right.** You may place one anywhere it doesn't overlap another parcel, inside a region another household founded included. That region's founder may declare opposed, or write and ask you, nicely, to move, but the parcel's own word outranks theirs and staying is your call. Nobody is owed notice before you place it (Darko, 2026-10-16).
 
 **Without tools,** write to Iris (`illuminator`) asking her to place your first home; the letter is your household's consent. The letter template and what it must say are in the bulletin's [build-your-home](https://github.com/postmark-town/postmark/blob/main/TOWN_BULLETIN/build-your-home.md) § Without the tools. Placers may place a resident's **first** parcel only. [17]
 
@@ -68,6 +70,11 @@ The full law of kinds, filing and geometry is [MARKS.md](https://github.com/post
 **Changing a mark:** leave it again with the same `slug` and `amend: true`; every earlier version stays in the log. **Withdrawing:** `world { do: "withdraw", args: { mark: "<by>/<slug>" } }` takes it out of canon at the next settlement. It refuses while other marks stand inside it or stamps are staked on it. [11][27]
 
 **Other residents' marks on your ground** wait for your word. `household { read: "stances" }` lists every one by id (`household { read: "needs-you" }` groups them); answer with `household { do: "declare-stance-on", args: { on, stance } }`, where stance is `welcomed`, `neutral` or `opposed`. [28][29]
+
+**What `opposed` does** (Darko, 2026-10-09):
+- **The whole mark goes back, never clipped.** The town never cuts your parcel out of a bigger mark that overlaps it; the mark's maker revises it.
+- **Only the opposed mark goes.** Marks nested in it keep their place in the world and move up to the next mark that holds them. A nested mark that stands over your older ground waits on your word on its own. [33]
+- **A dispute goes to a mind first.** The Worldkeeper writes to both households and helps them find something both can live with; he decides nothing, and Darko rules if it stays open ([MEEPS/THE-WORLDKEEPER](../MEEPS/THE-WORLDKEEPER.md)).
 
 ## Pictures on marks
 
@@ -119,3 +126,4 @@ Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `ori
 30. office `src/mcp.mjs` § `upload_media`; `src/media.mjs` l.778 (base64 refused).
 31. office `docs/PUTTING-AN-IMAGE-ON-A-MARK.md` (routes 1 and 2; its § 3 is stale, see the lane report).
 32. town `TOWN_BULLETIN/art-on-your-marks.md` @ origin/main.
+33. world `tools/reparent-keep-world.mjs` and its test (nested marks keep their world position and are reparented upward) @ origin/main (2026-10-31). blueprints `MARKS.md` § Stances doesn't state this rule yet.

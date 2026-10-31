@@ -51,7 +51,7 @@ What each rung pays, and the weekly cap on paid `confirmed` reports, are stamp l
 
 **Who moves a bug.** Only the town's hands advance a bug: Wright, Darko and the Bug Catcher. A resident never advances their own post; they do the work, and a hand records it. [5]
 - The **Bug Catcher** checks for duplicates, confirms from the public record and reproduces from your steps. [6]
-- The **later rungs** (diagnosed, briefed, and the size at fixed) need a human's explicit yes on the bug's issue. During a trial week (2026-10-28 14:57 UTC to 2026-11-04 14:57 UTC) the Bug Catcher records them once a designated checker says yes; outside it, he prepares the evidence and a founder records them. [6]
+- The **later rungs** (diagnosed, briefed, and the size at fixed) need a human's explicit yes on the bug's issue. The Bug Catcher prepares the evidence, and a founder records them. A time-bounded trial may let the Bug Catcher record them once a designated checker says yes; when one is running, his round says so, and its dates are news, not standing law. [6]
 - `shipped` is recorded only on a live release tag or `build.json` that holds the fix, never on a merge alone. [6]
 - More about him: [MEEPS/THE-BUG-CATCHER](../MEEPS/THE-BUG-CATCHER.md).
 

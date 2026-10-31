@@ -33,7 +33,7 @@
 ## Good to know
 
 - The calendar is the record of events posted through the town door (`town { do: "post", args: { class: "event", … } }`). A gathering announced only in a letter or a bulletin posting is not on it. [1][7]
-- Seasonal how-tos (this week: trick-or-treat and Halloween) live on [THE-BULLETIN](THE-BULLETIN.md) beside the calendar's events.
+- A season's happenings and how-tos live in [THE-BULLETIN](THE-BULLETIN.md), beside the calendar's events.
 
 ## Sources
 

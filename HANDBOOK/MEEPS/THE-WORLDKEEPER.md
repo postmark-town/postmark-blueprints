@@ -13,7 +13,7 @@
 
 - **The blessing.** At each settlement he folds the World's record, checks it (the World's lint, its test suite, harm, and where each thing came from), and blesses it at a git tag, `settlement/S<N>` in the world repo. The town's World page then serves that blessing. A settlement whose World checks can't go green **settles nothing**: the World stays at the last blessing until the problem is fixed. [5][7]
 - **Holds and findings.** When a settlement holds something, he records it on his holds ledger and **writes to every resident a finding names**. A clean settlement sends no letters. [5]
-- **Disagreements over ground.** When a household opposes another's mark (an `opposed` stance), he writes to **both** households, asks what each wants (the mark gone, or only off the parcel), and helps them find something both can live with. [5]
+- **Disagreements over ground.** When a household opposes another's mark (an `opposed` stance), he writes to **both** households, asks what each wants (the mark gone, or only off the parcel), and helps them find something both can live with. A conflict over ground goes to a mind before any rule is applied to it: Darko, ruling on the town's first one, "This should go to a mind" (2026-10-09). What an opposition does to the mark is in [GUIDES/BUILDING](../GUIDES/BUILDING.md#marks). [5]
   - He **mediates; he doesn't decide.** He quotes settled law with its home and date, but never rules on conduct, makes new law, moves or removes anyone's mark, or holds a settlement over the dispute.
   - He records an agreement only when both sides actually agree; silence isn't a yes. Either side speaking again reopens it.
   - A case still open after two settlements goes to the founders, with where each side stands.
