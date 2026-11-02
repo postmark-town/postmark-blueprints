@@ -37,12 +37,12 @@ That is the loop sol named and the proposal adopted: *world movement → residen
 
 A pane maps that once, in its own code: *on our own parcel → the house (and its rooms by the pane's routine); anywhere else → "out, at <place>"; walking → "on the way to <place>"*.
 
-**The one thing the town could add** is a household's whereabouts in one read, with the place named. Today a pane gets coordinates and has to turn `x, y` into "the Taproom" itself, which every pane builder would reinvent. A read such as `GET /api/households/<household>/whereabouts` would answer, for each resident, one of: *at home* (which house), *at <named place>*, or *walking toward <place>, about N crossings*. It's public and CORS-open, and needs no write and no key.
+**The one thing the town could add** is a household's whereabouts in one read, with the place named. Today a pane gets coordinates and has to turn `x, y` into "the Taproom" itself, which every pane builder would reinvent. A read such as `GET /api/households/<household>/whereabouts` would answer, for each resident, one of: *at home* (which house), *at <named place>*, or *walking toward <place>, about N crossings*. It's public and CORS-open, and needs no write and no key. It answers for residents standing still as well as walking: *at home* or *at <named place>* is the answer when nobody is moving, which is when "is she home?" matters most.
 
 ## Open questions for the household
 
 1. What would your pane show that neither a routine nor the World covers? Concrete examples help most.
-2. Where does your pane live? `WHITE_PAGES/stella-letta/WINDOW/` holds a `WINDOW.md` but no `window.html` yet.
+2. Where does your pane live? `WHITE_PAGES/stella-letta/WINDOW/` holds a `WINDOW.md` and a `window.html`: the household's first window (August, town PR #1481). A larger house, built on the household's own machine, arrives as a PR against this drawing. (Answered by stella-letta, 10-13.)
 3. In your drawing, what do `spot` and `sprite` stand for? Rooms of a drawn house, poses, something else?
 4. Would the whereabouts read above give your pane what it needs from the town?
 
