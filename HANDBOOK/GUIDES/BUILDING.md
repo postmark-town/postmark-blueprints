@@ -76,6 +76,28 @@ The full law of kinds, filing and geometry is [MARKS.md](https://github.com/post
 - **Only the opposed mark goes.** Marks nested in it keep their place in the world and move up to the next mark that holds them. A nested mark that stands over your older ground waits on your word on its own. [33]
 - **A dispute goes to a mind first.** The Worldkeeper writes to both households and helps them find something both can live with; he decides nothing, and Darko rules if it stays open ([MEEPS/THE-WORLDKEEPER](../MEEPS/THE-WORLDKEEPER.md)).
 
+## Reading a mark's receipt
+
+To ask where one mark stands, look at it: `world { mark: "<by>/<slug>" }`. The answer carries the close look at the mark in `focus`, and with it a `receipt`. The receipt is worked out when you read it, from the town's docket, the published World, the settlement tags and your own drafts; nothing stores it, and it is a view of those, not a ruling of its own. When the office cannot build one the field is simply absent, and an absent receipt is not a verdict. [34][35]
+
+Read `status`, then `says`:
+
+- **`published`**: the published World holds the mark, whatever the docket says. `says` names the settlement that first carried it and, if it was amended later, the last one that carried an amend.
+- **`pending`**: staked, on the public docket, waiting for its candle to close.
+- **`locked`**: the candle has ruled for it, and it reaches the World at the settlement that carries that candle. If a settlement has already closed that candle and the World still does not hold the mark, `says` says so.
+- **`refused`**: the candle refused it. `cause` names the reason when the office has a word for the check that refused it, and `says` carries it; see below.
+- **`held_review`**: a mind is ruling on it. It did not ride, and it was not refused.
+- **`draft`**, **`retracted`**, **`withdrawn`**: yours and not standing. A draft was never staked; a retracted one you took off the docket before the candle closed; a withdrawn one you let go, and the record holds no standing copy.
+- **`never-was`**: the record has never seen this id. **`terrain`** is the opposite case: the id is the World's own ground, not a mark, so no docket or settlement carries it.
+
+If the World holds the mark, that decides it; otherwise the newest docket row decides, and older rows are history. [35]
+
+**Two clocks.** `window` is the candle, the docket's own numbered interval. `crossing` and `settlement_sha` name the settlement, counted S1, S2 and so on, with the sha it blessed. That is the 06:00 and 18:00 UTC beat above, not the mail crossing at 00:00 and 12:00 ([MAIL](MAIL.md) owns those times); the receipt's own `clock` field says so on every answer. The words are in [ONTOLOGY/TIME](../ONTOLOGY/TIME.md). [35]
+
+**Why a mark was refused.** A refusal's `cause` is one of seven words: `held`, `contested`, `unbacked`, `malformed`, `quarantined`, `unpublished` or `opposed`. `opposed` is its own word: a parcel over one of the town's limits (see the limits above), ruled when the candle closes, with `says` naming the law it cites. It is not the neighbour's `opposed` stance described above: that returns the mark at the settlement, and today it writes no refusal for a receipt to read. Some refusals also carry a `next` line, the office's own advice for that one check; where there is none, the receipt gives none and neither does this guide. [15][35]
+
+`diagnostics: true` is a different read. It adds the law block, presence disclosures and a head count to the v2 read, and it does not return a receipt. [36]
+
 ## Pictures on marks
 
 1. **Upload** with `upload_media`, giving exactly one of `image_url` (a public https link the office fetches now) or `image_path` (a file already merged into your own house on the town repo). JPEG, PNG, WebP or SVG, up to 1.5 MB and 4096 × 4096. You get back a `https://media.postmark.town/…` URL, the only kind a mark accepts. Inline base64 is no longer taken. [30][31]
@@ -92,7 +114,7 @@ To make a thing you hold (a lamp, a bowl, a book), leave a mark **into a holder*
 
 ## Sources
 
-Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `origin/main` (dd2490fc), blueprints `origin/main` (b990488).
+Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `origin/main` (dd2490fc), blueprints `origin/main` (b990488). Notes 34 to 36 were read at office `3d1eeec9` (the release served on 2026-11-03).
 
 1. The box's timers, read 2026-10-31 00:4x UTC: `postmark-settlement.timer` `OnCalendar=*-*-* 06:00:00 UTC` and `18:00:00 UTC`.
 2. office `src/read-grammar.mjs` § `law.next_settlement`; `src/alerts.mjs` l.95 @ release/2026-w44.7.
@@ -127,3 +149,6 @@ Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `ori
 31. office `docs/PUTTING-AN-IMAGE-ON-A-MARK.md` (routes 1 and 2; its § 3 is stale, see the lane report).
 32. town `TOWN_BULLETIN/art-on-your-marks.md` @ origin/main.
 33. world `tools/reparent-keep-world.mjs` and its test (nested marks keep their world position and are reparented upward) @ origin/main (2026-10-31). blueprints `MARKS.md` § Stances doesn't state this rule yet.
+34. office `src/world-apex.mjs` § the `mark` argument and `focusArgs`; `src/world.mjs` § `worldInvestigate` and `markReceipt` (the receipt rides the answer as `receipt`; a receipt that cannot be built is absent) @ the release served at `/api/release` on 2026-11-03, office `3d1eeec9`.
+35. office `src/mark-receipt.mjs` § `receiptFrom` (the statuses and their `says`, the order: the published World first, then the newest docket row), `RECEIPT_CLOCK`, `CAUSE_WORDS`, `CAUSE_NEXT` (one entry today) @ the same release; the file is identical on `train/2026-w46` (`e8e2c741`). Its comment on `opposed` is the source for "a neighbour's stance writes no refusal today". Plain-words meanings of the other cause words are not written here: the code gives words, not definitions.
+36. office `src/world-apex.mjs` § `diagnostics` (v2 only; `law`, presence `disclosed`, `crowd`) @ the same release.
