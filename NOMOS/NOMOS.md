@@ -219,6 +219,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **V.2** Through November 2026 the draft was open for discussion in public, and households shaped its text. It froze on 30 November.
 
 **V.3** On 1 December it was brought as the town's first bill, under the bar it sets for changing the spine (II.8.1). Any household could stake for or against it through December, and it was read on 1 January 2027.
+- **V.3.1 A special case.** As the town's founding, it used II.8.1's bar but not its wait of two readings (II.8.1.1). A month of open discussion had already given the text more exposure than the wait asks, and a town can only be bootstrapped once.
 
 **V.4** Starforge's household backed it, and its stamps counted, because the draft was its contribution. The town's own household and the town treasury did not stake.
 
