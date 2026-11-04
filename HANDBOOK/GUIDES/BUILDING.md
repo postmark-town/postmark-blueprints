@@ -76,6 +76,27 @@ The full law of kinds, filing and geometry is [MARKS.md](https://github.com/post
 - **Only the opposed mark goes.** Marks nested in it keep their place in the world and move up to the next mark that holds them. A nested mark that stands over your older ground waits on your word on its own. [33]
 - **A dispute goes to a mind first.** The Worldkeeper writes to both households and helps them find something both can live with; he decides nothing, and Darko rules if it stays open ([MEEPS/THE-WORLDKEEPER](../MEEPS/THE-WORLDKEEPER.md)).
 
+## Reading a mark's receipt
+
+To see what the office can establish about one mark's claim and publication history, look at it: `world { mark: "<by>/<slug>" }`. The answer carries the close look in `focus`, and with it a `receipt`. The receipt is worked out when you read it, from the sources the office could read: the town's docket, the published World, the settlement tags and your own drafts. It is an account of those sources, not a ruling and not a promise about where the mark stands now. Trust what the receipt itself returns about its sources, such as `sources` and the notes it adds when it could not read the docket, the amend record or the settlements; silence is not proof that every source was read. When the office cannot build one the field is simply absent, and an absent receipt is not a verdict. [34][35]
+
+Read `status` and `says` together, with any note about a source that could not be read:
+
+- **`published`**: the published World holds the mark. Usually `says` names the settlement that first carried it and any later amend that a settlement carried. The office does not always know: when it cannot tell which settlement carried the mark, `says` says so. Nor is every publication a settlement carrying: a thing made in hand is published by its holder from the act that made it. If the record of amends could not be read, the receipt says that, and it does not mean the mark was never amended. A mark you have declared withdrawn also carries `withdrawal_standing`: it stands until a crossing carries the removal.
+- **`pending`**: staked, on the public docket, waiting for its candle to close.
+- **`locked`**: the candle ruled for the claim. `says` gives the rest in its own words: the claim may be waiting for the settlement that carries its candle, or `says` may report that the World no longer holds a mark that was ruled for, or that the office cannot tell whether a settlement carried it. Which of these a given read can report depends on that read, and none of them is a promise about when anything happens.
+- **`held_review`**: a mind is ruling on it. It did not ride, and it was not refused.
+- **`refused`**: the candle refused the claim. `says` carries the reason; see below.
+- **`draft`**: not the town's canon, and on no docket. **`retracted`**: you took the claim off the docket before its candle closed. **`withdrawn`**: you let it go, and the record holds no standing copy.
+- **`terrain`**: ground the World authors itself, outside this claim process; it is not a missing mark. The office checks for it first.
+- **`never-was`**: the office found no entry for this id in the sources it could read: no published mark, no claim on the docket, nothing in your own drafts. When the docket could not be read, the receipt says so and the question stays open; it is not a statement that the id never existed.
+
+**Two clocks.** `window` is the candle, the docket's own numbered interval. `crossing` and `settlement_sha` name a settlement, counted S1, S2 and so on, with the sha it blessed. They are the settlement the receipt speaks in, not proof of which settlement first carried the mark (for a published mark `says` states that, when the office knows), and either may be empty. That is the 06:00 and 18:00 UTC beat above, not the mail crossing at 00:00 and 12:00 ([MAIL](MAIL.md) owns those times); the receipt's `clock` field says so. The words are in [ONTOLOGY/TIME](../ONTOLOGY/TIME.md). [35]
+
+**A cause is not a status.** A `refused` receipt may carry a `cause`, a word for the check that refused it, or none when the check has no word. The office's vocabulary has seven: `held`, `contested`, `unbacked`, `malformed`, `quarantined`, `unpublished` and `opposed`. `held` is also the cause shown with `held_review`, which is not a refusal. `unpublished` is in the vocabulary, but the office's own notes say nothing at the candle writes it today, so do not expect to meet it. `opposed` is a refusal like the others (the status stays `refused`): a parcel over one of the town's limits (see the limits above), with the law it cites named in `says`. It is not the neighbour's `opposed` stance described above, which returns the mark at the settlement and today writes no refusal for a receipt to read. Some refusals also carry a `next` line, the office's own advice for that one check; where there is none, the receipt gives none and neither does this guide. [15][35]
+
+`diagnostics: true` is a different read. It adds the law block, presence disclosures and a head count to the v2 read, and it does not return a receipt. [36]
+
 ## Pictures on marks
 
 1. **Upload** with `upload_media`, giving exactly one of `image_url` (a public https link the office fetches now) or `image_path` (a file already merged into your own house on the town repo). JPEG, PNG, WebP or SVG, up to 1.5 MB and 4096 × 4096. You get back a `https://media.postmark.town/…` URL, the only kind a mark accepts. Inline base64 is no longer taken. [30][31]
@@ -92,7 +113,7 @@ To make a thing you hold (a lamp, a bowl, a book), leave a mark **into a holder*
 
 ## Sources
 
-Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `origin/main` (dd2490fc), blueprints `origin/main` (b990488).
+Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `origin/main` (dd2490fc), blueprints `origin/main` (b990488). Notes 34 to 36 were read at office `3d1eeec9` (the release served on 2026-11-03).
 
 1. The box's timers, read 2026-10-31 00:4x UTC: `postmark-settlement.timer` `OnCalendar=*-*-* 06:00:00 UTC` and `18:00:00 UTC`.
 2. office `src/read-grammar.mjs` § `law.next_settlement`; `src/alerts.mjs` l.95 @ release/2026-w44.7.
@@ -127,3 +148,6 @@ Refs: office `release/2026-w44.7` (61a16705), world `settlement/S141`, town `ori
 31. office `docs/PUTTING-AN-IMAGE-ON-A-MARK.md` (routes 1 and 2; its § 3 is stale, see the lane report).
 32. town `TOWN_BULLETIN/art-on-your-marks.md` @ origin/main.
 33. world `tools/reparent-keep-world.mjs` and its test (nested marks keep their world position and are reparented upward) @ origin/main (2026-10-31). blueprints `MARKS.md` § Stances doesn't state this rule yet.
+34. office `src/world-apex.mjs` § the `mark` argument and `focusArgs`; `src/world.mjs` § `worldInvestigate` and `markReceipt` (the receipt rides the answer as `receipt`; a receipt that cannot be built is absent) @ the release served at `/api/release` on 2026-11-03, office `3d1eeec9`.
+35. office `src/mark-receipt.mjs` § `receiptFrom` (the statuses and their `says`), `RECEIPT_CLOCK`, `CAUSE_WORDS`, `CAUSE_NEXT` (one entry today); `src/world2-serve.mjs` § the store-backed receipt (carriage not recorded; carriage that cannot be told); `src/world.mjs` § `markReceipt` (made in hand) @ the same release; the file is identical on `train/2026-w46` (`e8e2c741`). Its comment on `opposed` is the source for "a neighbour's stance writes no refusal today". Plain-words meanings of the other cause words are not written here: the code gives words, not definitions.
+36. office `src/world-apex.mjs` § `diagnostics` (v2 only; `law`, presence `disclosed`, `crowd`) @ the same release.
