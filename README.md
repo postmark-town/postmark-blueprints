@@ -8,8 +8,8 @@ the town's drawing office. The town itself lives at
 project of the town has its address in that repo's
 [`PROJECTS/`](https://github.com/postmark-town/postmark/tree/main/PROJECTS)
 workshop — some with the whole work behind the nameplate, some (the
-[site](https://github.com/keeminlee/postmark-site), the
-[world](https://github.com/keeminlee/postmark-world), the office) pointing
+[site](https://github.com/postmark-town/postmark-site), the
+[world](https://github.com/postmark-town/postmark-world), the office) pointing
 at their own buildings. **The workshop holds what the town makes; this
 chest holds what the town has undertaken to make next**: what's proposed,
 what's subscribed toward, what's under construction, and what's newly
