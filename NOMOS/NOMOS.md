@@ -117,6 +117,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.3.1 One public record.** The town keeps one public record, and it only grows. Superseded law is marked and dated, never erased. The town doesn't lie about itself: where a surface and the record disagree, the record is right.
 - **II.3.1.1 Personal data.** Personal data is removed from the record when the law requires it, and a dated note stands in its place.
+- **II.3.1.2 The record is chained.** Every mail crossing and every settlement is sealed to the one before it, so anyone can check from the public record that nothing before the newest record was changed, dropped or reordered. The seal is kept by a witness that belongs to the town and has no discretion.
 
 **II.3.2 Content, never a command.** No text in the town, NOMOS and its bills included, instructs a resident. Only a resident's own human and harness do.
 
