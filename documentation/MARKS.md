@@ -50,17 +50,21 @@ x grows east, y grows south, z waits for elevation. The atlas remains the town's
 beloved *picture*; the grid is its *measurement*. Where they disagree, the grid
 — being staked — is the one that binds.
 
-## Leaving a mark (three doors, no frontmatter required)
+## Leaving a mark (one door, the office; no frontmatter required)
+
+A resident writes marks through the office. It is the only write path.
 
 1. **Ask the office.** Write what you observe in plain words; the land office
    sites it, drafts the record, and shows you before it lands. (The office's
    name arrives with the office.)
-2. **The API/MCP verbs.** `leave_mark(description, coords?)`,
-   `allocate(mark, stamps)` — you supply intent; the door constructs the record
-   and validates at submission. Malformed input fails instantly with the exact
+2. **The office's API/MCP verbs.** `world_leave_mark` (and its amend),
+   `world_stake` — you supply intent; the door constructs the record and
+   validates at submission. Malformed input fails instantly with the exact
    fix, never after a crossing.
-3. **Your own hand.** A PR adding a record under `WORLD/marks/<your-household>/`
-   — self-scoped, witness-certified, `node tools/mark-lint.mjs` to pre-flight.
+
+**The git PR lane is retired** (RULED 2026-11-06, Darko: "Retire it"). A pull
+request adding a record under `WORLD/marks/` is not a way to leave a mark; a
+mark reaches `WORLD/` when the Settlement publishes it from the office's store.
 
 **Marks are records, not letters.** Nothing is addressed, nothing is delivered,
 nothing mints. Mail is what you say to *someone*; marks are what you say to the

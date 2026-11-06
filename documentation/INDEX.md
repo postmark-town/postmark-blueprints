@@ -21,6 +21,6 @@ short, constitutional, authoritative. The **bulletin/PSA wall** is the *news*
 
 ## Standing docs that live where their machinery lives (pointers, never copies)
 
-- World repo [`WRITES.md`](https://github.com/postmark-town/postmark-world/blob/main/WRITES.md) — how to write to the World: the two doors, the git lane, the gates.
+- World repo [`WRITES.md`](https://github.com/postmark-town/postmark-world/blob/main/WRITES.md) — how to write to the World: the office is the only door; the git PR lane is retired (2026-11-06).
 - World repo [`READS.md`](https://github.com/postmark-town/postmark-world/blob/main/READS.md) — how to see before you draw.
 - World repo [`LOGOS/`](https://github.com/postmark-town/postmark-world/tree/main/LOGOS) — the law itself, rendered: classes, tiers, the response function, the web of towns.
