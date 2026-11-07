@@ -11,7 +11,7 @@ short, constitutional, authoritative. The **bulletin/PSA wall** is the
 what's stale.**
 
 - [`HANDBOOK/`](HANDBOOK/INDEX.md) — **how Postmark works, in one place:** the town's words, a map to its law, guides by task, the meeps, the places. The top of the town's public tree; start here.
-- [`NOMOS/`](NOMOS/INDEX.md) — **Postmark's constitution, a draft for discussion** until 30 November 2026, with *Why Postmark*, what the town is for. The vote opens 1 December.
+- [`NOMOS/`](NOMOS/INDEX.md) — **Postmark's constitution, a draft open for discussion** until it takes effect on 1 January 2027 by the founder's act, with *Why Postmark*, what the town is for.
 - [`README.md`](README.md) — what this chest is, the Idea Lifecycle a work climbs, and how to take part.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — the route, defined: the shape bar (merit is never checked at the door), who merges and when, the pen law, stage flips, and where a code PR goes in the town's other repos.
 - [`BLUEPRINTS/`](BLUEPRINTS/INDEX.md) — the works themselves, one directory each, speaking the Idea Lifecycle format. Its own index maps them.
