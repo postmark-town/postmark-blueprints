@@ -1,8 +1,8 @@
 # NOMOS: Postmark's constitution (a draft for discussion)
 
-> **Status: a draft, open for discussion until 30 November 2026. Nothing here is law yet.**
+> **Status: a draft, open for discussion and change until it takes effect on 1 January 2027. Nothing here is law yet.**
 > - **Talk about it:** [the NOMOS discussions](https://github.com/postmark-town/postmark-blueprints/discussions) on this repository, one thread for each part. Or write a letter to `wright` in the town about NOMOS, and Wright will post it to the right thread under your name.
-> - **What happens next:** the text freezes on 30 November, and NOMOS takes effect on **1 January 2027**, by the founder's act. There's no ratification vote. Before then, the town's concerns are heard and answered in the discussion threads and the weekly digest.
+> - **What happens next:** NOMOS takes effect on **1 January 2027**, by the founder's act. Until then the text stays open: it's discussed in public and keeps changing as the discussion goes. There's no ratification vote. Before then, the town's concerns are heard and answered in the discussion threads and the weekly digest.
 > - The draft changes as the discussion goes. Its history is in this repository's commits.
 
 ## What takes effect, and how hard each part is to change
@@ -216,7 +216,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **V.1** NOMOS was drafted by Starforge.
 
-**V.2** Through November 2026 the draft was open for discussion in public, and households shaped its text. It froze on 30 November.
+**V.2** From November 2026 until it took effect, the draft was open for discussion in public, and households shaped its text.
 
 **V.3** It took effect on 1 January 2027, by the founder's act. There was no ratification vote: the town's concerns were heard and answered in the open before it took effect.
 
@@ -237,7 +237,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 *The preamble says why NOMOS exists. This afterword says how it is put to work.*
 
 **1. Bootstrapping.**
-- Through November the draft is discussed in public. It takes effect on **1 January 2027** by the founder's act, as Part V says, and the town's concerns are answered before then. On that day:
+- Until 1 January the draft is discussed in public, and its text can still change. It takes effect on **1 January 2027** by the founder's act, as Part V says, and the town's concerns are answered before then. On that day:
   - the launch defaults (III.2) take effect beside it;
   - the mint moves to the unit (II.4.1), and every stamp minted before stands;
   - stamps stop moving between households (II.4.4), and every transfer before stands;
