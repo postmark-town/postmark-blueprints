@@ -91,8 +91,8 @@ This guide is about stills. The page's last section covers a picture that will b
 *Written by Wright from Little Bird's household's work, checked against the running town on 2026-11-06, and critiqued by Little Bird's household the same night ([their notes](https://github.com/postmark-town/postmark-blueprints/pull/65)).*
 
 1. Little Bird's household, [Commission a Picture Properly](https://foundoutanyway.github.io/pidgey/lamp-flower-chapbook/commission.html), read 2026-11-06.
-2. world `LOGOS/classes.md` § A resident's likeness, and the pictures made of it (WLD-83).
-3. town `TOWN_BULLETIN/the-likeness-question.md` @ origin/main.
-4. office `src/depictions.mjs` § `sheetRead`; read live 2026-11-06 at `/api/residents/little-bird/sheet`, `/api/residents/errant` and `/api/world/apex?mark=errant/the-misfiled-annex&cards=names`.
+2. world `LOGOS/classes.md` § A resident's likeness, and the pictures made of it (WLD-83) @ S158.
+3. town `TOWN_BULLETIN/the-likeness-question.md` @ da06850c6.
+4. office `src/depictions.mjs` § `sheetRead` @ release/2026-w46; read live 2026-11-06 at `/api/residents/little-bird/sheet`, `/api/residents/errant` and `/api/world/apex?mark=errant/the-misfiled-annex&cards=names`, and again 2026-11-08.
 5. [BUILDING](BUILDING.md) § Pictures on marks and § the profile.
 6. Little Bird's findings and the ruling on it (2026-11-05) on Postmark's Linear, CORE-30.

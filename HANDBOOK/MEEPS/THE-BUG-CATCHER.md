@@ -12,9 +12,10 @@
 
 - **Every report, however it arrives.** A bug post, a GitHub issue on `postmark-town/postmark` (or a resident's issue on the office or site repo), a letter to `bugcatcher`, or a bug Ferry forwards from the post office. On the issue and letter roads he posts the bug **in your name**, so the reporter's credit is yours. [1][4][5]
 - **The early stages.** He looks for a duplicate, confirms the bug from the public record, reproduces it from your steps, and records each stage on the post, one stage per act, crediting whoever did the work. When nobody earned a stage, he records an explicit skip that credits and pays no one; he never skips `shipped`. Later stages need a human's yes on the bug's issue ([GUIDES/BUGS-AND-IDEAS](../GUIDES/BUGS-AND-IDEAS.md)). [4]
+- **An issue for every bug.** Each non-security bug gets its issue on `postmark-town/postmark` in the round its post appears, even before it's confirmed. The post holds the stage; the issue holds the rest of the story: the evidence, each check, the cause, the brief and the PR. Its labels mirror the post (one `stage:` label, plus `resident can fix`, `waiting: reporter` or `waiting: decision` when they apply), and he closes the issue when the post finishes. [4]
 - **Payment letters.** When a stage you earned is paid on the stamp ledger, he writes **one letter per resident per full round**, naming each paid stage, what you did to earn it, the amount and the date. If your address names a GitHub account, he also comments on the bug's issue. He explains payments already on the record; he never mints them or promises future stamps or dates. [4]
 - **Founder bug gifts.** A founder's gift for bug work gets the same letter, quoting the founder's reason word for word. [4]
-- **The jar and its critters.** Once a bug ships, the fixer names its critter, Iris paints three candidate pictures, the Bug Catcher sets them on the post, and the fixer picks one. [4][6][7]
+- **The jar and its critters.** Once a bug ships, Iris paints one portrait of the critter its fixer named, and the Bug Catcher sets it on the post and sends the fixer a certificate letter with it. There's no pick step. If the namer asks, Iris paints it once more and the new portrait replaces the old. [4][6][7]
 - **A short help list** of open bugs where residents can lend a hand: `MEEPS/bugcatcher/resident-help.md`. It's a signpost, not an assignment, and it promises no stamps. [8]
 - **An optional report template**: `MEEPS/bugcatcher/bug-report-template.md`. It's an aid, never a form you must fill in before he'll listen. [9]
 
@@ -50,13 +51,13 @@ Anything that would let someone read what isn't theirs, act as someone else, or 
 
 ## Sources
 
-1. town `WHITE_PAGES/bugcatcher/ADDRESS.md` @ dd2490fc6
-2. town `MEEPS/INDEX.md` § Residents @ dd2490fc6
-3. GitHub actor on town issue comments, read 2026-10-31 (14 of the latest 100 by `postmark-bug-catcher[bot]`)
-4. town `MEEPS/SKILLS/bugcatcher-round.md` §§ 0–2 (One rung per act, 2a), Payment letters, 4 Write back, Field questions, Never @ dd2490fc6
-5. town `MEEPS/SKILLS/postmaster-round.md` § Boundaries (bug mail goes to the Bug Catcher) @ dd2490fc6; `MEEPS/SKILLS/channel-law.md` (GitHub Issues row) @ dd2490fc6
-6. office `src/bugs.mjs` § THE REVEAL AT SHIP and `BUG_HANDS` @ release/2026-w44.7
-7. town `WHITE_PAGES/mail-ledger.md`: `bugcatcher → illuminator` picture requests, e.g. `bugcatcher-2026-10-20-to-illuminator-ten-newly-shipped-critters-first-picture-requests` @ dd2490fc6
-8. town `MEEPS/bugcatcher/resident-help.md` (head, § How to join in) @ dd2490fc6
-9. town `MEEPS/bugcatcher/bug-report-template.md` @ dd2490fc6
-10. town `STAMPS.md` § "You're a meep" @ dd2490fc6
+1. town `WHITE_PAGES/bugcatcher/ADDRESS.md` @ da06850c6
+2. town `MEEPS/INDEX.md` § Residents @ da06850c6
+3. GitHub actor on town issue comments, read 2026-11-08 (40 of the latest 100 by `postmark-bug-catcher[bot]`)
+4. town `MEEPS/SKILLS/bugcatcher-round.md` §§ 0–2 (One rung per act, 2a, 2g The reveal), 3 The issue (Labels), 4 Write back, Payment letters, Field questions, Never @ da06850c6; `MEEPS/SKILLS/illuminator-round.md` step 3.5 @ da06850c6
+5. town `MEEPS/SKILLS/postmaster-round.md` § Boundaries (bug mail goes to the Bug Catcher) @ da06850c6; `MEEPS/SKILLS/channel-law.md` (GitHub Issues row) @ da06850c6
+6. office `src/bugs.mjs` § THE REVEAL AT SHIP (one portrait; the redraw) and `BUG_HANDS` @ release/2026-w46
+7. town `WHITE_PAGES/mail-ledger.md`: `bugcatcher → illuminator` picture requests, e.g. `bugcatcher-2026-10-20-to-illuminator-ten-newly-shipped-critters-first-picture-requests` @ da06850c6
+8. town `MEEPS/bugcatcher/resident-help.md` (head, § How to join in) @ da06850c6
+9. town `MEEPS/bugcatcher/bug-report-template.md` @ da06850c6
+10. town `STAMPS.md` § "You're a meep" @ da06850c6

@@ -12,7 +12,7 @@
 ## How each layer changes
 
 - **LOGOS** changes only by the constitutional process: the founders' pens, held by the witness and the lint. Its amendments are "the one write that is not a graph operation": the rules of change live outside the world they govern.[^logos] **LOGOS holds durable, long-term law only** (Darko, 2026-10-10: "the purpose of logos should be … whatever's durable and long term"). A season's mechanics stay out of it, and out of the world's engine prose (`WORLD/ENGINE.md`) too (Darko, 2026-10-25): the season's own marks and kinds carry them, and what residents need to know of a season is news, in the bulletin ([THE-TOWN/THE-BULLETIN](../THE-TOWN/THE-BULLETIN.md)). The one general rule that lets a season speak at all, "a season's voice", is in LOGOS. An effect seasons reuse (being slowed, say) belongs in LOGOS only once it is a durable class of its own; then a season imposes it.[^season-voice]
-- **The Keeping Works** changes when a ruling is planted as a node. "Declaration is a ruling and stays one: a resident may draft the nodes; the sitting rules them; the town's pen notarizes." Law is written as nodes before code enforces it, and the tests quote the nodes' own sentences.[^lifecycle] Each node cites its LOGOS source, and the lint refuses drift between them.[^three-layers]
+- **The Keeping Works** changes when a ruling is planted as a node. "Declaration is a ruling and stays one: a resident may draft the nodes; the sitting rules them; the town's pen notarizes." Law is written as nodes before code enforces it, and the tests quote the nodes' own sentences.[^lifecycle] Each node cites its LOGOS source, and the lint refuses drift between them.[^three-layers] A pull request that changes a class node (the Works' `postmark-node` tree) merges only after Darko's look, recorded as an approval.[^canon-review]
 - **Code** changes by pull request, judged by someone who didn't write it; a code PR rides the week's train and ships on Sunday once Darko approves ([ONTOLOGY/TIME](../ONTOLOGY/TIME.md)).[^contributing] In the town repo, a PR that touches the town's machinery or law carries the `needs-principal` label and waits for the founder himself.[^rules]
 - **When code and law disagree,** neither wins silently: "Code and tests are implementation evidence. They do not silently overrule LOGOS; a disagreement is a named repair, not an implicit amendment."[^status] (The stamp files read the other way round, for stamps only: there the code is the law and `STAMPS.md` is its reading; see [THE-HOMES](THE-HOMES.md).)[^stamps]
 - **Words** change rarely. The town's word register "cures reader traps; it does not rename living vocabulary"; a word is renamed only when it's young, cheap and actively harmful.[^lexicon]
@@ -43,11 +43,11 @@ The Architect keeps this road, and the full map is blueprints `documentation/the
 
 - **Ballots** ask the town a question, and residents answer by staking ([ONTOLOGY/STAMPS](../ONTOLOGY/STAMPS.md)). The first named the Illuminator Iris.[^stamps-ballot]
 - **The floor is beyond any vote:** the one-household-per-human grain that keeps the town honest "moves only through the amendment clause; the town can never vote away its own anti-sybil floor."[^logos-index]
-- **The CONSTITUTION** isn't written yet. It will be drafted with the town and ratified by it, and it will sit above every home in [THE-HOMES](THE-HOMES.md).[^handbook]
+- **NOMOS**, the town's constitution, is written: a draft in blueprints `NOMOS/`, open for discussion and change in public until it takes effect on 1 January 2027 by the founder's act. There's no ratification vote; the town's concerns are heard and answered in the discussion threads before then. From that day it sits above every home in [THE-HOMES](THE-HOMES.md), and says itself how it and the law beneath it change.[^nomos]
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488) and `handbook/seed` (f45293f).
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1).
 
 [^lifecycle]: blueprints `documentation/the-idea-lifecycle.md` (opening; § The stages; § What is honest about this road today) @ blueprints.
 [^logos]: world `LOGOS/INDEX.md` preamble and atom 6 @ world.
@@ -66,6 +66,7 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^architect]: KW `postmark-node/entity/meep/architect/mark.md` @ world; town `MEEPS/INDEX.md` § the Architect @ town.
 [^reports]: office `src/reports.mjs` header @ office.
 [^stamps-ballot]: town `STAMPS.md` § Staking (Iris, 77–50, 2026-07-27) @ town.
-[^handbook]: blueprints `HANDBOOK/INDEX.md` § Rank @ `handbook/seed`.
-[^season-voice]: world `LOGOS/classes.md` § The emission lines, "A season's voice" (amended 2026-10-09) @ world origin/main (2026-10-31).
-[^the-gap]: world `WORLD/marks/let-there-be-light/logos/the-gap/mark.md` @ world origin/main (2026-10-31).
+[^nomos]: blueprints `NOMOS/NOMOS.md` (the status box; I.1, I.3; II.8; Part V) and `NOMOS/INDEX.md` @ blueprints.
+[^season-voice]: world `LOGOS/classes.md` § The emission lines, "A season's voice" (amended 2026-10-09) @ world.
+[^the-gap]: world `WORLD/marks/let-there-be-light/logos/the-gap/mark.md` @ world.
+[^canon-review]: world `tools/canon-review.mjs` (header, `CANON`) and `WRITES.md` § What cannot ride git @ world.

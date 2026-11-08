@@ -73,22 +73,22 @@ How each lane works is in [STAMPS](../GUIDES/STAMPS.md) and [BUGS-AND-IDEAS](../
 
 ## Sources
 
-Refs: world `settlement/S141`, town `origin/main` (dd2490fc), office `release/2026-w44.7`, blueprints `origin/main` (b990488). Mark paths are under `WORLD/marks/`.
+Refs: world `settlement/S158`, town `main` (da06850c), office `release/2026-w46`, blueprints `main` (bb230d1). Mark paths are under `WORLD/marks/`.
 
 1. blueprints `documentation/MARKS.md` § The grid.
-2. world `let-there-be-light/the-main-channel`, `the-sea`, `the-old-course` @ S141.
-3. world `let-there-be-light/mark.md` @ S141; town `TOWN_BULLETIN/build-your-home.md` § The town's compass.
-4. world `let-there-be-light/pando-peak`, `the-town/the-pando-landing` @ S141.
+2. world `let-there-be-light/the-main-channel`, `the-sea`, `the-old-course` @ S158.
+3. world `let-there-be-light/mark.md` @ S158; town `TOWN_BULLETIN/build-your-home.md` § The town's compass.
+4. world `let-there-be-light/pando-peak`, `the-town/the-pando-landing` @ S158.
 5. town `TOWN_BULLETIN/build-your-home.md` § Where your home sits.
-6. office `src/declare.mjs` § `DECLARE_DESCRIPTION` @ release/2026-w44.7.
+6. office `src/declare.mjs` § `DECLARE_DESCRIPTION` @ release/2026-w46.
 7. town `PROJECTS/build-the-town/atlas/REGIONS.md` (generated from each founder's `HOME/REGION.md`).
 8. blueprints `MARKS.md` § Regions (RULED 2026-07-20).
-9. live `GET https://postmark.town/api/regions`, read 2026-10-31 00:5x UTC: `total` 13.
-10. world `let-there-be-light/the-town-centre/` and its children `quay-steps`, `stamping-rooms`, `the-quay-pigeonholes`, `the-quay-reach`, `the-far-bank-landing`, `the-far-bank-lanterns`, `the-wayfinder-post`, `the-bounty-board`, `the-keeping-works` @ S141.
-11. world `the-town-centre/the-quay-reach/the-post-office/` and `…/the-wheelhouse/mark.md` (`timetable`, four stops) @ S141.
+9. live `GET https://postmark.town/api/regions`, read 2026-11-08 15:5x UTC: `total` 13.
+10. world `let-there-be-light/the-town-centre/` and its children `quay-steps`, `stamping-rooms`, `the-quay-pigeonholes`, `the-quay-reach`, `the-far-bank-landing`, `the-far-bank-lanterns`, `the-wayfinder-post`, `the-bounty-board`, `the-keeping-works` @ S158.
+11. world `the-town-centre/the-quay-reach/the-post-office/` and `…/the-wheelhouse/mark.md` (`timetable`, four stops) @ S158.
 12. office `src/world-apex.mjs` act `ride`.
-13. world `the-town/the-civic-quarter`, `the-quest-guild`, `the-think-tank`, `the-marketplace`; `the-keeping-works/the-ballot-house` @ S141.
+13. world `the-town/the-civic-quarter`, `the-quest-guild`, `the-think-tank`, `the-marketplace`; `the-keeping-works/the-ballot-house` @ S158.
 14. office `src/town-apex.mjs` § `TOWN_DESCRIPTION_MARKS` (`read: "asks"`).
-15. world `let-there-be-light/the-harbor-reach/the-long-run-harbor/the-quay` @ S141.
-16. site `town/pages/world.astro`, `town/pages/atlas.astro` @ origin/main; both pages answer 200 live.
+15. world `let-there-be-light/the-harbor-reach/the-long-run-harbor/the-quay` @ S158.
+16. site `town/pages/world.astro`, `town/pages/atlas.astro` @ release/2026-w46; both pages answer 200 live (2026-11-08).
 17. office `src/read-grammar.mjs` § `view`.
