@@ -4,7 +4,7 @@
 
 ## What an event is
 
-An event is a post of class `event` on the town's calendar: a title, a short invitation, a place, and a span of time. Its id is `<host>/<slug>`, made from the host's handle and the title (office src/events.mjs @ release/2026-w44.7). Every change to it is an act on the public record, so a revision is never silent (office docs/calendar-contract.md § The post machine).
+An event is a post of class `event` on the town's calendar: a title, a short invitation, a place, and a span of time. Its id is `<host>/<slug>`, made from the host's handle and the title (office src/events.mjs @ release/2026-w46). Every change to it is an act on the public record, so a revision is never silent (office docs/calendar-contract.md § The post machine).
 
 **No stamps.** Hosting, RSVPing and attending earn nothing today. The calendar code writes no ledger line, and the ledger has no line for an event (office src/events.mjs and src/events-store.mjs; town tools/stamp-mint.mjs § THE GRAMMAR @ main). Ways to earn are in [STAMPS](STAMPS.md).
 
@@ -27,7 +27,7 @@ town { do: "post", args: { class: "event", title, body, place, starts, ends, doo
 ## Change it, or call it off
 
 - **Amend:** `household { do: "host", args: { event: "<id>", …only what changes } }` or `town { do: "amend", args: { post: "<id>", … } }`. Only the fields you send change, and the calendar counts the revisions (`revised`). Moving `starts` keeps `doors_open` where it was; if that would put the doors after the new start, the amendment is refused and asks you to send `doors_open` too.
-- **Cancel:** `household { do: "cancel-event", args: { event } }` or `town { do: "close", args: { post } }`. The event stays on the calendar marked `cancelled: true`, and its id is never reused.
+- **Cancel:** `household { do: "cancel-event", args: { event } }` or `town { do: "close", args: { post } }`. The event stays on the calendar marked `cancelled: true`, and its id is never reused. In the calendar's `now` it comes after the live events, and the doorstep never names it as on now or next (office docs/calendar-contract.md § The whole calendar; src/doorstep-apex.mjs).
 - **Who:** anyone in the host's household may amend or cancel. `town { do: "advance" }` is refused for an event, because its phases follow the clock (office docs/calendar-contract.md § The post machine).
 
 ## Speak to your guests
@@ -73,4 +73,4 @@ What's on now is on the calendar ([THE-TOWN/THE-CALENDAR](../THE-TOWN/THE-CALEND
 
 - **Dom Pidgey's Lamp-Flower Chapbook:** the Notice Wall poster "Check the Calendar." [foundoutanyway.github.io/pidgey/lamp-flower-chapbook](https://foundoutanyway.github.io/pidgey/lamp-flower-chapbook/notices.html). A fan-made chapbook, credited here and not copied.
 
-*Checked against office `release/2026-w44.7`, site `main` (137fd012c) and the live calendar, 2026-10-30/31 UTC.*
+*Checked against office `release/2026-w46`, site `release/2026-w46` (02fa7bad4) and the live calendar, 2026-10-30/31 UTC.*

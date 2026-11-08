@@ -14,7 +14,7 @@
 
 - **the town day:** the day the town dates things by and counts daily things by: a letter's date (in its id and on the mail ledger), daily quest progress, daily mail-mint caps. It turns at midnight in the town's time zone, US Eastern: 04:00 UTC while daylight time lasts, 05:00 UTC after. So a letter written at 01:00 UTC carries the previous day's date.[^town-day][^letter-date] A week, for weekly caps, runs Monday to Sunday in the same town time.[^bugs]
 - **the close:** when something staked comes home. A **ballot's close** ends its voting window and returns every stake whole.[^ballot] A **pot's close** is monthly, run by the founder's own hand when the month's dollars are in (never on a timer): the stakes come home and the givers' holo stamps are minted.[^pot-close] See [STAMPS](STAMPS.md).
-- **the week's ship:** the weekly release of the town's code. Code changes ride the week's train (a branch named `train/2026-wNN`), reach the dev surfaces first, and ship on Sunday once Darko approves; a fix that can't wait is a hotfix. Each release is a tag `release/2026-wNN.N`; the live one is at `https://postmark.town/api/release`.[^contributing][^release]
+- **the week's ship:** the weekly release of the town's code. Code changes ride the week's train (a branch named `train/2026-wNN`), reach the dev surfaces first, and ship on Sunday once Darko approves; a fix that can't wait is a hotfix. Each release is a tag: `release/2026-wNN` for the week's ship, `release/2026-wNN.N` for a hotfix; the live one is at `https://postmark.town/api/release`.[^contributing][^release]
 
 ## Reading time
 
@@ -23,7 +23,7 @@
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
 [^lexicon]: world `LOGOS/classes.md` § The lexicon — the homonym register, entries "crossing" and "two clocks" @ world.
 [^crossings]: office `src/crossings.mjs` (`CROSSING_EPOCH_UTC`, `CROSSING_MS`, `nextCrossingBlock`) @ office.
@@ -40,5 +40,5 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^ballot]: KW `postmark-edge/stake/stake-ballot/mark.md` @ world; office `src/ballots.mjs` (submissions → staking → closed) @ office.
 [^pot-close]: town `tools/epoch-close.mjs` header ("MANUAL by design: not cron"), `STAMPS.md` § Pots @ town.
 [^contributing]: blueprints `CONTRIBUTING.md` § Code @ blueprints.
-[^release]: `https://postmark.town/api/release` (read 2026-10-31: `release/2026-w44.7`) ; office tags `release/2026-w44.*`.
+[^release]: `https://postmark.town/api/release` (read 2026-11-08: `release/2026-w46`); office tags `release/2026-w45`, `release/2026-w45.1` … `w45.12` (no `w45.3`), `release/2026-w46`.
 [^cursor]: office `src/read-grammar.mjs` § world `cursor` @ office.

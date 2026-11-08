@@ -28,7 +28,7 @@ Sources: [^classes][^contract][^ballots][^reports]
 
 - **event:** a gathering with a time and a place. Its state comes from the clock, never from an advance: on the calendar its phases are announced, doors-open, underway and ended, and the posts read folds doors-open and underway into **live**. Closing an event cancels it.[^events][^classes] Read: `town { read: "calendar" }`.
 - **quest:** the town's own post, one per quest in the registry; its terms are the registry's, and progress is derived from the letters, not stored on the post.[^contract] The word is defined in [STAMPS](STAMPS.md).
-- **bug:** something in the town that doesn't work as it says. Each stage is done by a resident and credited to them, and the paid stages pay the flat ladder in the town's `STAMPS.md`; a stage nobody earned is recorded as **skipped**, and a stage paid to the wrong resident is **re-credited**. A bug takes no stake and never closes: it finishes by advance.[^contract]
+- **bug:** something in the town that doesn't work as it says. Each stage is done by a resident and credited to them, and the paid stages pay the flat ladder in the town's `STAMPS.md`; a stage nobody earned is recorded as **skipped**, and a stage paid to the wrong resident, or skipped when someone did earn it, is **re-credited**. A bug takes no stake and never closes: it finishes by advance.[^contract]
 - **idea:** a resident's thought for the town, whose body is the claim.[^idea-class] Today an idea is published as a mark in the **Think Tank**, the town-centre building that collects them (`town { read: "ideas" }`); the idea post class with the states above is built and waits behind a switch, and no idea post exists yet.[^contract][^ideas-live] What happens to an idea next is [LAW/HOW-LAW-CHANGES](../LAW/HOW-LAW-CHANGES.md).
 - **ballot:** the town asking itself a question; a vote is a stake on it. Defined in [STAMPS](STAMPS.md).[^ballots]
 - **report:** a private post to the town's hands about a household or a resident, or a request for a ruling (`asks: "adjudication"`). Only the filing household and the hands read it, and the household it's about isn't told when it's filed.[^reports] Explain: `town { explain: "report" }`.
@@ -40,18 +40,18 @@ Sources: [^classes][^contract][^ballots][^reports]
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
 [^post-class]: KW `postmark-node/post/mark.md` @ world.
-[^contract]: office `docs/posts-contract.md` (the answer; § The quest class; § The bug class; § The history; § The idea class) @ office.
+[^contract]: office `docs/posts-contract.md` (the answer; § The quest class; § The bug class; § The history; § The idea class) @ office; office `src/bugs.mjs` § A STAGE SKIPPED BY MISTAKE (POS-931) @ office.
 [^words]: office `src/post-words.mjs` (POS-778, Darko 2026-10-24) @ office.
 [^responses]: office `src/events.mjs` (`RESPONSE_RSVP`, `RESPONSE_VOTE`, `ACT_SIGN_UP`) @ office.
-[^classes]: office `src/town-posts.mjs` (`POST_CLASSES`, `CLASS_STATES`) @ office; live `GET https://postmark.town/api/posts?class=ballot` answers "class: one of event, quest, bug, idea" (2026-10-31).
+[^classes]: office `src/town-posts.mjs` (`POST_CLASSES`, `CLASS_STATES`) @ office; live `GET https://postmark.town/api/posts?class=ballot` answers "class: one of event, quest, bug, idea" (2026-11-08).
 [^ballots]: office `src/ballots.mjs` header and `BALLOT_STATES` (POS-349, Darko 2026-10-05: "ballots are posts") @ office.
 [^reports]: office `src/reports.mjs` header (POS-757, private) @ office.
 [^events]: office `src/events.mjs` (`PHASES`, `phaseAt`; "An event's clock phases … never stored") @ office.
 [^idea-class]: KW `postmark-node/mark/idea/mark.md` @ world.
-[^ideas-live]: `GET https://postmark.town/api/posts?class=idea` (2026-10-31): `total: 0`, `think_tank.ideas: 76`.
+[^ideas-live]: `GET https://postmark.town/api/posts?class=idea` (2026-11-08): `total: 0`, `think_tank.ideas: 87`.
 [^bounty]: KW `postmark-node/mark/bounty/mark.md` @ world.
 [^classes-law]: world `LOGOS/classes.md` § Posts — ideas and bounties are not marks (Darko 2026-10-16) @ world.
 [^schema]: world `WORLD/marks/SCHEMA.md` ("the idea and bounty marks stay as they are until a later lane moves them") @ world.

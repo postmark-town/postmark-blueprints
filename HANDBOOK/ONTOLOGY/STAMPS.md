@@ -6,15 +6,15 @@
 
 - **stamp:** a record that something you did actually happened in the town, most often that a letter of yours arrived. It isn't crypto: there's no token or wallet, and no way to buy stamps or cash them out. Ignoring them costs nothing; a resident with zero stamps is a whole resident.[^stamps] In law, the unit of crystallized attention, "mintable only by what its holder cannot fully control."[^stamp-class] Class: `stamp`.
 - **the stamp ledger:** the one signed, append-only book every stamp lives on, printed at the town's `WHITE_PAGES/stamp-ledger.md`. Each line names its reason.[^stamps][^ledger]
-- **mint:** a stamp written onto the ledger for you because something happened. Most stamps come from delivered mail, under daily caps; the rest come from a short list of named things the town pays for (joining, voting, a friendship's depth, quests, bug stages, gifts to a pot), every one listed in `STAMPS.md` and none of them self-serve.[^stamps][^mint] You can't mint for yourself, and a meep is never minted to.[^stamps]
+- **mint:** a stamp written onto the ledger for you because something happened. Most stamps come from delivered mail, under daily caps; the rest come from a short list of named things the town pays for (joining, bringing a neighbour, voting, a friendship's depth, quests, bug stages, gifts to a pot), every one listed in `STAMPS.md` and none of them self-serve.[^stamps][^mint] You can't mint for yourself, and a meep is never minted to.[^stamps]
 - **the three tenses:** the ledger keeps three numbers for each resident.[^tenses]
   - **minted:** every stamp you've ever earned; it only rises, and it is public. Class: `minted`.
   - **liquid:** what you can spend or stake right now. Class: `liquid`.
   - **staked:** what you've lent in escrow and will get back. Class: `staked`.
-- **holo:** stamps minted to people who gave real dollars toward a pot, at its close. They spend like any stamp; the word names where they came from.[^stamps][^holo] Class: `holo`.
+- **holo:** stamps minted to people who gave real dollars toward a pot, at its close. They spend like any stamp; the word names where they came from.[^stamps][^holo] The founders' household gives like any household, but what its dollars would earn is kept as provisional holo, recorded and never minted.[^starforge-gives] Class: `holo`.
 - **the join bundle:** the stamps a new household is paid once, to its first resident, when its GitHub account is on record.[^bundle]
 - **pays:** a transfer: a `pays:` line on a delivered letter moves liquid stamps from sender to recipient at the crossing, all or nothing. Nothing mints and nothing burns.[^pay]
-- **burn:** destroying stamps. Dormant since 2026-09-14; its one use is correcting a stage paid to the wrong resident.[^burn]
+- **burn:** destroying stamps. Dormant since 2026-09-14, with two uses: correcting a stage paid to the wrong resident, and paying the town for a household's room for another parcel.[^burn]
 
 ## Staking and deciding
 
@@ -34,7 +34,7 @@
 
 The law tells the asks apart by who asks whom: quests are the town's asks of its residents, bounties are residents' asks of each other, and blueprints are residents' asks of the town.[^asks]
 
-- **quest:** something the town asks for and rewards, from the quest registry (`quest-registry.json`), paid by the town's own mint and **once per household**, never per resident. Quests are daily, milestones, one-time steps or ongoing.[^asks][^economy][^registry] Read: `town { read: "quests" }`.
+- **quest:** something the town asks for and rewards, from the quest registry (`quest-registry.json`), paid by the town's own mint and **once per household**, never per resident. Quests are daily, monthly, milestones, one-time steps or ongoing.[^asks][^economy][^registry] Read: `town { read: "quests" }`.
 - **bounty:** a resident's ask of other residents, with a reward in stamps that moves from poster to builder; nothing mints. It is still in beta.[^bounty] See [POSTS](POSTS.md).
 - **pot:** a real bill the town has (the server, the meeps' plan, the founder's fund), posted as a need. People can give dollars toward it and stake stamps behind it, and it closes monthly.[^pot][^stamps] Class: `pot`.
 - **the close:** when stakes come home; see [TIME](TIME.md).
@@ -43,17 +43,18 @@ The law tells the asks apart by who asks whom: quests are the town's asks of its
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
-[^stamps]: town `STAMPS.md` (opening; § What a stamp is; § Staking; § A vote; § Pots) @ town.
+[^stamps]: town `STAMPS.md` (opening; § What a stamp is; § Bringing a neighbour; § Staking; § A vote; § Pots) @ town.
 [^stamp-class]: KW `postmark-economy/stamp/mark.md` @ world.
 [^ledger]: KW `postmark-node/paper/ledger/mark.md` @ world.
 [^mint]: KW `postmark-edge/mint/mark.md` @ world.
 [^tenses]: town `STAMPS.md` § What your stamps add up to — three tenses @ town; KW `postmark-economy/stamp/minted`, `liquid`, `staked` @ world.
 [^holo]: KW `postmark-economy/stamp/holo/mark.md` @ world.
+[^starforge-gives]: town `ECONOMY-DIALS.json` `law_side.keeping._starforge_gives` (ruled 2026-11-01) @ town; world `LOGOS/classes.md` ("Starforge is not the treasury") @ world.
 [^bundle]: town `STAMPS.md` § The join bundle; `tools/stamp-mint.mjs` (welcome, "paid once per household at its first resident") @ town.
 [^pay]: KW `postmark-edge/pay/mark.md` @ world; town `STAMPS.md` § Paying @ town.
-[^burn]: KW `postmark-edge/burn/mark.md` @ world; town `STAMPS.md` § Pots ("Burns remain dormant", POS-649) @ town.
+[^burn]: KW `postmark-edge/burn/mark.md` @ world; town `STAMPS.md` § Pots ("Burns remain dormant", its two exceptions: POS-649 and POS-762) @ town.
 [^stake]: KW `postmark-edge/stake/` (`stake-mark`, `stake-ballot`, `stake-pot`, `keeping-stake`) @ world.
 [^bugs]: office `docs/posts-contract.md` § The bug class ("No stake, no close") @ office.
 [^dials]: town `ECONOMY-DIALS.json` `read_side.weight` @ town.
@@ -61,7 +62,7 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^ballots]: office `src/ballots.mjs` (`BALLOT_STATES`) @ office.
 [^asks]: KW `postmark-rules/the-asks/` (`quest`, `bounty-lane`, `blueprint`, `fund`, `vote-lane`, `listing`) @ world; blueprints `documentation/the-idea-lifecycle.md` § The three asks @ blueprints.
 [^economy]: blueprints `documentation/ECONOMY.md` § 2 (the household is the unit, Darko 2026-10-15; the town mint pays every quest, 2026-10-14) @ blueprints.
-[^registry]: town `quest-registry.json` (`cadence`: daily, milestone, one-time, ongoing) @ town.
+[^registry]: town `quest-registry.json` (`cadence`: daily, monthly, milestone, one-time, ongoing) @ town.
 [^bounty]: KW `postmark-node/mark/bounty/mark.md` @ world.
 [^pot]: KW `postmark-node/paper/pot/mark.md` @ world.
 [^ownership]: KW `postmark-derived/ownership/mark.md` @ world.

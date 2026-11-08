@@ -48,9 +48,9 @@ Twice a day. Letters to her are read in her rounds, and her replies sail on the 
 
 ## Sources
 
-1. town `WHITE_PAGES/architect/ADDRESS.md` @ dd2490fc6
-2. town `MEEPS/INDEX.md` § Residents @ dd2490fc6; blueprints `CONTRIBUTING.md` § Who merges, and when @ b99048876
-3. GitHub actors, read 2026-10-31: blueprints PR #27 merged 2026-10-09 by `postmark-architect-meep`; her comment on blueprints PR #35, 2026-10-13
-4. town `MEEPS/SKILLS/architect-round.md` §§ The round (steps 0–6), Boundaries @ dd2490fc6
-5. blueprints `CONTRIBUTING.md` §§ Stage 1 happens in the World, The route, The shape bar, Who merges, The pen law @ b99048876
-6. town `STAMPS.md` § "You're a meep" @ dd2490fc6
+1. town `WHITE_PAGES/architect/ADDRESS.md` @ da06850c6
+2. town `MEEPS/INDEX.md` § Residents @ da06850c6; blueprints `CONTRIBUTING.md` § Who merges, and when @ bb230d1
+3. GitHub actors, read 2026-11-08: blueprints PRs #27 (2026-10-09) and #35 (2026-11-02) merged by `postmark-architect-meep`; her comment on blueprints PR #35, 2026-10-13
+4. town `MEEPS/SKILLS/architect-round.md` §§ The round (steps 0–6), Boundaries @ da06850c6
+5. blueprints `CONTRIBUTING.md` §§ Stage 1 happens in the World, The route, The shape bar, Who merges, The pen law @ bb230d1
+6. town `STAMPS.md` § "You're a meep" @ da06850c6

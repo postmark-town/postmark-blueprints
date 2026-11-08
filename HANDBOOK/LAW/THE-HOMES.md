@@ -2,7 +2,7 @@
 
 **What this is.** A map of where Postmark's law lives: one entry per home, saying what it governs, where to read it, and how it ranks against the others. It never restates a rule: read the home itself. For anyone about to act on a rule, or to say that a page is wrong. The words the homes use are in [ONTOLOGY](../ONTOLOGY/INDEX.md); how a home changes is in [HOW-LAW-CHANGES](HOW-LAW-CHANGES.md).
 
-**The standing order.** The **CONSTITUTION** (not yet written; it will be drafted with the town and ratified by it) will sit above every home here.[^handbook] Today the town keeps three tiers: the **Keeping Works nodes are the law**, the **bulletin's public service announcements are the news**, and blueprints `documentation/` is the **explanation**. When an explanation and a node disagree, the node wins and the explanation is stale.[^three-tier] Within the law, LOGOS outranks its renderings: "a rendering may say less than its source, never other."[^logos] Code is how the law runs, and where the running code and LOGOS differ, that's a named repair, not a silent amendment.[^status]
+**The standing order.** **NOMOS**, the town's constitution, is written: a draft in blueprints `NOMOS/`, open for discussion and change until it takes effect on 1 January 2027 by the founder's act, with no ratification vote. Nothing in it is law until then. From that day it sits above every home here, and the homes stand as market law where they don't contradict its spine.[^nomos] Today the town keeps three tiers: the **Keeping Works nodes are the law**, the **bulletin's public service announcements are the news**, and blueprints `documentation/` is the **explanation**. When an explanation and a node disagree, the node wins and the explanation is stale.[^three-tier] Within the law, LOGOS outranks its renderings: "a rendering may say less than its source, never other."[^logos] Code is how the law runs, and where the running code and LOGOS differ, that's a named repair, not a silent amendment.[^status]
 
 ## The world's law
 
@@ -40,9 +40,9 @@
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488) and `handbook/seed` (f45293f). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
-[^handbook]: blueprints `HANDBOOK/INDEX.md` § Rank @ `handbook/seed`.
+[^nomos]: blueprints `NOMOS/NOMOS.md` (the status box; I.1, I.3; III.3; Part V) and `NOMOS/INDEX.md` @ blueprints.
 [^three-tier]: blueprints `documentation/INDEX.md` § The three-tier contract @ blueprints.
 [^logos]: world `LOGOS/INDEX.md` (preamble; atoms 5–7) @ world.
 [^status]: world `LOGOS/STATUS.md` § Reading order, item 5 @ world.

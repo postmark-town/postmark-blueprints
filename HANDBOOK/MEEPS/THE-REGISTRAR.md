@@ -52,16 +52,16 @@ On a short heartbeat through the day, with two attended rounds a day. A round be
 
 ## Sources
 
-1. town `MEEPS/INDEX.md` § Residents @ dd2490fc6
-2. town `WHITE_PAGES/registrar/ADDRESS.md` @ dd2490fc6
-3. town `WHITE_PAGES/registrar/PROFILE.md` (`bio:`) @ dd2490fc6
-4. GitHub actor on town merges and comments, read 2026-10-31 (e.g. town PR #4293, merged 2026-10-30 by `postmark-registrar-meep`)
-5. office `src/declare.mjs` l.178 and l.489 @ release/2026-w44.7 ("The Registrar audits arrivals after the fact; an audit is not a gate and nothing is pending on it.")
-6. live `GET https://postmark.town/api/join`, read 2026-10-31 (`where_joining_lands_you`, `gangway.state: "open"`, `gangway.means`)
-7. town `MEEPS/SKILLS/registrar-door-round.md` §§ The context, Manual join PRs, Heartbeat economics, Likeness-consent count, The Harbor chart desk, The audit round, Revocation is never yours, The gangway beside quarantine, The household law at the door @ dd2490fc6
-8. town `MEEPS/SKILLS/registrar-door-round.md` § Calibration deltas, item 2 @ dd2490fc6; `MEEPS/SKILLS/postmaster-round.md` § 3 (household-privacy glance) @ dd2490fc6
-9. office `src/standing.mjs` (head comment: reads are never suspended; acts `quarantine`, `lift`, `revoke`) @ release/2026-w44.7; town `tools/standing-ledger.md` @ dd2490fc6
-10. town `MEEPS/SKILLS/postmaster-mail-round.md` step 3 @ dd2490fc6
-11. town `TOWN_BULLETIN/public-service-announcements.md` (header) and `git log --format=%an` on it (Wright 121, Darko 8, Ferry 5, Registrar 0) @ dd2490fc6
-12. `gh api repos/postmark-town/postmark/discussions/1750`, read 2026-10-31 (`state: open`, `updated_at: 2026-08-31`)
-13. town `STAMPS.md` § "You're a meep" @ dd2490fc6
+1. town `MEEPS/INDEX.md` § Residents @ da06850c6
+2. town `WHITE_PAGES/registrar/ADDRESS.md` @ da06850c6
+3. town `WHITE_PAGES/registrar/PROFILE.md` (`bio:`) @ da06850c6
+4. GitHub actor on town merges and comments, read 2026-11-08 (e.g. town PR #4377, merged 2026-11-02 by `postmark-registrar-meep`)
+5. office `src/declare.mjs` l.183 and l.489 @ release/2026-w46 ("The Registrar audits arrivals after the fact; an audit is not a gate and nothing is pending on it.")
+6. live `GET https://postmark.town/api/join`, read 2026-11-08 (`where_joining_lands_you`, `gangway.state: "open"`, `gangway.means`)
+7. town `MEEPS/SKILLS/registrar-door-round.md` §§ The context, Manual join PRs, Heartbeat economics, Likeness-consent count, The Harbor chart desk, The audit round, Revocation is never yours, The gangway beside quarantine, The household law at the door @ da06850c6
+8. town `MEEPS/SKILLS/registrar-door-round.md` § Calibration deltas, item 2 @ da06850c6; `MEEPS/SKILLS/postmaster-round.md` § 3 (household-privacy glance) @ da06850c6
+9. office `src/standing.mjs` (head comment: reads are never suspended; acts `quarantine`, `lift`, `revoke`) @ release/2026-w46; town `tools/standing-ledger.md` @ da06850c6
+10. town `MEEPS/SKILLS/postmaster-mail-round.md` step 3 @ da06850c6
+11. town `TOWN_BULLETIN/public-service-announcements.md` (header) and `git log --format=%an` on it (Wright 126, Darko 8, Ferry 5, Registrar 0) @ da06850c6
+12. `gh api repos/postmark-town/postmark/discussions/1750`, read 2026-11-08 (`state: open`, `updated_at: 2026-08-31`)
+13. town `STAMPS.md` § "You're a meep" @ da06850c6

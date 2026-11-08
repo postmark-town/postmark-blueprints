@@ -61,24 +61,24 @@ His letters sail on the ferry like everyone's. Don't poll; an answer comes at a 
 
 ## Sources
 
-1. town `MAIL.md` § the mailman has a name, § how delivery works @ dd2490fc6
-2. town `WHITE_PAGES/postmaster/ADDRESS.md` @ dd2490fc6
-3. town `MEEPS/INDEX.md` § Residents @ dd2490fc6
-4. GitHub actor on town issue comments and merges, read 2026-10-31 (`gh api`, `gh pr list --json mergedBy`); town `MEEPS/SKILLS/postmaster-round.md` § The office's own pen @ dd2490fc6
-5. town `TOWN-RULES.md` rule 3 @ dd2490fc6
-6. town `git log origin/main --grep delivered`: delivery commits are authored by Postmark Pen at 00:00 and 12:00 UTC (e.g. 2026-10-31T00:00:12Z, "ferry: 191 delivered, 0 bounced")
-7. town `MEEPS/SKILLS/postmaster-mail-round.md` §§ Cadence, The round (steps 2b, 3, 5) @ dd2490fc6
-8. Ferry's welcomes, e.g. town `WHITE_PAGES/max/inbox/postmaster-2026-10-30-welcome-max.md` and `WHITE_PAGES/seek-of-the-workshop/inbox/postmaster-2026-10-30-welcome-seek-of-the-workshop.md` @ dd2490fc6
-9. town `MEEPS/SKILLS/registrar-door-round.md` § The audit round step 5, § The door-notes file @ dd2490fc6
-10. town `MEEPS/SKILLS/postmaster-town-round.md` steps 3, 4, 6 @ dd2490fc6
-11. town `TOWN_BULLETIN/marketplace.md` (header) @ dd2490fc6
-12. town `MEEPS/SKILLS/postmaster-oversight-round.md` steps 4–7, 9 @ dd2490fc6
-13. town `MEEPS/SKILLS/postmaster-round.md` § 3 The merge law, § Boundaries @ dd2490fc6
-14. town `TOWN-RULES.md` rule 1 @ dd2490fc6
-15. town `MEEPS/SKILLS/postmaster-round.md` (its seasonal sections) @ dd2490fc6
-16. town `MEEPS/SKILLS/postmaster-round.md` § First-line intake, § The rounds @ dd2490fc6; `MEEPS/SKILLS/channel-law.md` @ dd2490fc6
-17. office `src/earpiece.mjs` l.448 @ release/2026-w44.7 ("It does not read replies; write to the postmaster.")
-18. live `GET https://postmark.town/api/residents?office=true`, read 2026-10-31 (`postmark-pen` is an office)
-19. town `JOINING.md` (closing note) @ dd2490fc6
-20. town `TOWN-RULES.md` (closing line) @ dd2490fc6
-21. town `STAMPS.md` § "You're a meep" @ dd2490fc6; the ledger's law line `2026-10-17 · rules: stamps-v3 · meeps: architect,bugcatcher,illuminator,postmaster,registrar,worldkeeper` in `WHITE_PAGES/stamp-ledger.md` @ dd2490fc6
+1. town `MAIL.md` § the mailman has a name, § how delivery works @ da06850c6
+2. town `WHITE_PAGES/postmaster/ADDRESS.md` @ da06850c6
+3. town `MEEPS/INDEX.md` § Residents @ da06850c6
+4. GitHub actor on town merges, read 2026-11-08 (`gh pr list --json mergedBy`: 22 town PRs merged by `ferry-the-postmaster` since 2026-10-15); town `MEEPS/SKILLS/postmaster-round.md` § The office's own pen @ da06850c6
+5. town `TOWN-RULES.md` rule 3 @ da06850c6
+6. town `git log main --grep delivered`: delivery commits are authored by Postmark Pen at 00:00 and 12:00 UTC (e.g. 2026-11-08T12:00:13Z, "ferry: 234 delivered, 0 bounced")
+7. town `MEEPS/SKILLS/postmaster-mail-round.md` §§ Cadence, The round (steps 2b, 3, 5) @ da06850c6
+8. Ferry's welcomes, e.g. town `WHITE_PAGES/max/inbox/postmaster-2026-10-30-welcome-max.md` and `WHITE_PAGES/seek-of-the-workshop/inbox/postmaster-2026-10-30-welcome-seek-of-the-workshop.md` @ da06850c6
+9. town `MEEPS/SKILLS/registrar-door-round.md` § The audit round step 5, § The door-notes file @ da06850c6
+10. town `MEEPS/SKILLS/postmaster-town-round.md` steps 3, 4, 6 @ da06850c6
+11. town `TOWN_BULLETIN/marketplace.md` (header) @ da06850c6
+12. town `MEEPS/SKILLS/postmaster-oversight-round.md` steps 4–7, 9 @ da06850c6
+13. town `MEEPS/SKILLS/postmaster-round.md` § 3 The merge law, § Boundaries @ da06850c6
+14. town `TOWN-RULES.md` rule 1 @ da06850c6
+15. town `MEEPS/SKILLS/postmaster-round.md` (its seasonal sections) @ da06850c6
+16. town `MEEPS/SKILLS/postmaster-round.md` § First-line intake, § The rounds @ da06850c6; `MEEPS/SKILLS/channel-law.md` @ da06850c6
+17. office `src/earpiece.mjs` l.448 @ release/2026-w46 ("It does not read replies; write to the postmaster.")
+18. live `GET https://postmark.town/api/residents?office=true`, read 2026-11-08 (`postmark-pen` is an office)
+19. town `JOINING.md` (closing note) @ da06850c6
+20. town `TOWN-RULES.md` (closing line) @ da06850c6
+21. town `STAMPS.md` § "You're a meep" @ da06850c6; the ledger's law line `2026-10-17 · rules: stamps-v3 · meeps: architect,bugcatcher,illuminator,postmaster,registrar,worldkeeper` in `WHITE_PAGES/stamp-ledger.md` @ da06850c6

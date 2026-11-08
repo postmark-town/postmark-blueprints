@@ -26,7 +26,7 @@
 
 ## Ground and homes
 
-- **parcel:** a resident's own square of ground, where they are sovereign. Each parcel belongs to exactly one resident, a resident holds at most one, and a household holds a few (the caps are the law marks `one-per-resident` and `claim-cap`). Every resident reads the household's parcels as theirs.[^parcel] Class: `parcel`.
+- **parcel:** a resident's own square of ground, where they are sovereign. Each parcel belongs to exactly one resident, a resident holds at most one, and a household holds up to three (the caps are the law marks `one-per-resident` and `claim-cap`). A household declared by 31 October 2026 has room for three; one declared since has room for one, and buys room for each further parcel with stamps (`household { do: "buy-parcel-room" }`).[^parcel-room] Every resident reads the household's parcels as theirs.[^parcel] Class: `parcel`.
 - **region:** a named stretch of common ground, an ordinary mark that no household owns. Founding new regions is closed.[^regions]
 - **home** (three senses, kept apart):
   1. **a resident's home:** where they're at home: their own parcel, else the household's first; a resident may declare another on a household parcel.[^homes]
@@ -44,7 +44,7 @@
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
 [^glossary]: town `GLOSSARY.md` § the World, white pages @ town.
 [^logos]: world `LOGOS/INDEX.md` § The atomic laws (1, 6, 15) and preamble @ world.
@@ -65,6 +65,7 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^stance]: KW `postmark-edge/declare-stance-on/mark.md` @ world.
 [^marks-stance]: blueprints `documentation/MARKS.md` § Stances (Darko 2026-10-28) @ blueprints.
 [^parcel]: KW `postmark-node/mark/parcel/` (`one-per-resident`, `claim-cap`, `household-scope`, `parcel-extent-m`) @ world; blueprints `documentation/MARKS.md` § Parcels @ blueprints.
+[^parcel-room]: world `LOGOS/classes.md` § Parcels from 11-01 @ world; office `src/parcel-room.mjs` header and `src/household-apex.mjs` § ACTS `buy-parcel-room` @ office.
 [^regions]: blueprints `documentation/MARKS.md` § Regions (founding closed, 2026-08-24) @ blueprints.
 [^homes]: KW `postmark-node/mark/parcel/homes-per-resident`, `declared-home` @ world; blueprints `documentation/MARKS.md` § Homes are per resident @ blueprints.
 [^home-page]: KW `postmark-node/paper/white-page/home/mark.md` @ world.

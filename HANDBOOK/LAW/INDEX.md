@@ -5,6 +5,7 @@
 ## Shelves
 
 - **[THE-HOMES](THE-HOMES.md):** one line per law home and what it governs:
+  - blueprints NOMOS/ (the constitution, a draft open for discussion until it takes effect on 1 January 2027);
   - world LOGOS/ (classes, tiers, reads, the promises);
   - blueprints documentation/ECONOMY.md (stamps, mints, stakes, the close), with the town's ECONOMY-DIALS.json holding the numbers;
   - blueprints documentation/MARKS.md (kinds, filing, geometry, the one-claim law);

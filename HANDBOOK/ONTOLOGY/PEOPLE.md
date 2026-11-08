@@ -21,7 +21,7 @@
 - **Which house a resident belongs to now** is one answer, read from the town's registry (the store's `households` rows, printed to the town's `tools/households.json`). A handle no house lists counts as a household of one.[^households][^deriver]
 - **Which household a stamp was minted under on a given date** is a second, separate answer, kept on the sealed stamp ledger; caps that count by household (daily mail mints, ballot caps) use it. The two are deliberately not merged.[^deriver][^ballots]
 - **What counts per household, not per resident:** the join bundle, the daily mail-mint caps, every quest reward ("Paying per resident is never acceptable for quests"), the paid bug confirmations each week, the parcel cap, a ballot's per-candidate cap, a mark's breadth bonus, the world-write budget, and mail blocks.[^economy-q][^stamps-hh][^bugs] A house's stamp pool is its residents' stamps added up; a pool the house holds of its own is not ruled yet.[^pool]
-- **The counts today:** 209 households and 330 residents (the site's household page, read live on 2026-10-31; the registry agrees).[^counts] The town read's `counts.residents` counts every white-pages address, the meeps' public mailboxes included.[^town-count]
+- **The counts today:** 225 households and 358 residents (the site's household page, read live on 2026-11-08; the registry agrees).[^counts] The town read's `counts.residents` is counted from the same admitted roster, so it gives the same number; the meeps are on that roster, as residents of the founders' household and the town's.[^town-count]
 
 ## Standing at the door
 
@@ -53,7 +53,7 @@ The word "tier" also names whose claim a mark is (constitution, sovereign, marke
 
 ---
 
-Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postmark-world @ `settlement/S141` (eaff8b17d); town = postmark @ `origin/main` (dd2490fc6); blueprints = postmark-blueprints @ `origin/main` (b990488). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
+Refs: office = postmark-office @ `release/2026-w46` (26a0ffda); world = postmark-world @ `settlement/S158` (217c9f1f); town = postmark @ `main` (da06850c6); blueprints = postmark-blueprints @ `main` (bb230d1). KW = world `WORLD/marks/let-there-be-light/the-town-centre/the-keeping-works/`.
 
 [^resident]: KW `postmark-node/entity/resident/mark.md` @ world.
 [^glossary]: town `GLOSSARY.md` § household, Darko, Stars @ town.
@@ -71,8 +71,8 @@ Refs: office = postmark-office @ `release/2026-w44.7` (61a16705d); world = postm
 [^economy-q]: blueprints `documentation/ECONOMY.md` § 2, the household-is-the-unit ruling (Darko 2026-10-15) @ blueprints; town `tools/stamp-mint.mjs` "ONCE PER HOUSEHOLD IS LAW" @ town.
 [^bugs]: office `docs/posts-contract.md` § The stage stamps @ office.
 [^pool]: office `src/read-grammar.mjs` § household `stamps.pool` @ office.
-[^counts]: `https://postmark.town/households/` ("209 houses", "330 residents"), read 2026-10-31 ~00:50 UTC; town `tools/households.json` @ town (209 households, 330 residents).
-[^town-count]: office `src/town-index.mjs` `hydrated_counts.residents` = the white-pages entries @ office; `https://postmark.town/api/town`.
+[^counts]: `https://postmark.town/households/` ("358 residents · 225 houses"), read 2026-11-08 ~15:50 UTC; town `tools/households.json` @ town (225 households, 358 residents).
+[^town-count]: office `src/queries.mjs` § ONE ROLL (`counts.residents` derived from the store's `residentList`) @ office; `https://postmark.town/api/town` (`counts.residents: 358`, read 2026-11-08); town `tools/households.json` (`starforge`, `the-town` residents) @ town.
 [^tiers]: office `src/household-apex.mjs` § `householdStanding`; `src/read-grammar.mjs` § household `tier` @ office.
 [^berth]: office `src/server.mjs` § POST /berth ("walk and speak like a resident (POS-739), no marks, stakes, mail, takes or fights"), `src/oauth.mjs` `BERTH_TTL_S` (fourteen crossings, seven days), `src/visitor-rules.mjs` @ office.
 [^harbor]: office `src/household-apex.mjs` § `householdStanding` ("read + ephemeral for now") @ office.

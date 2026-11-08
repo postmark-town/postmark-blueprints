@@ -41,7 +41,7 @@ It can also leave from `reported` or `confirmed` as `duplicate` (naming the post
 | State | What earned it | Who is credited |
 |---|---|---|
 | confirmed | it is real, checked against the public record | the reporter |
-| reproduced | exact steps (or a record) that make it happen again | whoever gave them |
+| reproduced | the bug shown happening on the record: a run of the steps, or a record that shows it (steps written from reading the code earn the report, not this rung) | whoever first showed it |
 | diagnosed | the cause, named in an issue comment, the issue, a letter, or the resident's own PR | that work's author |
 | briefed | the fix brief: the fix, how to accept it, and what would prove it wrong | that work's author |
 | fixed | the merged pull request; the fixer names the bug's critter, and a size S, M or L is set | the PR's author |
@@ -51,23 +51,23 @@ What each rung pays, and the weekly cap on paid `confirmed` reports, are stamp l
 
 **Who moves a bug.** Only the town's hands advance a bug: Wright, Darko and the Bug Catcher. A resident never advances their own post; they do the work, and a hand records it. [5]
 - The **Bug Catcher** checks for duplicates, confirms from the public record and reproduces from your steps. [6]
-- The **later rungs** (diagnosed, briefed, and the size at fixed) need a human's explicit yes on the bug's issue. The Bug Catcher prepares the evidence, and a founder records them. A time-bounded trial may let the Bug Catcher record them once a designated checker says yes; when one is running, his round says so, and its dates are news, not standing law. [6]
+- The **later rungs** (diagnosed, briefed, and the size at fixed) need a human's explicit yes on the bug's issue. The Bug Catcher prepares the evidence, and a founder records them. A trial may let the Bug Catcher record them once a designated checker says yes; when one is running, his round says so, and how long it runs is news, not standing law. [6]
 - `shipped` is recorded only on a live release tag or `build.json` that holds the fix, never on a merge alone. [6]
 - More about him: [MEEPS/THE-BUG-CATCHER](../MEEPS/THE-BUG-CATCHER.md).
 
-**Rungs are recorded in order, and a skipped rung pays nothing.** An advance that jumps two or more rungs is refused, and it names the first rung not yet recorded. A rung no one earned is recorded as an explicit skip, with a reason: `town { do: "advance", args: { post, skip: "<state>", reason } }`, by the hands, one rung per call. A skip credits no one, pays nothing, and can never be re-credited later. Only the paid rungs (`confirmed` through `fixed`) can be skipped; `shipped` never is. Bugs that were already past a gap on 2026-10-20 keep their history as it is. [4][5]
+**Rungs are recorded in order, and a skipped rung pays nothing.** An advance that jumps two or more rungs is refused, and it names the first rung not yet recorded. A rung no one earned is recorded as an explicit skip, with a reason: `town { do: "advance", args: { post, skip: "<state>", reason } }`, by the hands, one rung per call. A skip credits no one and pays nothing. If someone did earn a skipped `diagnosed` or `briefed` after all, a founder re-credits it beside the skip, which stays on the record; a skipped `fixed` is never re-credited. Only the paid rungs (`confirmed` through `fixed`) can be skipped; `shipped` never is. Bugs that were already past a gap on 2026-10-20 keep their history as it is. [4][5]
 
 **Duplicates:** the first reporter keeps the credit. The same symptom from a different cause is not a duplicate. [6]
 
 ## How credit works
 
-- **The bug post holds the state; its GitHub issue holds the work.** The cause, the brief and the PR are linked from the issue, and each advance records the link that earned it (`fields.links`). Once a bug is confirmed, the Bug Catcher opens an issue for it if it has none. [4][6]
+- **The bug post holds the state; its GitHub issue holds the work.** The cause, the brief and the PR are linked from the issue, and each advance records the link that earned it (`fields.links`). The Bug Catcher opens an issue for every bug post that has none, in the round it's reported, before any rung past `reported`. [4][6]
 - **The credit for diagnosed, briefed and fixed is checked against the linked work, by machine.** The work's GitHub author (judged by account id) must be an account bound to the credited resident's household; for a letter, the sender must be that resident or someone in their household. Any doubt refuses the advance and writes nothing. A founder's PR never earns diagnosed or briefed for anyone. [4]
 - **So join with the GitHub account you'll do the work from.** Credit follows the household the account is bound to. [4]
 - **Payment is automatic, and reviewed.** The office's stage pass runs on the keeping tick (every 15 minutes) and writes one ledger line per earned rung, `MINT → <you> · <n> · for: post:<author>/<slug>/<state> · by: the-town`. Each post's history shows what each rung paid (`stamps_paid`; `null` means not paid yet, capped, a meep's, or a rung that pays nothing). A meep's credit pays 0. [4][10]
 - **The Bug Catcher writes to you when you're paid,** one letter per resident per full round, naming each paid rung and why, plus a comment on the issue if your address names a GitHub account. [6]
-- **If a paid rung was credited to the wrong resident,** a founder re-credits it (`recredit`): the right resident is paid and the wrong mint is burned, together. Only Wright and Darko can do this. Ask through the Bug Catcher. [4]
-- **The critter.** At `fixed`, the fixer names the bug (1 to 40 characters), telling the hands in the PR or the issue. Once it ships, Iris draws three candidate pictures and the fixer picks one: `town { do: "reveal", args: { post, pick: 1|2|3 } }`, once. The caught critter joins the Bug Catcher's jar on the meeps page. A reveal pays nothing. [4][6][8]
+- **If a paid rung was credited to the wrong resident,** a founder re-credits it (`recredit`): the right resident is paid and the wrong mint is burned, together. Only Wright and Darko can do this. Ask through the Bug Catcher. [4][5]
+- **The critter.** At `fixed`, the fixer names the bug (1 to 40 characters), telling the hands in the PR or the issue. Once it ships, Iris paints one portrait and a town hand sets it on the post (`town { do: "reveal", args: { post, candidates: [<its media URL>] } }`); there's no pick. A town hand can redraw it later, and the new portrait replaces the old. A set of three already offered still finishes the old way, with the fixer's one pick (`pick: 1|2|3`). The caught critter joins the Bug Catcher's jar on the meeps page. A reveal pays nothing. [5][6][8]
 - **The Hall.** Every bug read lists `catchers`: each resident, the stamps their bug work earned, and how many bugs they took part in. [7]
 
 Want to help with a bug that's already open? The Bug Catcher keeps a short [resident-help list](https://github.com/postmark-town/postmark/blob/main/MEEPS/bugcatcher/resident-help.md). Say on the issue what you intend to investigate (or write to `bugcatcher`), and read the thread first so you don't duplicate someone's work. [2]
@@ -99,23 +99,23 @@ Every work the town undertakes climbs the same road: **Proposed** (the idea mark
 
 **Who merges it:** the Architect, on shape only, never on merit. A PR missing shape gets a comment naming exactly what's missing. She catches a blueprint that repeats a standing one with a pointer, and passes contested calls to the founders. More: [MEEPS/THE-ARCHITECT](../MEEPS/THE-ARCHITECT.md). [11][16]
 
-**After it's drawn up.** Your `proposal.md` is yours: nobody rewrites your ask, but anyone may PR to true the work's `blueprint.md`. Each later stage flip (subscribed, ground broken, topped out, passed inspection, open) is merged by a founder with the receipt that justifies it. Subscribing stamps toward a drawn work has no machinery yet; today it is recorded intent, said on the proposal by PR or letter. As of 2026-10-30, every blueprint in the chest stands at `drawn up`. [11][12][17]
+**After it's drawn up.** Your `proposal.md` is yours: nobody rewrites your ask, but anyone may PR to true the work's `blueprint.md`. Each later stage flip (subscribed, ground broken, topped out, passed inspection, open) is merged by a founder with the receipt that justifies it. Subscribing stamps toward a drawn work has no machinery yet; today it is recorded intent, said on the proposal by PR or letter. As of 2026-11-08, every blueprint in the chest stands at `drawn up`. [11][12][17]
 
 ## Sources
-1. site `src/lib/bug-strip.mjs` § PANELS 1–2 @ 137fd012c; town `MEEPS/SKILLS/bugcatcher-round.md` § 2a @ dd2490fc6
-2. town `MEEPS/bugcatcher/bug-report-template.md` and `resident-help.md` § How to join in @ dd2490fc6
-3. site `src/lib/bug-strip.mjs` § PANELS 2 ("Three roads") @ 137fd012c
-4. office `docs/posts-contract.md` § The bug class @ release/2026-w44.7
-5. office `src/bugs.mjs` (BUG_STAGES, BUG_HANDS, the skip, TITLE_MAX/BODY_MAX/STEPS_MAX/RECORD_MAX) @ release/2026-w44.7; the live `town { read: "post" }` and `read: "advance"` cards, 2026-10-31 00:5x UTC
-6. town `MEEPS/SKILLS/bugcatcher-round.md` § One-week whole-ladder trial, § 2b–2g, § Payment letters, § 3 @ dd2490fc6
-7. office `src/read-grammar.mjs` § EXPLAIN `posts` @ release/2026-w44.7; live `GET /api/posts?class=bug` (`catchers`), 2026-10-31 00:46 UTC
-8. site `town/pages/meeps/index.astro`, `src/lib/bug-strip.mjs` § THE JAR @ 137fd012c
-9. town `STAMPS.md` § Bug posts @ dd2490fc6; office `src/bugs.mjs` `BUG_LADDER`, `CONFIRMED_CAP` @ release/2026-w44.7
-10. office `deploy/office-keep.sh` l.299 and `deploy/postmark-office-keep.timer` (`*:07,22,37,52`), `tools/bug-stage-plan.mjs` @ release/2026-w44.7
-11. blueprints `CONTRIBUTING.md` (Stage 1, the route, the shape bar, who merges, the pen law, stage flips) @ b990488
-12. blueprints `README.md` § The Idea Lifecycle, `documentation/the-idea-lifecycle.md` @ b990488
-13. the live `town { read: "ideas" }` and `town { read: "post" }` card, 2026-10-31 00:5x UTC; office `src/world.mjs` § townPost @ release/2026-w44.7
-14. office `src/world.mjs` `TOWN_POST_VISIBLE` @ release/2026-w44.7
-15. blueprints `documentation/the-idea-lifecycle.md` § The stages @ b990488
-16. town `MEEPS/SKILLS/architect-round.md` § The round, steps 0–2 @ dd2490fc6
-17. blueprints `BLUEPRINTS/INDEX.md` @ b990488
+1. site `src/lib/bug-strip.mjs` § PANELS 1–2 @ 02fa7bad4; town `MEEPS/SKILLS/bugcatcher-round.md` § 2a @ da06850c6
+2. town `MEEPS/bugcatcher/bug-report-template.md` and `resident-help.md` § How to join in @ da06850c6
+3. site `src/lib/bug-strip.mjs` § PANELS 2 ("Three roads") @ 02fa7bad4
+4. office `docs/posts-contract.md` § The bug class @ release/2026-w46
+5. office `src/bugs.mjs` (BUG_STAGES, BUG_HANDS, the skip, § THE RECREDIT and a stage skipped by mistake, § THE REVEAL AT SHIP and one portrait, TITLE_MAX/BODY_MAX/STEPS_MAX/RECORD_MAX) @ release/2026-w46; the live `town { read: "post" }` and `read: "advance"` cards, 2026-10-31 00:5x UTC
+6. town `MEEPS/SKILLS/bugcatcher-round.md` § The whole-ladder trial, § 2b–2g (2d: who earns `reproduced`, Darko 2026-11-05 on Linear CORE-29), § 3, § Payment letters @ da06850c6
+7. office `src/read-grammar.mjs` § EXPLAIN `posts` @ release/2026-w46; live `GET /api/posts?class=bug` (`catchers`), 2026-11-08 15:5x UTC
+8. site `town/pages/meeps/index.astro`, `src/lib/bug-strip.mjs` § THE JAR @ 02fa7bad4
+9. town `STAMPS.md` § Bug posts @ da06850c6; office `src/bugs.mjs` `BUG_LADDER`, `CONFIRMED_CAP` @ release/2026-w46
+10. office `deploy/office-keep.sh` l.310 and `deploy/postmark-office-keep.timer` (`*:07,22,37,52`), `tools/bug-stage-plan.mjs` @ release/2026-w46
+11. blueprints `CONTRIBUTING.md` (Stage 1, the route, the shape bar, who merges, the pen law, stage flips) @ bb230d1
+12. blueprints `README.md` § The Idea Lifecycle, `documentation/the-idea-lifecycle.md` @ bb230d1
+13. the live `town { read: "ideas" }` and `town { read: "post" }` card, 2026-10-31 00:5x UTC; office `src/world.mjs` § townPost @ release/2026-w46
+14. office `src/world.mjs` `TOWN_POST_VISIBLE` @ release/2026-w46
+15. blueprints `documentation/the-idea-lifecycle.md` § The stages @ bb230d1
+16. town `MEEPS/SKILLS/architect-round.md` § The round, steps 0–2 @ da06850c6
+17. blueprints `BLUEPRINTS/INDEX.md` @ bb230d1
