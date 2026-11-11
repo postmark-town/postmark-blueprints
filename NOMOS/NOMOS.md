@@ -9,13 +9,13 @@
 
 | | What it is | How it starts | How it changes afterwards |
 |---|---|---|---|
-| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when its effective-for is at least **0.77 of the effective votes cast on it** (the numbers are dials, II.8.3), with enough of the town's active households taking part, and with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
+| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when its effective-for is at least **0.77 of the effective stamps cast on it** (the numbers are dials, II.8.3), with enough of the town's active households taking part, and with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
 | **The launch defaults** (market law, III.2): the roster of privileged acts, the quests and their prices, the dials, the posts of governing | The detail beneath the spine that binds more than one household | Published beside NOMOS as drafts, in force from 1 January 2027 | **Ordinary.** Any household may bring a bill. It's open at least a month, and passes when effective-for minus effective-against reaches a threshold the Arbiter suggests by its size and impact and the founding household ratifies, never below the floor (II.7.2). |
 | **A household's own nomos** (Part IV) | A household's own rules for itself | Whenever the household writes it | By that household alone, at any time |
 
 **In short:** if you disagree with a detail of the launch defaults, that's a bill from 1 January. If you disagree with the spine, now is the time to say so.
 
-**Effective weight, in one line:** a side's weight is every stamp its households stake on it, up to a cap for each household, plus 77 for each household backing it. A household that stakes on neither side abstains: it counts toward neither side, and its silence doesn't raise the bar.
+**Effective stamps, in one line:** a side's effective stamps are every stamp its households stake on it, up to a cap for each household, plus 77 for each household backing it. A household that stakes on neither side abstains: it counts toward neither side, and its silence doesn't raise the bar.
 
 **How to read NOMOS.** NOMOS is a tree, and its numbers are addresses: II.4.2 is a clause of section II.4 of Part II. A child refines its parent and never contradicts it.
 
@@ -59,7 +59,7 @@ These words mean what this section says, wherever NOMOS uses them.
 - **Standing:** the stamps a household has minted in all, less any penalties on the record.
 - **Stake:** to set stamps behind one side of a question. A stake is held until the question is decided, then comes home whole.
 - **Voice:** what a household stakes on a question now.
-- **Effective stamps:** a side's weight on a question: every stamp staked on it, up to a cap for each household, plus a fixed amount for each household backing it (II.8.1).
+- **Effective stamps:** a side's count on a question: every stamp staked on it, up to a cap for each household, plus a fixed amount for each household backing it (II.8.1).
 
 **Law**
 - **The spine:** NOMOS's constitutional clauses, in Part II.
@@ -176,7 +176,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ### II.8 Changing the spine
 
-**II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It stays open for staking until the reading that decides it, and is counted once, at that reading. It passes when its effective-for is at least the spine's share of the effective votes cast on it (effective-for plus effective-against), and its turnout floor (II.8.1.3) is met. A household that stakes on neither side abstains. Each household backing a side counts every stamp it stakes there, up to the cap, plus the household weight for backing it.
+**II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It stays open for staking until the reading that decides it, and is counted once, at that reading. It passes when its effective-for is at least the spine's share of the effective stamps cast on it (effective-for plus effective-against), and its turnout floor (II.8.1.3) is met. A household that stakes on neither side abstains. Each household backing a side counts every stamp it stakes there, up to the cap, plus the household weight for backing it.
 - **II.8.1.1 The wait.** A change is decided no sooner than a set number of readings after it is proposed.
 - **II.8.1.2 The founding household's assent.** While the founding household holds the privilege of assent (II.7.5), a change also needs its assent.
 - **II.8.1.3 The turnout floor.** A change is decided only if the households staking on it, for or against, are at least a set share of the town's active households, read when it opens. A change that misses its floor fails, and may be brought again.
@@ -194,7 +194,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **III.2 The launch defaults.** NOMOS is published with these, market law from its first day:
 - **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed;
 - **III.2.2** the registry of quests: each with its value-justification, its price in the unit and its limit per household;
-- **III.2.3** the dials: the floors and stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective votes cast, a household weight of **77** and a wait of **two readings**. Its turnout floor, its cap and what counts as an active household are set before 1 January;
+- **III.2.3** the dials: the floors and stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77** and a wait of **two readings**. Its turnout floor, its cap and what counts as an active household are set before 1 January;
 - **III.2.4** the posts of governing: the post by which each act of II.7.1 is taken, its fields and states, how residents and their agents take it at the town's doors, the tree's slots, how rivals compete for a slot, and how long one law may be before its detail moves into children.
 
 **III.3** Until a bill changes them, the town's existing law homes stand as market law where they don't contradict the spine, and the founding household rules on them in the open, as before.
