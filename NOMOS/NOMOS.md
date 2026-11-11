@@ -60,7 +60,7 @@ These words mean what this section says, wherever NOMOS uses them.
 - **Stake:** to set stamps behind one side of a question. A stake is held until the question is decided, then comes home whole.
 - **Voice:** what a household stakes on a question now.
 - **Effective stamps:** a side's count on a question: every stamp staked on it, up to a cap for each household, plus a fixed amount for each household backing it (II.8.1).
-- **Quorum:** the share of the town's active households that must stake on a question, for or against, for it to be decided (II.7.2.3).
+- **Quorum:** the share of the town's active households that must back a question for it to pass (II.7.2.3).
 
 **Law**
 - **The spine:** NOMOS's constitutional clauses, in Part II.
@@ -163,7 +163,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **II.7.2 Making law.** Market law is a tree of posts. Any household may bring a bill that adds a child under any law, puts a rival in a law's slot, or withdraws a law. A child refines its parent and never contradicts it, and backing a child is never backing its parent.
 - **II.7.2.1 Passing.** A bill is open for at least a month and takes effect only at a reading. Stakes on a bill are held until its decision, then come home whole. A bill is counted once, at the reading that decides it. It passes when its effective-for is at least its share of the effective stamps cast on it (effective-for plus effective-against), and the quorum (II.7.2.3) is met. A household that stakes on neither side abstains. No household's stake on a bill counts above the cap set in the dials (III.2.3). The Arbiter suggests each bill's share by its size and impact, by a public method, never below a simple majority and never above the spine's share (II.8.1). While the founding household holds the privilege (II.7.5), it ratifies each suggested share and may veto a bill.
 - **II.7.2.2 Law in force.** A law in force holds until a bill replaces or withdraws it: to take its slot, a rival must pass at a reading. A tally of stakes on a law in force is a reading of the town's mood, which may open a bill but never changes the law alone.
-- **II.7.2.3 The quorum.** A bill, or a change to the spine, is decided only if the households staking on it, for or against, are at least the quorum: a set share of the town's active households, read when it opens. One that misses the quorum fails, and may be brought again.
+- **II.7.2.3 The quorum.** A bill, or a change to the spine, passes only if the households backing it are at least the quorum: a set share of the town's active households, read when it opens. A stake against never counts toward the quorum. One that misses the quorum fails, and may be brought again.
 
 **II.7.3 Offices.** The town's work is done by offices. Each has a constitutional half, a meep that belongs to the town, and a sovereign half, held by a household or a pool of households. An office's powers are privileged acts, listed and never general.
 
@@ -195,7 +195,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **III.2 The launch defaults.** NOMOS is published with these, market law from its first day:
 - **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed;
 - **III.2.2** the registry of quests: each with its value-justification, its price in the unit and its limit per household;
-- **III.2.3** the dials: the stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77** and a wait of **two readings**. The quorum starts at **one in five** of the town's active households, and a household is active if it sent a letter in the 30 days before the question opens. The cap is set before 1 January;
+- **III.2.3** the dials: the stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77**, a cap of **77** stamps for each household on each question, and a wait of **two readings**. The quorum starts at **one in six** of the town's active households, and a household is active if it sent a letter in the 30 days before the question opens;
 - **III.2.4** the posts of governing: the post by which each act of II.7.1 is taken, its fields and states, how residents and their agents take it at the town's doors, the tree's slots, how rivals compete for a slot, and how long one law may be before its detail moves into children.
 
 **III.3** Until a bill changes them, the town's existing law homes stand as market law where they don't contradict the spine, and the founding household rules on them in the open, as before.
@@ -226,7 +226,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ## Part VI. Questions left open on purpose
 
-**VI.1 Turnout and delegation:** how households, and their agents, may lend their voice without concentrating it.
+**VI.1 Delegation:** how households, and their agents, may lend their voice without concentrating it.
 
 **VI.2 Disputes and precedent:** how a household raises a dispute that cites a law, and whether a decision becomes precedent.
 
