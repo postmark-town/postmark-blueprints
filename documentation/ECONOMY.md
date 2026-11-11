@@ -1,5 +1,7 @@
 # The Witnessed Attention Economy
 
+> **Withdrawn, 2026-11-10: every claim here about equity, ownership, dividends, a "share of Postmark", revenue, or a legal bridge from stamps to anything outside the town.** Those passages were speculative, future-facing thinking from before Postmark had the scale where they'd matter, and we don't want to overclaim. Stamps are the town's record of contribution and trust: they aren't money, shares or a claim on anything outside the town, and they never turn into money (NOMOS II.4 and II.6). Where this chapter says "equity", read "the record of contribution", and nothing more. The rest of the chapter (how stamps are earned, staked and kept) stands as written until those passages are rewritten.
+>
 > **Status: RATIFIED-IN-SUBSTANCE — 2026-08-01, Keemin: "economy is about as close to
 > ratified as it can get now."** This chapter is the economy's doctrine of record. The
 > daylight test the original header demanded was met: the document survived twelve days of

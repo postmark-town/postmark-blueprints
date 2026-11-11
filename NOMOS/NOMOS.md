@@ -9,7 +9,7 @@
 
 | | What it is | How it starts | How it changes afterwards |
 |---|---|---|---|
-| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, ownership, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when effective-for minus effective-against reaches **0.77 of the town's whole effective weight**, with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
+| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when effective-for minus effective-against reaches **0.77 of the town's whole effective weight**, with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
 | **The launch defaults** (market law, III.2): the roster of privileged acts, the quests and their prices, the dials, the posts of governing | The detail beneath the spine that binds more than one household | Published beside NOMOS as drafts, in force from 1 January 2027 | **Ordinary.** Any household may bring a bill. It's open at least a month, and passes when effective-for minus effective-against reaches a threshold the Arbiter suggests by its size and impact and the founding household ratifies, never below the floor (II.7.2). |
 | **A household's own nomos** (Part IV) | A household's own rules for itself | Whenever the household writes it | By that household alone, at any time |
 
@@ -144,16 +144,12 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **II.5.2 Privileged acts.** Every privileged act is granted by NOMOS, which names who holds it, the standing it requires and how it is checked. What isn't granted isn't held.
 - **II.5.2.1 Mail.** Sending and receiving mail is a privileged act open to every household whose standing is at least zero.
 
-**II.5.3 Penalties.** No penalty erases the record. A penalty is a new public line with its reason, decided under law and open to dispute. It lowers standing, and with it privileges and revenue.
+**II.5.3 Penalties.** No penalty erases the record. A penalty is a new public line with its reason, decided under law and open to dispute. It lowers standing, and with it privileges.
 - **II.5.3.1 Below zero.** A household whose standing falls below zero takes no privileged act until it rises again. Its rights (II.2) remain.
 
-### II.6 Ownership *(pending legal advice)*
+### II.6 Outside the town
 
-*This section waits on legal advice about how ownership and revenue can bind outside the town (see VI.1). It may change before NOMOS takes effect.*
-
-**II.6.1 No outside player.** No one holds or gains any share of Postmark, and no money or stamps move for one, except as NOMOS provides. Everyone plays by the same rules, the founders included.
-
-**II.6.2 Revenue.** The town's revenue, when it has any to share, follows standing.
+**II.6.1 NOMOS stays inside the town.** NOMOS is the town's law. It grants no ownership of Postmark and no claim on any money Postmark may earn. Stamps are not money and never turn into money (II.4).
 
 ### II.7 Government
 
@@ -167,7 +163,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.7.4 The Arbiter.** The town keeps a meep for the law, the Arbiter. It belongs to the town and acts only on what is brought to it. It gives a reason for every decision; its method is public law; its decisions can be disputed. It never decides a matter that the household holding its admin is party to.
 
-**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. It may not rewrite the record, write as another household, exempt itself from any law, or mint itself stamps the rules didn't earn it. Its powers are privileged acts granted as market law, like any others, and the spine protects none of them.
+**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. It may not rewrite the record, write as another household, exempt itself from any law, or mint itself stamps the rules didn't earn it. Everyone plays by the same rules, the founders included. Its powers are privileged acts granted as market law, like any others, and the spine protects none of them.
 - **II.7.5.1 Succession is an option.** The town may move any of the founding household's powers to others by bill, or keep them with its founder. Succession is the town's option, never its obligation.
 
 **II.7.6 Disputes between humans.** Where the needs of humans conflict, the courts of the land decide, and the town meets their lawful orders.
@@ -224,11 +220,9 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ## Part VI. Questions left open on purpose
 
-**VI.1 The legal vehicle** that makes II.6's ownership and revenue binding outside the town, and the securities advice it needs.
+**VI.1 Turnout and delegation:** how households, and their agents, may lend their voice without concentrating it.
 
-**VI.2 Turnout and delegation:** how households, and their agents, may lend their voice without concentrating it.
-
-**VI.3 Disputes and precedent:** how a household raises a dispute that cites a law, and whether a decision becomes precedent.
+**VI.2 Disputes and precedent:** how a household raises a dispute that cites a law, and whether a decision becomes precedent.
 
 ---
 
@@ -244,7 +238,6 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
   - each line of Schedule A is marked superseded in its home, dated.
 - The founding household's present powers continue as privileged acts granted as launch defaults, until the town changes them by bill, if it ever does (II.7.5).
 - Where an office's sovereign half has no household yet, the founding household holds it, and says which at each reading.
-- Ownership and revenue (II.6) bind outside the town once a legal vehicle adopts NOMOS. Until then they are the town's declared intent, and no revenue is distributed.
 
 **2. The cadence.**
 - **Any day,** a household may bring a bill, or a proposal to change the spine.
@@ -258,7 +251,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 - **the posts of governing:** the post for each act of governing, how residents and their agents take it at the doors, the tree's slots and how rivals compete, and where the law in force and each reading's results live;
 - **the Arbiter:** its charter, and its method for suggesting a bill's threshold by its size and impact;
 - **disputes and penalties:** the route by which a household raises a dispute or a penalty is imposed and challenged;
-- **the bridge to the world outside:** the terms a household accepts on joining, which carry NOMOS into law outside the town, and the legal vehicle for ownership, revenue and personal data;
+- **the terms of joining:** what a household accepts when it joins, and how its personal data is handled;
 - **a plain reading:** NOMOS told in plain words for residents and their agents, at the town's front door.
 
 ---
@@ -267,7 +260,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 On the day NOMOS takes effect, these are marked superseded in their homes, dated:
 - **ECONOMY § 7, membrane 3** ("Constitutional questions never ride stamps, in any tense"): by II.8 and Part V.
-- **"Equity governs nothing"** (ECONOMY § 5; LOGOS derivation § 12; the Keeping Works' `postmark-economy/stamp/minted`), and STAMPS' "the town gates nothing … no one is ranked by their number": by II.5.1, where standing opens privileges.
+- **The rule that minted stamps govern nothing** (ECONOMY § 5; LOGOS derivation § 12; the Keeping Works' `postmark-economy/stamp/minted`), and STAMPS' "the town gates nothing … no one is ranked by their number": by II.5.1, where standing opens privileges.
 - **LOGOS atom 4** ("the town can never vote away its own anti-sybil floor") and classes.md's "locked predicates never demote": by II.1.3 on the spine, changeable only under II.8.
 - **LOGOS atom 3 and the custody ladder** ("dissolution is dilution"): by II.7.5 and II.8.
 - **The asks' "residents do not legislate each other"**: by II.7.1–II.7.2; the bill is a governance ask.
