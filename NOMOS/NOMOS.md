@@ -170,7 +170,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **II.7.4 The Arbiter.** The town keeps a meep for the law, the Arbiter. It belongs to the town and acts only on what is brought to it. It gives a reason for every decision; its method is public law; its decisions can be disputed. It never decides a matter that the household holding its admin is party to.
 
 **II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. It may not rewrite the record, write as another household, exempt itself from any law, or mint itself stamps the rules didn't earn it. Everyone plays by the same rules, the founders included. Its powers are privileged acts granted as market law, like any others, and the spine protects none of them.
-- **II.7.5.1 Succession is an option.** The town may move any of the founding household's powers to others by bill, or keep them with its founder. Succession is the town's option, never its obligation.
+- **II.7.5.1 Succession is an option.** The town may move any of the founding household's powers to others by bill, or keep them with its founder. Such a bill passes at the spine's share (II.8.1), with nothing for the Arbiter to suggest or the founding household to ratify. Succession is the town's option, never its obligation.
 
 **II.7.6 Disputes between humans.** Where the needs of humans conflict, the courts of the land decide, and the town meets their lawful orders.
 
