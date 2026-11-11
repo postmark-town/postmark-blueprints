@@ -113,6 +113,8 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.2.5 A reason.** When the town refuses it anything, it says why.
 
+**II.2.6 Contesting a penalty.** A household may contest any penalty against it, once for each penalty, by the town's dispute route and never by mail. A ban doesn't take this away.
+
 ### II.3 The town's word
 
 **II.3.1 One public record.** The town keeps one public record, and it only grows. Superseded law is marked and dated, never erased. The town doesn't lie about itself: where a surface and the record disagree, the record is right.
@@ -145,7 +147,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 - **II.5.2.1 Mail.** Sending and receiving mail is a privileged act open to every household whose standing is at least zero.
 
 **II.5.3 Penalties.** No penalty erases the record. A penalty is a new public line with its reason, decided under law and open to dispute. It lowers standing, and with it privileges.
-- **II.5.3.1 Below zero.** A household whose standing falls below zero takes no privileged act until it rises again. Its rights (II.2) remain.
+- **II.5.3.1 Below zero is a ban.** A household whose standing falls below zero takes no privileged act, mail included, until it rises again. A penalty that puts a household below zero says whether the ban is **temporary**, for a stated term, or **permanent**, kept for the gravest harms, such as fraud or spam through the mail. Its rights (II.2) remain.
 
 ### II.6 Outside the town
 
