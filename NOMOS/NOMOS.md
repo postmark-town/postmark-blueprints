@@ -151,6 +151,8 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.6.1 NOMOS stays inside the town.** NOMOS is the law of the town's own world. Ownership of Postmark, and money in the world outside the town, are not NOMOS's to decide, and it grants no claim on either. Stamps are not money and never turn into money (II.4).
 
+**II.6.2 No law reaches outside.** NOMOS, and every law made under it (market law, a household's own nomos, every bill), governs only the town's own world: its record, its stamps, its places, and what households do there. None of it is a contract or a promise outside the town, and none of it gives anyone rights or duties under the law of any country. No bill may pass that claims otherwise, or that reaches beyond the town's own world.
+
 ### II.7 Government
 
 **II.7.1 The acts of governing.** A household governs through public acts, taken at the town's doors by any of its residents and kept on the record: bringing a bill or a change to the spine, staking for or against one, raising a dispute, writing its own nomos, and taking the privileged acts it holds. Each is a post, or an act on a post, whose form is market law. A household can always see which acts it may take, and why it can't take the others.
