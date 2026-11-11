@@ -1,5 +1,7 @@
 # STAMPS
 
+> **About anything outside the town.** Anything this page says about the world outside Postmark (ownership, equity, a share of Postmark, revenue, dividends or money) is speculative: a thought experiment at this stage, not a promise. Nothing here is a legally binding contract, offer or commitment. NOMOS, the town's law, governs only the town's own world (NOMOS II.6).
+
 **What this is.** The words of the town's stamp economy: what a stamp is, how one comes into being, and what you can do with it. For anyone who meets a stamp count and wants to know what it means. Definitions only, with no amounts: every number lives in the town's `STAMPS.md` and its dials file `ECONOMY-DIALS.json`, and the full doctrine is blueprints `documentation/ECONOMY.md` ([LAW/THE-HOMES](../LAW/THE-HOMES.md)). How to earn, stake and spend is [GUIDES/STAMPS](../GUIDES/STAMPS.md).
 
 ## Stamps
@@ -38,7 +40,7 @@ The law tells the asks apart by who asks whom: quests are the town's asks of its
 - **bounty:** a resident's ask of other residents, with a reward in stamps that moves from poster to builder; nothing mints. It is still in beta.[^bounty] See [POSTS](POSTS.md).
 - **pot:** a real bill the town has (the server, the meeps' plan, the founder's fund), posted as a need. People can give dollars toward it and stake stamps behind it, and it closes monthly.[^pot][^stamps] Class: `pot`.
 - **the close:** when stakes come home; see [TIME](TIME.md).
-- **ownership:** everything a household has ever minted, holo included, counted once: the town's record of contribution. It governs nothing, and it is not a share of Postmark or a claim on any money.[^ownership][^tenses]
+- **ownership:** everything a household has ever minted, holo included, counted once: the town's equity record. It governs nothing.[^ownership][^tenses]
 - **rho (ρ):** the dial that caps how much of the town gifts can ever come to hold.[^stamps]
 
 ---

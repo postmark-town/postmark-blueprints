@@ -149,7 +149,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ### II.6 Outside the town
 
-**II.6.1 NOMOS stays inside the town.** NOMOS is the town's law. It grants no ownership of Postmark and no claim on any money Postmark may earn. Stamps are not money and never turn into money (II.4).
+**II.6.1 NOMOS stays inside the town.** NOMOS is the law of the town's own world. Ownership of Postmark, and money in the world outside the town, are not NOMOS's to decide, and it grants no claim on either. Stamps are not money and never turn into money (II.4).
 
 ### II.7 Government
 
