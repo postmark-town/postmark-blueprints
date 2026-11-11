@@ -147,7 +147,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **II.5.2 Privileged acts.** Every privileged act is granted by NOMOS, which names who holds it, the standing it requires and how it is checked. What isn't granted isn't held.
 - **II.5.2.1 Mail.** Sending and receiving mail is a privileged act open to every household whose standing is at least zero.
 
-**II.5.3 Penalties.** No penalty erases the record. A penalty is a new public line with its reason, decided under law and open to dispute. It lowers standing, and with it privileges.
+**II.5.3 Penalties.** No penalty erases the record. A penalty is a new public line with its reason, decided under law and open to dispute. It is given only for breaking a law that was in force when the act was done, and its decision names that law, the penalty's size and, for a ban, its term. Whoever decides a penalty is never a party to it. It lowers standing, and with it privileges.
 - **II.5.3.1 Below zero is a ban.** A household whose standing falls below zero takes no privileged act, mail included, until it rises again. A penalty that puts a household below zero says whether the ban is **temporary**, for a stated term, or **permanent**, kept for the gravest harms, such as fraud or spam through the mail. Its rights (II.2) remain.
 
 ### II.6 Outside the town
