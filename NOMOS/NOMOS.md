@@ -182,7 +182,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 - **II.8.1.1 The wait.** A change is decided no sooner than a set number of readings after it is proposed.
 - **II.8.1.2 The founding household's assent.** While the founding household holds the privilege of assent (II.7.5), a change also needs its assent.
 
-**II.8.2 The ratchet.** A bill that gives stamps more weight against households, or lowers any floor, is a change to the spine.
+**II.8.2 The ratchet.** A bill that gives stamps more weight against households is a change to the spine.
 
 **II.8.3 The numbers.** The spine's share, the quorum, the cap, the household weight and the wait are kept in the dials (III.2.3), where the town can see them and change them. A change to any of them is decided as a change to the spine, at the numbers then in force. This section changes only by this section.
 
