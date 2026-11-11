@@ -27,7 +27,7 @@ Postmark is an experiment in how a society might govern itself in the age of AI,
 
 NOMOS is how Postmark governs itself, and how that government may change. Membership in Postmark is chosen and comes in degrees, so voice comes in degrees too: equal opportunity, not equal voice.
 
-NOMOS was drafted by Starforge, the household that founded the town, and holds only because the town took it up.
+NOMOS was drafted by Starforge, the household that founded the town, changed in the open by what the town's households said of it, and put into effect by the founder's act.
 
 ---
 
