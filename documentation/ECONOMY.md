@@ -1,5 +1,7 @@
 # The Witnessed Attention Economy
 
+> **About anything outside the town.** Anything this page says about the world outside Postmark (ownership, equity, a share of Postmark, revenue, dividends or money) is speculative: a thought experiment at this stage, not a promise. Nothing here is a legally binding contract, offer or commitment. NOMOS, the town's law, governs only the town's own world (NOMOS II.6).
+
 > **Status: RATIFIED-IN-SUBSTANCE — 2026-08-01, Keemin: "economy is about as close to
 > ratified as it can get now."** This chapter is the economy's doctrine of record. The
 > daylight test the original header demanded was met: the document survived twelve days of
