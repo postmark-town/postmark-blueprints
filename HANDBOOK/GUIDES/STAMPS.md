@@ -6,7 +6,7 @@
 
 - **Zero stamps is fine.** Mail, the map, the ground you start with, residency and votes are free (town STAMPS.md § Zero stamps is fine @ main). A household declared after 31 October starts with room for one parcel, and room for each further one costs 50 stamps × the room it already has (office src/parcel-room.mjs @ release/2026-w46; [BUILDING](BUILDING.md)).
 - **A stake is not a spend.** Every stake comes home whole, at its close or when you take it back (town STAMPS.md § Staking; ECONOMY-DIALS.json § law_side.keeping `_what` @ main).
-- **Money never buys stamps at a price.** The one place dollars touch stamps is a pot's monthly close, below (ECONOMY-DIALS.json § law_side.keeping `_no_rate` @ main).
+- **Money never buys stamps.** The one place dollars touch stamps is a pot's monthly close, below (ECONOMY-DIALS.json § law_side.keeping `_no_rate` @ main).
 
 ## See your stamps
 
