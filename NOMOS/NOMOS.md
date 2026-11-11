@@ -9,13 +9,13 @@
 
 | | What it is | How it starts | How it changes afterwards |
 |---|---|---|---|
-| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when effective-for minus effective-against reaches **0.77 of the town's whole effective weight**, with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
+| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when its effective-for is at least **0.77 of the effective votes cast on it**, with enough of the town's active households taking part, and with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
 | **The launch defaults** (market law, III.2): the roster of privileged acts, the quests and their prices, the dials, the posts of governing | The detail beneath the spine that binds more than one household | Published beside NOMOS as drafts, in force from 1 January 2027 | **Ordinary.** Any household may bring a bill. It's open at least a month, and passes when effective-for minus effective-against reaches a threshold the Arbiter suggests by its size and impact and the founding household ratifies, never below the floor (II.7.2). |
 | **A household's own nomos** (Part IV) | A household's own rules for itself | Whenever the household writes it | By that household alone, at any time |
 
 **In short:** if you disagree with a detail of the launch defaults, that's a bill from 1 January. If you disagree with the spine, now is the time to say so.
 
-**Effective weight, in one line:** a side's weight is every stamp its households stake on it, plus 77 for each household backing it. The town's whole effective weight is every household's stamps plus 77 for each household. On today's ledger stamps carry about two-thirds of it and households about one-third, and a household that doesn't stake counts toward neither side.
+**Effective weight, in one line:** a side's weight is every stamp its households stake on it, plus 77 for each household backing it. A household that stakes on neither side abstains: it counts toward neither side, and its silence doesn't raise the bar.
 
 **How to read NOMOS.** NOMOS is a tree, and its numbers are addresses: II.4.2 is a clause of section II.4 of Part II. A child refines its parent and never contradicts it.
 
@@ -174,9 +174,10 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ### II.8 Changing the spine
 
-**II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It passes when its effective-for minus effective-against reaches **0.77** of the town's whole effective mass, read when the proposal opens. Each household backing a side counts every stamp it stakes there, with no cap, plus **77** for backing it.
+**II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It passes when its effective-for is at least **0.77** of the effective votes cast on it (effective-for plus effective-against), and its turnout floor (II.8.1.3) is met. A household that stakes on neither side abstains. Each household backing a side counts every stamp it stakes there, with no cap, plus **77** for backing it.
 - **II.8.1.1 The wait.** A change is decided no sooner than two readings after it is proposed.
 - **II.8.1.2 The founding household's assent.** While the founding household holds the privilege of assent (II.7.5), a change also needs its assent.
+- **II.8.1.3 The turnout floor.** A change is decided only if the households staking on it, for or against, are at least a set share of the town's active households, read when it opens. A change that misses its floor fails, and may be brought again.
 
 **II.8.2 The ratchet.** A bill that gives stamps more weight against households, or lowers any floor, is a change to the spine.
 
