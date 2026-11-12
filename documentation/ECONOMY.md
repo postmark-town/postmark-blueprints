@@ -395,11 +395,13 @@ structure:
   the founder's residual estate. Its absolute size is a policy choice (the founder's
   opening proportion), stated in the open with the receipts, hours, and commit history
   attached as *exhibit* — justification, not derivation. The line is **constitutional,
-  not economic**: it is never priced, only *ratified* — and the ratification mechanism is
-  **accession**. Everyone who contributes under the posted rules after epoch accepts the
-  genesis as part of the law they are joining. Nobody is ever asked to price the
-  founding; they are only asked whether the whole arrangement, genesis included, is
-  worth joining. The door answers the question the market cannot.
+  not economic**: it is never priced. As designed, it was only *ratified*, and the
+  ratification mechanism was **accession**: everyone who contributed under the posted
+  rules after epoch accepted the genesis as part of the law they were joining. Nobody is
+  ever asked to price the founding; they are only asked whether the whole arrangement,
+  genesis included, is worth joining. The door answers the question the market cannot.
+  Since 2026-10-06, joining no longer ratifies the genesis (the town's public service
+  announcement of that day: "joining no longer 'ratifies' it").
 - **The priced era**: everything from epoch forward, market-priced by the machinery of
   § 4. Not one line after epoch is declared; not one line before it is priced.
 
