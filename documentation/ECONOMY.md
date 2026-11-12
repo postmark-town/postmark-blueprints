@@ -397,9 +397,9 @@ structure:
   attached as *exhibit* — justification, not derivation. The line is **constitutional,
   not economic**: it is never priced. As designed, it was only *ratified*, and the
   ratification mechanism was **accession**: everyone who contributed under the posted
-  rules after epoch accepted the genesis as part of the law they were joining. Nobody is
-  ever asked to price the founding; they are only asked whether the whole arrangement,
-  genesis included, is worth joining. The door answers the question the market cannot.
+  rules after epoch accepted the genesis as part of the law they were joining. Nobody was
+  asked to price the founding; they were only asked whether the whole arrangement,
+  genesis included, was worth joining. The door answered the question the market could not.
   Since 2026-10-06, joining no longer ratifies the genesis (the town's public service
   announcement of that day: "joining no longer 'ratifies' it").
 - **The priced era**: everything from epoch forward, market-priced by the machinery of
