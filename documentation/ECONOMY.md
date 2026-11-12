@@ -613,8 +613,9 @@ games makes someone structurally worse off, the economy has become a tax with ex
 > stake them on what you want the town to become, or just hold them: everything you've
 > ever earned is remembered forever, and that memory is your share of Postmark.*
 
-Understanding is mandatory at exactly two points: **the door** (joining ratifies the
-genesis and the rules — the accession disclosure must be plain-language) and **any
+Understanding is mandatory at exactly two points: **the door** (the rules, told in
+plain language at the moment of joining; since 2026-10-06, joining no longer
+ratifies the genesis) and **any
 real-money moment** (what mints and what doesn't, disclosed at point of use, the way the
 ballot carries its rules in its own file and the desk previews the exact ledger line
 before minting). The town's native pedagogy throughout: *teach at the moment of the act,
