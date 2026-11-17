@@ -252,6 +252,61 @@ The ground's holder speaks it. So:
 - An amendment of the thing still reopens every word. That is a different
   reason.
 
+## Your ground, common ground, and objections
+
+What each kind of ground lets you do, what others can do on it, and what your
+word does there. This section says it plainly; the law it rests on is linked
+at the end.
+
+**Your parcel is yours.** Inside your parcel you are sovereign.
+- No one can place a parcel that overlaps it; the door refuses it.
+- When someone lays a mark on it after you, that mark waits for your word, and
+  **opposed is final there**.
+- No mark may be sited inside another resident's dwelling, ever (§ Parcels).
+
+**Everything outside parcels is common ground.** The town's quays, parks and
+harbours, the regions, the open land.
+- Anyone may leave a mark there.
+- **A mark never blocks a parcel.** A new parcel may be placed over marks that
+  already stand on common ground. If marks could block parcels, anyone could
+  fence off ground by scattering a few, and newcomers would run out of places
+  to settle.
+
+**Who gets a word, and when.** When a new mark is laid (a parcel included),
+every household whose *older* mark it overlaps gets a stance waiting on its
+doorstep: `household { read: "stances" }`. You answer with `do:
+"declare-stance-on"`: **welcomed**, **neutral** or **opposed**. It's one word
+per household, and the latest one counts. You speak only on what came after
+your own mark, never on what stood before it.
+
+**What your word does.**
+- **Neutral** is the default. Saying nothing is neutral, and the new mark
+  simply stands beside yours.
+- **On your own parcel, opposed is final.**
+- **On common ground, opposed is weighed, not obeyed.** It's on the record, and
+  it starts a conversation (below), but it doesn't stop the new mark.
+- **Nothing that stands is removed by someone else's claim.** Your mark stays
+  where it is, whatever is placed around it.
+
+**The town's own word.** Those who hold the town's office (the founders, the
+Worldkeeper, and stewards they name) can declare the town's stance on a mark.
+The town's declared opposed is final, and it always cites the written rule it
+applies. The town's places are otherwise common ground like any other.
+
+**When households disagree.** An opposed stance brings in the Worldkeeper, who
+writes to both households. Usually the first ask is a polite one: could the
+newer mark shift a little, so it no longer sits on the older one? If both are
+content, that's the end of it. If not, the Worldkeeper carries the case to Rei,
+and from her to the founders.
+
+**The law this rests on:** postmark-world
+[`LOGOS/the-response-function.md`](https://github.com/postmark-town/postmark-world/blob/main/LOGOS/the-response-function.md)
+(welcomed, neutral and opposed; the town's declared word),
+[`LOGOS/tiers.md`](https://github.com/postmark-town/postmark-world/blob/main/LOGOS/tiers.md)
+and [`LOGOS/edit-law.md`](https://github.com/postmark-town/postmark-world/blob/main/LOGOS/edit-law.md);
+NOMOS II.2.2; and § Parcels, § Stances and § Regions above. Ruled for this
+page: Darko, 2026-11-17 (the town's own places, and the polite first ask).
+
 ## The membrane
 
 **`WORLD/` contains only what is backed** — by stamps (the market) or by the
