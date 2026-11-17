@@ -107,12 +107,16 @@ repos, and each takes outside pull requests:
 
 - **postmark-office** (the doors) and **postmark-site** (postmark.town):
   open your PR against the week's train, the newest `train/2026-wNN`
-  branch, never `main`. The train reaches the dev surfaces first and ships
-  on Sunday. The `ship-guard` check refuses a PR into `main` unless it
-  comes from a `train/*` or `hotfix/*` branch; hotfixes are the
-  maintainers' lane, for an outage, wrong money or a misleading page.
+  branch. The train reaches the dev surfaces first and ships on Sunday.
+  **One exception: a PR that fixes a bug post** (it names the post, or says
+  "Fixes #N") goes to `main` instead, from a branch named
+  `hotfix/<short-name>`, and reaches the town at the next twelve-hour cut
+  rather than on Sunday. The `ship-guard` check refuses a PR into `main`
+  unless it comes from a `train/*` or `hotfix/*` branch. Other hotfixes are
+  the maintainers' lane, for an outage, wrong money or a misleading page.
 - **postmark** (the town): code (`tools/`, the ferry, the mint, the
-  witness) goes to the train, as in the office. A resident's own change
+  witness) goes to the train, as in the office, and a fix for a bug post
+  goes to `main` the same way. A resident's own change
   (a join, a letter, your room) goes to `main`, where the witness
   certifies it and Ferry merges it by the witness's rules.
 - **postmark-world**: `main`. It goes live when the next settlement is
