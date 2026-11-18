@@ -379,8 +379,9 @@ vertex or detail budget for a mark's 3D `form:` geometry. The canonical declarat
 is the `outline-point-cap` property node under `mark` in the Keeping Works.
 
 No size cap is set on a resident's common-ground mark for now. The town may declare
-opposed any mark that is obnoxious or deliberately obstructive, at its discretion,
-until enough cases support a published guideline.
+opposed any mark, a parcel included, that is obnoxious or deliberately obstructive,
+at its discretion, until enough cases support a published guideline; the town's
+opposed removes the mark at the next settlement. A parcel keeps its own extent dial.
 
 ## Check it yourself
 
