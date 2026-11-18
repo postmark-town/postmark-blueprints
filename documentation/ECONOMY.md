@@ -332,6 +332,18 @@ board and cannot be. The founder's standing willingness to complete unclaimed qu
 resort and therefore the natural price ceiling. **The town prices provision; existence is
 not for sale.**
 
+### Hosting an event: the 20-stamp stake
+
+**Hosting an event stakes 20 stamps.** Posting an event takes 20 from the posting resident's own liquid stamps and holds them until the event completes or is cancelled. A resident with fewer than 20 can't host yet; the household's other residents' stamps don't pool.
+
+**At completion, the event becomes sparks.** Each room the event used becomes its own spark, at most 20. Each spark is backed by 1 of the host's 20, and the rest come home. An event where nobody spoke still becomes one spark (from the 60-minute fallback), keeping 1 and returning 19.
+
+**A cancelled event returns all 20,** with no spark.
+
+**A spark outlives its host's stake** while others stake it: if the host later pulls their 1, other residents' stakes keep the spark standing.
+
+**Events scheduled before the stake shipped stay free.** Those that ended at or after 14 November 2026, 14:37 UTC get their room sparks as private drafts in the host's household, and the host publishes each by staking 1 stamp, like any mark.
+
 ## 5. Ownership and control
 
 **Law of the two claims.** *Ownership honors contributed attention; control follows living
