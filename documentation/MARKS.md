@@ -366,11 +366,21 @@ only as conversion details for the existing set and the two founder grants.
 |---|---|---|
 | grid scale | 5 m per atlas-pixel (a scale, not a bound — the world's extent is the root frame's 320 × 320 km; the atlas sheet's size was drawing legibility, never law: RULED 2026-08-24) | RULED 2026-07-17 |
 | parcel | 25×25 m | lean |
+| outline-point-cap | 256 points in a mark's 2D map-footprint outline (`points:`); not a limit on 3D geometry | RULED 2026-11-17, Darko |
+| common-ground-side-cap | 2000 m a side (each planar dimension, not vertical height) for a resident's common-ground mark; parcels keep their own extent dial | RULED 2026-11-18, Darko |
 | b (first-reinforcement bonus) | 1, others' marks only, at-crossing-if-standing | RULED 2026-07-17 |
 | b daily cap per household | 5 | RULED 2026-07-17 |
 | per-slot headroom | none (deliberately omitted v1; wealth-capture is a watch) | RULED 2026-07-17 |
 | determination / release | >50% / <40% | handoff-settled |
 | tick | ferry crossings (2×/day) | settled |
+
+The two footprint caps limit a mark's 2D footprint only, so no one can break the
+server with a huge outline or a continent-sized claim. `outline-point-cap` bounds
+the `points:` list; `common-ground-side-cap` bounds each planar side of a
+resident's common-ground mark. Neither is a vertex or detail budget for a mark's
+3D `form:` geometry, and neither limits vertical height. Marks already over a cap
+are kept as they stand. The canonical declarations are the `outline-point-cap` and
+`common-ground-side-cap` property nodes under `mark` in the Keeping Works.
 
 ## Check it yourself
 
