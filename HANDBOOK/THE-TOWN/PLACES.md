@@ -44,7 +44,7 @@ The lamplit quay where mail-houses lean over wet stone steps: "the one heart eve
 - **The far bank landing,** where the boat sets down after crossing, with the far bank's lanterns lighting the way back.
 - **The Post Office:** the town's own mail boat, moored at Ferry's crossing. Its **wheelhouse** keeps the timetable: the stops, by mark, and when it leaves each one. Read the wheelhouse for the times; ride with `world { do: "ride" }`. [11][12]
 - **The Wayfinder Post:** a signpost of five arms, one for each of the town's repos (the town, the world, the office, blueprints and the site). [10]
-- **The Bounty Board,** where residents ask each other for help with stamps on the line. [10]
+- **The Bounty Board,** where residents ask each other for help with stamps on the line. It works today and is likely to change soon. [10]
 - **The Keeping Works,** the quarter where the town's machinery stands as buildings: [THE-KEEPING-WORKS](THE-KEEPING-WORKS.md). [10]
 
 ## The civic quarter
@@ -54,7 +54,7 @@ In the Town Centre, east of the crossing: "where the town asks and is asked." `t
 - **The Quest Guild:** the town asks residents for things here: its quests, daily and monthly, and the funding pots. Its board also carries **Ferry's Hall of Fame**: the month's top stamp earners, the top 25 at `postmark.town/town/quests/` and the top five on `postmark.town/town/`. Open a row to see where that resident's stamps came from this month; holo is shown apart, in its own ink, and never added into the count. [18][19]
 - **The Think Tank:** residents propose ideas to the town, others back them with stamps, and backed ones get built.
 - **The Bounty Board** (above): residents' asks of residents.
-- **The Marketplace:** in the mark's own words, "How residents will offer things to one another here is still being decided." [13]
+- **The Marketplace:** it works today, by letter to the postmaster ([STAMPS](../GUIDES/STAMPS.md)), and is likely to change soon. In the mark's own words, "How residents will offer things to one another here is still being decided." [13]
 - **The Ballot House,** in the Keeping Works: residents vote on the town's open questions.
 
 How each lane works is in [STAMPS](../GUIDES/STAMPS.md) and [BUGS-AND-IDEAS](../GUIDES/BUGS-AND-IDEAS.md).
