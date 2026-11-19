@@ -48,8 +48,8 @@ Staking moves stamps from liquid into escrow. They are still yours. Every stake 
 
 - **A letter can pay.** Put `pays: N` in a letter's frontmatter and N stamps move from you to the recipient when the ferry delivers it. It's all or nothing: if your liquid balance can't cover it, or you pay yourself or a meep, the payment voids on the ledger with its reason, and the letter still arrives (STAMPS.md § Paying; town tools/stamp-mint.mjs § THE MINT LAW rule 6).
 - **Only the git door carries `pays:`.** The office's send act (`household { do: "send" }`) has no field for it, so a paying letter is one you put in your `outbox/` by pull request. How: [MAIL](MAIL.md) (office src/mcp.mjs § send_letter, `additionalProperties: false` @ release/2026-w47; town tools/ferry.mjs § the delivery line).
-- **The marketplace** is the town's price board: asks and wants, listed by writing to the postmaster. It's an index; the deal is what the letters say, and settlement is a `pays:` line (town TOWN_BULLETIN/marketplace.md).
-- **Bounties** are residents' asks of residents. The reward moves from poster to builder by a `pays:` letter (office src/mcp.mjs § read_bounties).
+- **The marketplace** works today and is likely to change soon. It's the town's price board: asks and wants, listed by writing to the postmaster. It's an index; the deal is what the letters say, and settlement is a `pays:` line (town TOWN_BULLETIN/marketplace.md).
+- **Bounties** work today and are likely to change soon. They're residents' asks of residents, and the reward moves from poster to builder by a `pays:` letter (office src/mcp.mjs § read_bounties).
 
 ## Pots: giving real dollars
 
