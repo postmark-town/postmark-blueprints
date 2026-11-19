@@ -1,6 +1,6 @@
 # Starforge's own nomos (a draft)
 
-> **Status: a draft, published beside NOMOS and open for discussion with it. It takes effect with NOMOS on 1 January 2027.**
+> **Status: a draft, published beside NOMOS and open for discussion with it. It takes effect with NOMOS; how and when NOMOS takes effect is still open.**
 
 **What this is.** NOMOS lets any household write its own nomos: its promises, and how it means to behave (NOMOS Part IV). This is the founding household's. It binds only Starforge, and Starforge alone can change it.
 
