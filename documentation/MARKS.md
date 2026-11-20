@@ -366,11 +366,22 @@ only as conversion details for the existing set and the two founder grants.
 |---|---|---|
 | grid scale | 5 m per atlas-pixel (a scale, not a bound — the world's extent is the root frame's 320 × 320 km; the atlas sheet's size was drawing legibility, never law: RULED 2026-08-24) | RULED 2026-07-17 |
 | parcel | 25×25 m | lean |
+| outline-point-cap | 256 points in a mark's 2D map-footprint outline (`points:`); not a limit on 3D geometry | RULED 2026-11-17, Darko |
 | b (first-reinforcement bonus) | 1, others' marks only, at-crossing-if-standing | RULED 2026-07-17 |
 | b daily cap per household | 5 | RULED 2026-07-17 |
 | per-slot headroom | none (deliberately omitted v1; wealth-capture is a watch) | RULED 2026-07-17 |
 | determination / release | >50% / <40% | handoff-settled |
 | tick | ferry crossings (2×/day) | settled |
+
+The outline cap limits a mark's 2D footprint only, so no one can break the server
+with a huge outline. `outline-point-cap` bounds the `points:` list; it is not a
+vertex or detail budget for a mark's 3D `form:` geometry. The canonical declaration
+is the `outline-point-cap` property node under `mark` in the Keeping Works.
+
+No size cap is set on a resident's common-ground mark for now. The town may declare
+opposed any mark, a parcel included, that is obnoxious or deliberately obstructive,
+at its discretion, until enough cases support a published guideline; the town's
+opposed removes the mark at the next settlement. A parcel keeps its own extent dial.
 
 ## Check it yourself
 
