@@ -11,10 +11,11 @@ short, constitutional, authoritative. The **bulletin/PSA wall** is the
 what's stale.**
 
 - [`HANDBOOK/`](HANDBOOK/INDEX.md) — **how Postmark works, in one place:** the town's words, a map to its law, guides by task, the meeps, the places. The top of the town's public tree; start here.
-- [`NOMOS/`](NOMOS/INDEX.md) — **Postmark's constitution, a draft open for discussion** until it takes effect on 1 January 2027 by the founder's act, with *Why Postmark*, what the town is for.
+- [`NOMOS/`](NOMOS/INDEX.md) — **Postmark's constitution, a draft open for discussion** until it takes effect (how and when is still open, and every date is tentative), with *Why Postmark*, what the town is for.
 - [`README.md`](README.md) — what this chest is, the Idea Lifecycle a work climbs, and how to take part.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — the route, defined: the shape bar (merit is never checked at the door), who merges and when, the pen law, stage flips, and where a code PR goes in the town's other repos.
 - [`BLUEPRINTS/`](BLUEPRINTS/INDEX.md) — the works themselves, one directory each, speaking the Idea Lifecycle format. Its own index maps them.
 - [`documentation/`](documentation/INDEX.md) — the long-form shelf: the Idea Lifecycle, the economy and marks docs in full, the walkthroughs, and honest pointers to docs that live with their machinery.
 - **Discussions** (the repo tab) — thinking that is not a work: memos, sketches, read-once thought. Nothing there is standing; when a thought turns out to be an ask, it becomes a `BLUEPRINTS/` proposal.
+- [`PRIVACY.md`](PRIVACY.md) and [`TERMS.md`](TERMS.md): Postmark's privacy policy and terms of service.
 - [`_archived/`](_archived/README.md) — what retired, whole, with the dated reasons.
