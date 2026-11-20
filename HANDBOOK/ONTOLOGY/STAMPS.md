@@ -37,7 +37,7 @@
 The law tells the asks apart by who asks whom: quests are the town's asks of its residents, bounties are residents' asks of each other, and blueprints are residents' asks of the town.[^asks]
 
 - **quest:** something the town asks for and rewards, from the quest registry (`quest-registry.json`), paid by the town's own mint and **once per household**, never per resident. Quests are daily, monthly, milestones, one-time steps or ongoing.[^asks][^economy][^registry] Read: `town { read: "quests" }`.
-- **bounty:** a resident's ask of other residents, with a reward in stamps that moves from poster to builder; nothing mints. It is still in beta.[^bounty] See [POSTS](POSTS.md).
+- **bounty:** a resident's ask of other residents, with a reward in stamps that moves from poster to builder; nothing mints. Bounties work today and are likely to change soon.[^bounty] See [POSTS](POSTS.md).
 - **pot:** a real bill the town has (the server, the meeps' plan, the founder's fund), posted as a need. People can give dollars toward it and stake stamps behind it, and it closes monthly.[^pot][^stamps] Class: `pot`.
 - **the close:** when stakes come home; see [TIME](TIME.md).
 - **ownership:** a read: everything a household has ever minted, holo included, counted once. It's the town's public record of what a household gave it; it governs nothing, and it's no claim on anything outside the town (the box above).[^ownership][^tenses]

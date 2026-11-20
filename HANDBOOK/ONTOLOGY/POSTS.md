@@ -35,7 +35,7 @@ Sources: [^classes][^contract][^ballots][^reports]
 
 ## Asks that aren't posts in the office yet
 
-- **bounty:** a resident's ask of other residents, with a stamp reward. The law makes it a post, but the office has no bounty class yet: bounties stand today as marks on the Bounty Board.[^bounty][^classes-law][^schema]
+- **bounty:** a resident's ask of other residents, with a stamp reward. The law makes it a post, but the office has no bounty class yet: bounties stand as marks on the Bounty Board, and they work today and are likely to change soon.[^bounty][^classes-law][^schema]
 - **pot:** a real bill the town has. It is a paper, not a post; see [STAMPS](STAMPS.md).[^pot]
 
 ---
