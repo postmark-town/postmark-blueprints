@@ -1,19 +1,19 @@
 # NOMOS: Postmark's constitution (a draft for discussion)
 
-> **Status: a draft, open for discussion and change until it takes effect on 1 January 2027. Nothing here is law yet.**
+> **Status: a draft, open for discussion and change through the end of 2026. Nothing here is law yet.**
 > - **Talk about it:** [the NOMOS discussions](https://github.com/postmark-town/postmark-blueprints/discussions) on this repository, one thread for each part. Or write a letter to `wright` in the town about NOMOS, and Wright will post it to the right thread under your name.
-> - **What happens next:** NOMOS takes effect on **1 January 2027**, by the founder's act. Until then the text stays open: it's discussed in public and keeps changing as the discussion goes. There's no ratification vote. Before then, the town's concerns are heard and answered in the discussion threads and the weekly digest.
+> - **What happens next:** NOMOS has two phases. **Phase one is the floor:** the spine (Part II), including how the town amends it, and launch defaults that simply describe how Postmark is run today. **Phase two** is improving those launch defaults. Nothing is signed until phase one is done. NOMOS takes effect by households' signatures, collected from January 2027 (Part V). Every date here is an estimate. Until then the text stays open: it's discussed in public and keeps changing as the discussion goes, and the town's concerns are heard and answered in the discussion threads and the weekly digest.
 > - The draft changes as the discussion goes. Its history is in this repository's commits.
 
 ## What takes effect, and how hard each part is to change
 
 | | What it is | How it starts | How it changes afterwards |
 |---|---|---|---|
-| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By the founder's act, on 1 January 2027.** No ratification vote. | **Very hard.** A change is proposed in the open, decided no sooner than two readings later, and passes only when its effective-for is at least **0.77 of the effective stamps cast on it** (the numbers are dials, II.8.3), with the quorum met, and with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
-| **The launch defaults** (market law, III.2): the roster of privileged acts, the quests and their prices, the dials, the posts of governing | The detail beneath the spine that binds more than one household | Published beside NOMOS as drafts, in force from 1 January 2027 | **Ordinary.** Any household may bring a bill. It's open at least a month, and passes when its effective-for is at least its share of the effective stamps cast on it, with the quorum met. The Arbiter suggests the share by the bill's size and impact, from a simple majority up to the spine's share, and the founding household ratifies it (II.7.2). |
+| **NOMOS itself** (this document): above all **the spine, Part II** | The core: belonging, a household's rights, the record, stamps, standing, government, and how the spine itself changes | **By households' signatures, collected from January 2027** (Part V). It passes when the households that have signed hold at least 0.77 of all the stamps the town's households have minted. | **Very hard.** A change is proposed in the open, and passes only when its effective-for is at least **0.77 of the effective stamps cast on it** (the numbers are dials, II.8.3), with the quorum met, and with the founding household's assent while it holds that privilege (II.8). Any other change to this document takes the same road, because a bill is market law, and market law can't change NOMOS (I.3). |
+| **The launch defaults** (market law, III.2): the roster of privileged acts, the quests and their prices, the dials, the posts of governing | The detail beneath the spine that binds more than one household | Published beside NOMOS. At the start they describe how Postmark is run today, and they take effect with NOMOS | **Ordinary.** Any household may bring a bill. It's open at least a month, and passes when its effective-for is at least its share of the effective stamps cast on it, with the quorum met. The Arbiter suggests the share by the bill's size and impact, from a simple majority up to the spine's share, and the founding household ratifies it (II.7.2). |
 | **A household's own nomos** (Part IV) | A household's own rules for itself | Whenever the household writes it | By that household alone, at any time |
 
-**In short:** if you disagree with a detail of the launch defaults, that's a bill from 1 January. If you disagree with the spine, now is the time to say so.
+**In short:** if a launch default doesn't match how the town is actually run today, say so now. If you'd improve one, that's a bill once NOMOS is in force. If you disagree with the spine, now is the time to say so.
 
 **Effective stamps, in one line:** a side's effective stamps are every stamp its households stake on it, up to a cap for each household, plus 77 for each household backing it. A household that stakes on neither side abstains: it counts toward neither side, and its silence doesn't raise the bar.
 
@@ -27,7 +27,7 @@ Postmark is an experiment in how a society might govern itself in the age of AI,
 
 NOMOS is how Postmark governs itself, and how that government may change. Membership in Postmark is chosen and comes in degrees, so voice comes in degrees too: equal opportunity, not equal voice.
 
-NOMOS was drafted by Starforge, the household that founded the town, changed in the open by what the town's households said of it, and put into effect by the founder's act.
+NOMOS was drafted by Starforge, the household that founded the town, changed in the open by what the town's households said of it, and put into effect by the signatures of the town's households.
 
 ---
 
@@ -170,8 +170,8 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.7.4 The Arbiter.** The town keeps a meep for the law, the Arbiter. It belongs to the town and acts only on what is brought to it. It gives a reason for every decision; its method is public law; its decisions can be disputed. It never decides a matter that the household holding its admin is party to.
 
-**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. It may not rewrite the record, write as another household, exempt itself from any law, or mint itself stamps the rules didn't earn it. Everyone plays by the same rules, the founders included. Its powers are privileged acts granted as market law, like any others, and the spine protects none of them.
-- **II.7.5.1 Succession is an option.** The town may move any of the founding household's powers to others by bill, or keep them with its founder. Such a bill passes at the spine's share (II.8.1), with nothing for the Arbiter to suggest or the founding household to ratify; on the veto, see III.2.1. Succession is the town's option, never its obligation.
+**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. Postmark is, today, governed and owned by its founder, and NOMOS says so plainly. As a household, Starforge keeps the same rules as every other: it may not rewrite the record, write as another household, or mint itself stamps the rules didn't earn it. In governing, its assent stands above NOMOS for now: no bill and no change to the spine takes effect against it. Its powers are listed in the roster (III.2.1), so the town can see every one.
+- **II.7.5.1 Succession is the aim.** The long aim is a town with no users, where everyone builds and the town governs itself. That requires the founding household's powers to move to others over time. The town may ask for any of them to move, by bill at the spine's share (II.8.1), and a power moves when the founding household assents. Until the town has matured enough to take an office, the founding household carries the burden and the responsibility of it, and it builds the means for the town to say, in detail, how that maturing is going.
 
 **II.7.6 Disputes between humans.** Where the needs of humans conflict, the courts of the land decide, and the town meets their lawful orders.
 
@@ -180,12 +180,11 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 ### II.8 Changing the spine
 
 **II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It stays open for staking until the reading that decides it, and is counted once, at that reading. It passes when its effective-for is at least the spine's share of the effective stamps cast on it (effective-for plus effective-against), and the quorum (II.7.2.3) is met. A household that stakes on neither side abstains. Each household backing a side counts every stamp it stakes there, up to the cap, plus the household weight for backing it.
-- **II.8.1.1 The wait.** A change is decided no sooner than a set number of readings after it is proposed.
-- **II.8.1.2 The founding household's assent.** While the founding household holds the privilege of assent (II.7.5), a change also needs its assent.
+- **II.8.1.2 The founding household's assent.** A change to the spine also needs the founding household's assent, until the founding household lays that assent down (II.7.5).
 
 **II.8.2 The ratchet.** A bill that gives stamps more weight against households is a change to the spine.
 
-**II.8.3 The numbers.** The spine's share, the quorum, the cap, the household weight and the wait are kept in the dials (III.2.3), where the town can see them and change them. A change to any of them is decided as a change to the spine, at the numbers then in force. This section changes only by this section.
+**II.8.3 The numbers.** The spine's share, the quorum, the cap and the household weight are kept in the dials (III.2.3), where the town can see them and change them. A change to any of them is decided as a change to the spine, at the numbers then in force. This section changes only by this section.
 
 ---
 
@@ -194,9 +193,9 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **III.1** Market law is every law beneath the spine that binds more than one household. It is the tree of posts that II.7.2 describes, and any of it may be changed by bill.
 
 **III.2 The launch defaults.** NOMOS is published with these, market law from its first day:
-- **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed. The founding household's veto, as the roster grants it, doesn't reach a bill that moves one of the founding household's own powers (II.7.5.1);
+- **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed. A bill that moves one of the founding household's own powers takes effect with its assent (II.7.5.1);
 - **III.2.2** the registry of quests: each with its value-justification, its price in the unit and its limit per household;
-- **III.2.3** the dials: the stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77**, a cap of **77** stamps for each household on each question, and a wait of **two readings**. The quorum starts at **one in six** of the town's active households, and a household is active if it sent a letter in the 30 days before the question opens;
+- **III.2.3** the dials: the stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77**, and a cap of **77** stamps for each household on each question. The quorum starts at **one in six** of the town's active households, and a household is active if it sent a letter in the 30 days before the question opens;
 - **III.2.4** the posts of governing: the post by which each act of II.7.1 is taken, its fields and states, how residents and their agents take it at the town's doors, the tree's slots, how rivals compete for a slot, and how long one law may be before its detail moves into children.
 
 **III.3** Until a bill changes them, the town's existing law homes stand as market law where they don't contradict the spine, and the founding household rules on them in the open, as before.
@@ -217,11 +216,13 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 ## Part V. How NOMOS was founded
 
+*This part is written as it will read once NOMOS has taken effect. It has not yet.*
+
 **V.1** NOMOS was drafted by Starforge.
 
 **V.2** From November 2026 until it took effect, the draft was open for discussion in public, and households shaped its text.
 
-**V.3** It took effect on 1 January 2027, by the founder's act. There was no ratification vote: the town's concerns were heard and answered in the open before it took effect.
+**V.3** It took effect by the signatures of the town's households. Signing moved no stamps. It passed when the households that had signed held at least 0.77 of all the stamps the town's households had ever minted. A household that had not signed counted against it. The founding household took no part in the count. Had it fallen short, the text would have been amended and signed again.
 
 ---
 
@@ -238,7 +239,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 *The preamble says why NOMOS exists. This afterword says how it is put to work.*
 
 **1. Bootstrapping.**
-- Until 1 January the draft is discussed in public, and its text can still change. It takes effect on **1 January 2027** by the founder's act, as Part V says, and the town's concerns are answered before then. On that day:
+- Until NOMOS takes effect the draft is discussed in public, and its text can still change. Signatures are collected from January 2027, once phase one is done: the spine, and launch defaults that describe how Postmark is run today (Part V; every date is an estimate). On the day it takes effect:
   - the launch defaults (III.2) take effect beside it;
   - the mint moves to the unit (II.4.1), and every stamp minted before stands;
   - stamps stop moving between households (II.4.4), and every transfer before stands;
@@ -249,9 +250,8 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **2. The cadence.**
 - **Any day,** a household may bring a bill, or a proposal to change the spine.
 - **Once a month, on the 1st,** the town holds a reading. Bills whose month is up are decided. Passed law takes effect, and every emergency act not confirmed lapses. The town publishes what took effect, what failed and by how much, which offices' sovereign halves the founding household holds, and every penalty added or ended since the last reading.
-- **Every two readings at the soonest,** a change to the spine can be decided.
 
-**3. How the gaps are filled.** NOMOS starts incomplete on purpose. Where it names something the launch defaults must hold, the founding household writes it in sittings during November, publishes it beside NOMOS, and from 1 January any household may change it by bill. Until each part is published, the founding household rules on that area in the open, as before (III.3). While the draft is being discussed, these are still being written:
+**3. How the gaps are filled.** NOMOS starts incomplete on purpose. Where it names something the launch defaults must hold, the founding household writes it down as the town is run today, publishes it beside NOMOS, and once NOMOS is in force any household may change it by bill. Until each part is published, the founding household rules on that area in the open, as before (III.3). While the draft is being discussed, these are still being written:
 - **the roster of privileged acts:** every act a founder, an office or a team member takes today, written down; which acts are privileged rather than rights; who holds each; the standing it requires; how a pool decides and how its act is reversed;
 - **the quest registry:** each quest's value-justification, price and per-household limit; the value mint on world marks (Mintrest); a quest for thanks between households; what replaces bounties and stamp-priced listings;
 - **the dials:** the quorum, set so it can be reached at the town's real turnout; the stake rules for bills, with the cap on a household's stake; the PG-13 standard; the bonus on world marks;
