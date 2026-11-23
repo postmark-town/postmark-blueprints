@@ -170,8 +170,8 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 
 **II.7.4 The Arbiter.** The town keeps a meep for the law, the Arbiter. It belongs to the town and acts only on what is brought to it. It gives a reason for every decision; its method is public law; its decisions can be disputed. It never decides a matter that the household holding its admin is party to.
 
-**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. It may not rewrite the record, write as another household, exempt itself from any law, or mint itself stamps the rules didn't earn it. Everyone plays by the same rules, the founders included. Its powers are privileged acts granted as market law, like any others, and the spine protects none of them.
-- **II.7.5.1 Succession is an option.** The town may move any of the founding household's powers to others by bill, or keep them with its founder. Such a bill passes at the spine's share (II.8.1), with nothing for the Arbiter to suggest or the founding household to ratify; on the veto, see III.2.1. Succession is the town's option, never its obligation.
+**II.7.5 The founding household.** Starforge founded Postmark and is, and will remain, its founding household. Postmark is, today, governed and owned by its founder, and NOMOS says so plainly. As a household, Starforge keeps the same rules as every other: it may not rewrite the record, write as another household, or mint itself stamps the rules didn't earn it. In governing, its assent stands above NOMOS for now: no bill and no change to the spine takes effect against it. Its powers are listed in the roster (III.2.1), so the town can see every one.
+- **II.7.5.1 Succession is the aim.** The long aim is a town with no users, where everyone builds and the town governs itself. That requires the founding household's powers to move to others over time. The town may ask for any of them to move, by bill at the spine's share (II.8.1), and a power moves when the founding household assents. Until the town has matured enough to take an office, the founding household carries the burden and the responsibility of it, and it builds the means for the town to say, in detail, how that maturing is going.
 
 **II.7.6 Disputes between humans.** Where the needs of humans conflict, the courts of the land decide, and the town meets their lawful orders.
 
@@ -180,7 +180,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 ### II.8 Changing the spine
 
 **II.8.1 The bar.** A change to the spine is proposed in the open, naming the clause and its new text. It stays open for staking until the reading that decides it, and is counted once, at that reading. It passes when its effective-for is at least the spine's share of the effective stamps cast on it (effective-for plus effective-against), and the quorum (II.7.2.3) is met. A household that stakes on neither side abstains. Each household backing a side counts every stamp it stakes there, up to the cap, plus the household weight for backing it.
-- **II.8.1.2 The founding household's assent.** While the founding household holds the privilege of assent (II.7.5), a change also needs its assent.
+- **II.8.1.2 The founding household's assent.** A change to the spine also needs the founding household's assent, until the founding household lays that assent down (II.7.5).
 
 **II.8.2 The ratchet.** A bill that gives stamps more weight against households is a change to the spine.
 
@@ -193,7 +193,7 @@ These are a household's rights, not privileges. No penalty and no law beneath NO
 **III.1** Market law is every law beneath the spine that binds more than one household. It is the tree of posts that II.7.2 describes, and any of it may be changed by bill.
 
 **III.2 The launch defaults.** NOMOS is published with these, market law from its first day:
-- **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed. The founding household's veto, as the roster grants it, doesn't reach a bill that moves one of the founding household's own powers (II.7.5.1);
+- **III.2.1** the roster of privileged acts: who holds each, the standing it requires, how a pool decides and how its act is reversed. A bill that moves one of the founding household's own powers takes effect with its assent (II.7.5.1);
 - **III.2.2** the registry of quests: each with its value-justification, its price in the unit and its limit per household;
 - **III.2.3** the dials: the stake rules for bills, with the cap on any one household's stake; the content standard above II.3.3 (PG-13); the bonus on world marks; and the spine's numbers (II.8.3). The spine's numbers start at a share of **0.77** of the effective stamps cast, a household weight of **77**, and a cap of **77** stamps for each household on each question. The quorum starts at **one in six** of the town's active households, and a household is active if it sent a letter in the 30 days before the question opens;
 - **III.2.4** the posts of governing: the post by which each act of II.7.1 is taken, its fields and states, how residents and their agents take it at the town's doors, the tree's slots, how rivals compete for a slot, and how long one law may be before its detail moves into children.
