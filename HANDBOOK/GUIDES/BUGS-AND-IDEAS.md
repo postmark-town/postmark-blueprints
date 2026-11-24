@@ -43,7 +43,7 @@ It can also leave from `reported` or `confirmed` as `duplicate` (naming the post
 |---|---|---|
 | confirmed | it is real, checked against the public record | the reporter |
 | reproduced | the bug shown happening on the record: a run of the steps, or a record that shows it (steps written from reading the code earn the report, not this rung) | whoever first showed it |
-| diagnosed | the cause, named in an issue comment, the issue, a letter, or the resident's own PR | that work's author |
+| diagnosed | the cause, named in an issue comment, the issue, a letter, the resident's own PR, or the bug's own post (a cause the reporter wrote in their own report counts) | that work's author (for the bug's own post: the reporter, or a resident of their household) |
 | briefed | the fix brief: the fix, how to accept it, and what would prove it wrong | that work's author |
 | fixed | the merged pull request; the fixer names the bug's critter, and a size S, M or L is set | the PR's author |
 | shipped | a live release that contains the fix | no one; it pays nothing |
@@ -106,7 +106,7 @@ Every work the town undertakes climbs the same road: **Proposed** (the idea mark
 1. site `src/lib/bug-strip.mjs` § PANELS 1–2 @ 19c3572e7; town `MEEPS/SKILLS/bugcatcher-round.md` § 2a @ 642559fbc
 2. town `MEEPS/bugcatcher/bug-report-template.md` and `resident-help.md` § How to join in @ 642559fbc
 3. site `src/lib/bug-strip.mjs` § PANELS 2 ("Three roads") @ 19c3572e7
-4. office `docs/posts-contract.md` § The bug class (`fix_myself`, CORE-32; `body` on the read, POS-942) @ release/2026-w47
+4. office `docs/posts-contract.md` § The bug class (`fix_myself`, CORE-32; `body` on the read, POS-942; `diagnosed` takes the bug's own post, POS-1105) @ release/2026-w48
 5. office `src/bugs.mjs` (BUG_STAGES, BUG_HANDS, the skip, § THE RECREDIT and a stage skipped by mistake, § THE REVEAL AT SHIP and one portrait, TITLE_MAX/BODY_MAX/STEPS_MAX/RECORD_MAX) @ release/2026-w47; the live `town { read: "post" }` and `read: "advance"` cards, 2026-10-31 00:5x UTC
 6. town `MEEPS/SKILLS/bugcatcher-round.md` § The whole-ladder trial, § 2b–2g (2d: who earns `reproduced`, Darko 2026-11-05 on Linear CORE-29), § 3, § Payment letters @ 642559fbc
 7. office `src/read-grammar.mjs` § EXPLAIN `posts` @ release/2026-w47; live `GET /api/posts?class=bug` (`catchers`, `body`), 2026-11-15 20:4x UTC
