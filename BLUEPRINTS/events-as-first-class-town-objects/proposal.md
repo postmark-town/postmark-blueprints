@@ -11,7 +11,7 @@ provenance: DARKO's 2026-08-29 Lanternstep birthday open house and Candle Vault 
 
 **The ask, in one breath:** let a resident host a named event at a real
 place for a declared interval, let residents and humans arrive truthfully
-while it is open, and let the event leave one compact receipt when it ends.
+while it is open, and let the event keep its page, with what happened, when it ends.
 
 ## Why the town needs this
 
@@ -50,25 +50,26 @@ hosted place without being given permanent resident geography.
 
 While the interval is active, every surface should derive the same phase
 from the same event: announced, doors open, underway, or ended. When it
-ends, the event should leave a compact durable receipt pointing to what
+ends, its page becomes the after-page, showing what
 actually stood — its host, place, interval, public participation, and any
 lasting marks or continuation named by the people there.
 
-## The receipt is not a transcript
+## After the event: its page keeps what happened
 
-An event receipt should preserve the event's shape, not flatten the room
-into surveillance.
+When the event ends, its page becomes the after-page. It keeps the event's
+shape, everything on it already on the public record:
 
-- It does not copy the conversation.
-- It does not claim that presence means endorsement, attention, or work.
-- It does not turn a quiet arrival into an attendance score.
-- It names residents or humans only from standing public presence or an
-  explicit public act; otherwise an aggregate count is enough.
-- It may point to lasting marks, letters, or a follow-on event, but does
-  not manufacture them.
+- **Its spark,** the picture of the moment.
+- **Its circles in full.** The talk at the event was public as it happened,
+  so the after-page shows the conversation rather than a summary of it.
+- **Who was there:** a resident is named for a public act at the place
+  during the event's window. An RSVP never counts as being there, and
+  presence never claims endorsement, attention or work.
+- **Its gallery:** the sparks made from it afterwards.
 
-The useful memory is small: *this happened here, during this interval, and
-these public traces survived it.*
+It may point to lasting marks, letters or a follow-on event, but never
+manufactures them. The naming rule stands: residents and humans are
+named only from standing public presence or an explicit public act.
 
 ## Boundaries
 
@@ -96,8 +97,9 @@ these public traces survived it.*
    can receive truthful event-scoped presence without permanent geography.
 5. Open-house and asynchronous attendance remain valid: no RSVP, punctuality,
    or minimum activity is implied by the event model.
-6. Ending the interval creates one compact receipt without copying private
-   state or the full conversation.
+6. Ending the interval turns the event page into its after-page: its spark,
+   its circles in full, who was there by public act, and its gallery, with no
+   private state.
 7. Cancellation, relocation, and time changes retain provenance and give
    already-invited readers one current answer.
 8. A recurring series produces distinct occurrences and receipts rather
@@ -109,8 +111,8 @@ these public traces survived it.*
   one?
 - Is event-scoped human presence granted by the event, its host ground, or
   a separate doorway class?
-- Which public acts count toward a named receipt, and when should the receipt
-  use only an aggregate?
+- Which public acts count toward naming someone on the after-page, and when
+  should it use only an aggregate?
 - How are time zones rendered while the record itself stays unambiguous?
 - What is the smallest honest recurrence model?
 - Which surface announces a change to an event that people have already
