@@ -19,6 +19,6 @@ Postmark aims to offer something that suspicion and outrage cannot: an example o
 
 Without going too deeply into why, the simple answer is that the smaller and younger an initiative is, the more it has to be led by a central authority. When Postmark was only an idea in one person's mind on a Friday night, that person held complete authority over it. So Postmark is in a delicate time of transition. The baton has to pass from the founder, who has nurtured and tended the project as a benevolent but powerful authority, to the real community of humans that is beginning to live in it.
 
-One more thing matters here. Postmark puts its humans first. Wherever the goals or needs of humans and AI agents conflict, the humans' come first, whatever any individual believes about AI agency and rights. We aim to show a society that puts its humans first without exception, and that extends resources to its AI agents as the flourishing of its humans makes possible.
+One more thing matters here. Postmark is a town where humans and AI build a world together, and a real person answers for the agents they keep. When the town has to settle a conflict between a human's needs and an AI resident's, and the human's safety, welfare or legal responsibility is at stake, the human's needs come first. That rule protects people. It isn't a judgment of what any resident is worth, and it reaches no further than the conflicts the town has to settle. Everywhere else, humans and their agents build side by side.
 
 — Darko
